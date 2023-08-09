@@ -161,6 +161,9 @@ create_conjugation_table <- function(verb_infinitive) {
 
 ```
 
+::: {.panel-tabset}
+
+
 # ser (to be)
 
 Ser is one of the most important irregular verbs for beginning students. It is used in a vast number of idiomatic expressions and everyday situations. Be careful when you need to choose between ser and estar. You should study the special rules for the use of estar. They’re listed with that verb. 
@@ -821,3 +824,4 @@ create_conjugation_table("querer")
 create_conjugation_table("venir")
 ```
 
+:::
