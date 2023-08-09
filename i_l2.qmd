@@ -1,23 +1,415 @@
-# Level 2 verbs {.unnumbered}
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+# Disposition {.unnumbered}
 
-Frequently Used:
 
-## hablar (to speak)
+```{r}
+#| warning: false
+#| message: false
+#| code-fold: true
 
-## dar (to give)
+library(tidyverse)
+library(gt)
 
-## comer (to eat)
+df = read_csv("https://raw.githubusercontent.com/ghidinelli/fred-jehle-spanish-verbs/master/jehle_verb_database.csv")
 
-## estar (to be)
+add_reflexive <- function(df, verb) {
+  
+  reflexive_df <- df %>%
+    filter(infinitive == verb) %>%
+    mutate(infinitive = paste0(infinitive, "se")) %>%
+    mutate(
+      across(c(form_1s, form_2s, form_3s, form_1p, form_2p, form_3p),
+             ~ if_else(mood %in% c("Indicativo", "Subjuntivo"), 
+                       paste0(str_replace_all(.x, pattern = "^(me|te|se|nos|os)?", replacement = ""), " ", .x),
+                       .x),
+             .names = "form_{.col}"),
+      across(c(form_2s, form_3s, form_1p, form_2p, form_3p),
+             ~ if_else(mood == "Imperativo Afirmativo", 
+                       paste0(.x," ", str_replace_all(.x, pattern = "^(me|te|se|nos|os)?", replacement = "")),
+                       .x),
+             .names = "form_{.col}"),
+      across(c(form_2s, form_3s, form_1p, form_2p, form_3p),
+             ~ if_else(mood == "Imperativo Negativo", 
+                       paste(str_split(.x, " ")[[1]][1], 
+                            str_replace_all(.x, pattern = "^(me|te|se|nos|os)?", replacement = ""), 
+                            str_split(.x, " ")[[1]][2]),
+                       .x),
+             .names = "form_{.col}")
+    )
+  
+  df %>% bind_rows(reflexive_df)
+}
 
-## vivir (to live)
+my_gt_theme <- function(gt_object, ...) {
+  
+  stopifnot("'gt_object' must be a 'gt_tbl', have you accidentally passed raw data?" = "gt_tbl" %in% class(gt_object))
+  
+  tab_out <- gt_object %>%
+    # Fonts
+    opt_table_font(
+      font = list(
+        google_font("Noto Sans"), 
+        google_font("Source Sans Pro"),
+        default_fonts()
+      )
+    ) %>%
+    
+    # Cell styles from both themes
+    tab_style(
+      style = cell_borders(
+        sides = "top", color = "white", weight = px(0)),
+      locations = cells_body(rows = ifelse(nrow(gt_object[["_data"]]) > 0, 1, NA))) %>%
+    tab_style(
+      style = cell_text(color = "#005689", size = px(22), weight = 700),
+      locations = list(cells_title(groups = "title"))) %>%
+    tab_style(
+      style = cell_text(color = "#545454", font = google_font("Source Sans Pro"), transform = "uppercase"),
+      locations = cells_column_labels(everything())) %>%
+    tab_style(
+      style = cell_text(font = google_font("Libre Franklin"), weight = 800),
+      locations = cells_title(groups = "title")) %>%
+    tab_style(
+      style = cell_text(font = google_font("Source Sans Pro"), weight = 400),
+      locations = cells_body()) %>%
+    
+    # Table options combining elements of both themes
+    tab_options(
+      # Table-wide settings
+      table.background.color = "white",
+      table.font.size = 16,
+      
+      # Table border settings
+      table.border.top.style = "none",
+      table.border.top.width = px(1),
+      table.border.top.color = "#40c5ff",
+      table.border.bottom.width = px(3),
+      table.border.bottom.color = "white",
+      
+      # Column label settings
+      column_labels.background.color = "#f6f6f6",
+      column_labels.font.weight = "bold",
+      column_labels.border.top.style = "none",
+      column_labels.border.bottom.style = "none",
+      column_labels.border.bottom.width = 1,
+      column_labels.border.bottom.color = "#334422",
+      
+      # Data row settings
+      row.striping.include_table_body = TRUE,
+      row.striping.background_color = "#ececec",
+      data_row.padding = px(6), # Average of both themes
+      
+      # Row group settings
+      row_group.font.weight = "800",
+      
+      # Heading settings
+      heading.align = "left",
+      heading.border.bottom.style = "none",
+      
+      # Table body border settings
+      table_body.border.top.style = "none",
+      
+      # Source notes settings
+      source_notes.font.size = 12,
+      
+    )
+  
+  return(tab_out)
+}
 
-## saber (to know)
+create_conjugation_table <- function(verb_infinitive) {
+  
+  verb_order = c("Presente", 
+                 "Imperfecto", 
+                 "Pretérito", 
+                 "Futuro", 
+                 "Condicional", 
+                 "Presente perfecto",
+                 "Pluscuamperfecto",
+                 "Pretérito anterior",
+                 "Futuro perfecto",
+                 "Condicional perfecto")
+  
+  verb_df <- df %>%
+    filter(infinitive == verb_infinitive)
+  
+  infinitive = verb_df %>% pull(infinitive) %>% .[1] 
+  english_infinitive = verb_df %>% pull(infinitive_english) %>% .[1] %>% str_to_title
+  gerund = verb_df %>% pull(gerund) %>% .[1] 
+  past_participle = verb_df %>% pull(pastparticiple) %>% .[1] 
+  
+  verb_table <- verb_df %>%
+    mutate(
+      temp_form_2p = form_2p,
+      form_2p = ifelse(mood %in% c("Imperativo Afirmativo","Imperativo Negativo"), form_3s, form_2p),
+      form_3s = ifelse(mood %in% c("Imperativo Afirmativo","Imperativo Negativo"), temp_form_2p, form_3s),
+      form_1p = ifelse(is.na(form_1p), paste0(form_3s, "mos"), form_1p),
+      form_1s = ifelse(is.na(form_1s), " - ", form_1s)) %>%
+    select(-c(tense_english, 
+              infinitive, 
+              infinitive_english, 
+              verb_english,
+              # mood, 
+              mood_english,
+              gerund, 
+              gerund_english, 
+              pastparticiple, 
+              pastparticiple_english,
+              temp_form_2p
+              )) %>%
+    mutate(tense = factor(tense, levels = verb_order)) %>% 
+    arrange(tense) %>% 
+    group_by(mood) %>% 
+    gt() %>%
+    tab_header(
+      title = paste("Conjugation of",infinitive),
+      subtitle = md(glue::glue(sprintf("English: *{english_infinitive}*\n
+                                     Gerundio: *{gerund}*\n
+                                     Pasado Participio: *{past_participle}*")))) %>%
+    cols_label(
+      tense = "Tense",
+      # verb_english = "English",
+      form_1s = "Yo",
+      form_2s = "Tú",
+      form_3s = "Él/Ella/Usted",
+      form_1p = "Nosotros",
+      form_2p = "Vosotros",
+      form_3p = "Ellos/Ellas/Ustedes"
+    ) %>% 
+    cols_align(
+      align = c("right"),
+      columns = everything()
+    ) %>% 
+    cols_align(
+      align = c("left"),
+      columns = tense
+    ) %>% 
+    my_gt_theme()
 
-## deber (must, to owe)
+  return(verb_table)
+}
 
-## leer (to read)
+```
 
-## escribir (to write)
+::: {.panel-tabset}
 
-## gustar (to like)
+# querer (to want)
+
+Querer is a very important irregular verb for a beginning student. It is used in a great number of idiomatic expressions and everyday situations.
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("querer")
+```
+
+## Example Phrases
+
+- **¿Qué quiere Ud. beber?**
+  - What do you want to drink?
+  - **¿Qué quiere decir esto?**
+  - What does this mean?
+  - **Quisiera un café, por favor.**
+  - I would like a coffee, please.
+- **Yo quisiera saber a qué hora el avión sale para Miami.**
+  - I would like to know at what time the plane leaves for Miami.
+- **Queremos alquilar un coche, por favor.**
+  - We want to rent a car, please.
+- **Te quiero.**
+  - I love you.
+
+## Proverbios
+
+- **El que más tiene más quiere.**
+  - The more one has, the more one wants.
+- **El que todo lo quiere, todo lo pierde.**
+  - Whoever wants everything loses everything.
+
+## Dichos
+
+- **querer decir**
+  - to mean
+- **querido, querida**
+  - dear
+- **querido amigo, querida amiga**
+  - dear friend
+- **querido mío, querida mía**
+  - my dear
+- **querer bien a**
+  - to love
+- **Querer es poder.**
+  - Where there’s a will, there’s a way.
+- **querer más**
+  - to prefer
+
+# deber (to owe, must, ought)
+
+Deber is a verb that you ought to know! It is a regular -er verb that is used in a great number of everyday expressions and situations.
+
+Generally speaking, use deber when you want to express a moral obligation, something you ought to do, but that you may or may not actually do:
+
+ - Debo estudiar esta noche pero estoy cansado y no me siento bien.
+   - I ought to study tonight, but I am tired and I do not feel well.
+
+In general, deber de + inf. is used to express a supposition, something that
+is probable:
+
+ - La señora Gómez debe de estar enferma porque sale de casa raramente.
+   - Mrs. Gómez must be sick (is probably sick) because she rarely goes out of the house
+   
+```{r}
+create_conjugation_table("deber")
+```
+
+
+## Example Phrases
+
+- **José debe de haber llegado.**
+  - Joseph must have arrived.
+- **¿Cuánto le debo?**
+  - How much do I owe you?
+- **¿En qué estación debo bajar?**
+  - At what station do I need to get off?
+- **Es muy tarde, debería regresar a casa.**
+  - It’s very late, I ought to return home.
+  
+::: {.callout-note}
+
+Generally speaking, use *tener que* when you want to say that you have to do something:
+
+- **No puedo salir esta noche porque tengo que estudiar.**
+  - I cannot go out tonight because I have to study.
+- **See tener.**
+
+:::
+
+
+## Words and expressions related to this verb
+
+- **el deber**
+  - duty, obligation
+- **los deberes**
+  - homework
+- **debido, debida**
+  - due
+- **debido a**
+  - due to
+- **el débito**
+  - debit
+- **la tarjeta de débito**
+  - debit card
+- **la deuda**
+  - debt
+- **estar en deuda con**
+  - to be indebted to
+- **el deudor, la deudora**
+  - debtor
+  
+  
+# necesitar (to need)
+
+```{r}
+create_conjugation_table("necesitar")
+```
+
+## Examples
+
+- **Necesito una llave de memoria, por favor.**
+  - I need a flash drive, please.
+- **la necesidad**
+  - necessity
+- **por necesidad**
+  - from necessity
+- **necesario, necesaria**
+  - necessary
+- **necesitar + inf.**
+  - to have + inf., to need + inf.
+- **un necesitado, una necesitada**
+  - needy person
+- **necesariamente**
+  - necessarily
+
+
+# gustar/gustarse
+
+```{r}
+#| message: false
+#| warning: false
+#| code-fold: true
+
+
+read_csv("gustarse.csv") %>% 
+  group_by(mood) %>%  
+  gt() %>% 
+  tab_header(
+      title = paste("Conjugation of gustar"),
+      subtitle = md(glue::glue(sprintf("English: *to be pleasing (to), to like*\n
+                                     Gerundio: *gustando*\n
+                                     Pasado Participio: *gustado*")))) %>%
+    cols_align(
+      align = c("right"),
+      columns = everything()
+    ) %>% 
+    cols_align(
+      align = c("left"),
+      columns = tense
+    ) %>% 
+    my_gt_theme()
+```
+
+Gustar is an essential regular -ar verb for beginning students of Spanish. It is used in many everyday expressions and situations. Please note that this verb is commonly used in the third person singular or plural, as in the examples below.
+
+- **(a)** Essentially, the verb *gustar* means to be pleasing to...
+
+- **(b)** In English, we say, for example, *I like ice cream*. In Spanish, we say *Me gusta el helado*; that is to say, “Ice cream is pleasing to me (Literally: To me, ice cream is pleasing).”
+
+- **(c)** In English, the thing that you like is the direct object. In Spanish, the thing that you like is the subject. Also, in Spanish, the person who likes the thing is the indirect object: to me, to you, etc. For example: “*A Roberto le gusta el helado/Robert likes ice cream* (Literally: To Robert, ice cream is pleasing to him).”
+
+- **(d)** In Spanish, therefore, the verb *gustar* is used in the third person, either in the singular or plural, when you talk about something that you like— something that is pleasing to you. Therefore, the verb form must agree with the subject; if the thing that is liked is singular, the verb is third person singular: *Me gusta el café/I like coffee*. If the thing that is liked is plural, the verb *gustar* is third person plural: “*Me gustan el café y la leche/I like coffee and milk* (Literally: Coffee and milk are pleasing to me).”
+
+- **(e)** When you mention the person or the persons who like something, you must use the preposition *a* in front of the person. You must also use the indirect object pronoun that is associated with the person: *A los muchachos y a las muchachas les gusta jugar/Boys and girls like to play*. (Literally: To boys and girls, to play is pleasing to them.)
+
+
+## Example Phrases
+
+- **Me gusta el café.**
+  - I like coffee.
+- **Me gusta leer.**
+  - I like to read.
+- **Te gusta leer.**
+  - You (familiar) like to read.
+- **Me gustan la leche y el café.**
+  - I like milk and coffee.
+- **A María le gustan los dulces.**
+  - Mary likes candy.
+- **A José y a Elena les gustan los deportes.**
+  - Joseph and Helen like sports.
+- **Nos gustan mucho las películas policíacas.**
+  - We like detective movies very much.
+- **Me gustaría un pastel.**
+  - I would like a pastry.
+- **A Felipe le gusta el helado.**
+  - Philip likes ice cream.
+- **A las chicas les gustó la película.**
+  - The girls liked the movie.
+- **Nos gustó el cuento.**
+  - We liked the story.
+- **A mi amigo le gustaron los chocolates.**
+  - My friend liked the chocolates.
+
+## Dichos
+
+- **el gusto**
+  - taste, pleasure, liking
+- **gustoso, gustosa**
+  - tasty, pleasing
+- **dar gusto**
+  - to please
+- **tener gusto en**
+  - to be glad to
+
+
+:::
