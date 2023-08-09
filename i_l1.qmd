@@ -1,0 +1,823 @@
+# Level 1 verbs {.unnumbered}
+
+```{r}
+#| warning: false
+#| message: false
+#| code-fold: true
+
+library(tidyverse)
+library(gt)
+
+df = read_csv("https://raw.githubusercontent.com/ghidinelli/fred-jehle-spanish-verbs/master/jehle_verb_database.csv")
+
+my_gt_theme <- function(gt_object, ...) {
+  
+  stopifnot("'gt_object' must be a 'gt_tbl', have you accidentally passed raw data?" = "gt_tbl" %in% class(gt_object))
+  
+  tab_out <- gt_object %>%
+    # Fonts
+    opt_table_font(
+      font = list(
+        google_font("Noto Sans"), 
+        google_font("Source Sans Pro"),
+        default_fonts()
+      )
+    ) %>%
+    
+    # Cell styles from both themes
+    tab_style(
+      style = cell_borders(
+        sides = "top", color = "white", weight = px(0)),
+      locations = cells_body(rows = ifelse(nrow(gt_object[["_data"]]) > 0, 1, NA))) %>%
+    tab_style(
+      style = cell_text(color = "#005689", size = px(22), weight = 700),
+      locations = list(cells_title(groups = "title"))) %>%
+    tab_style(
+      style = cell_text(color = "#545454", font = google_font("Source Sans Pro"), transform = "uppercase"),
+      locations = cells_column_labels(everything())) %>%
+    tab_style(
+      style = cell_text(font = google_font("Libre Franklin"), weight = 800),
+      locations = cells_title(groups = "title")) %>%
+    tab_style(
+      style = cell_text(font = google_font("Source Sans Pro"), weight = 400),
+      locations = cells_body()) %>%
+    
+    # Table options combining elements of both themes
+    tab_options(
+      # Table-wide settings
+      table.background.color = "white",
+      table.font.size = 16,
+      
+      # Table border settings
+      table.border.top.style = "none",
+      table.border.top.width = px(1),
+      table.border.top.color = "#40c5ff",
+      table.border.bottom.width = px(3),
+      table.border.bottom.color = "white",
+      
+      # Column label settings
+      column_labels.background.color = "#f6f6f6",
+      column_labels.font.weight = "bold",
+      column_labels.border.top.style = "none",
+      column_labels.border.bottom.style = "none",
+      column_labels.border.bottom.width = 1,
+      column_labels.border.bottom.color = "#334422",
+      
+      # Data row settings
+      row.striping.include_table_body = TRUE,
+      row.striping.background_color = "#ececec",
+      data_row.padding = px(6), # Average of both themes
+      
+      # Row group settings
+      row_group.font.weight = "800",
+      
+      # Heading settings
+      heading.align = "left",
+      heading.border.bottom.style = "none",
+      
+      # Table body border settings
+      table_body.border.top.style = "none",
+      
+      # Source notes settings
+      source_notes.font.size = 12,
+      
+    )
+  
+  return(tab_out)
+}
+
+create_conjugation_table <- function(verb_infinitive) {
+  
+  verb_order = c("Presente", 
+                 "Imperfecto", 
+                 "Pretérito", 
+                 "Futuro", 
+                 "Condicional", 
+                 "Presente perfecto",
+                 "Pluscuamperfecto",
+                 "Pretérito anterior",
+                 "Futuro perfecto",
+                 "Condicional perfecto")
+  
+  verb_df <- df %>%
+    filter(infinitive == verb_infinitive)
+  
+  infinitive = verb_df %>% pull(infinitive) %>% .[1] 
+  english_infinitive = verb_df %>% pull(infinitive_english) %>% .[1] %>% str_to_title
+  gerund = verb_df %>% pull(gerund) %>% .[1] 
+  past_participle = verb_df %>% pull(pastparticiple) %>% .[1] 
+  
+  verb_table <- verb_df %>%
+    select(-c(tense_english, 
+              infinitive, 
+              infinitive_english, 
+              verb_english,
+              # mood, 
+              mood_english,
+              gerund, 
+              gerund_english, 
+              pastparticiple, 
+              pastparticiple_english
+              )) %>%
+    mutate(
+      temp_form_2p = form_2p,
+      form_2p = ifelse(mood %in% c("Imperativo Afirmativo","Imperativo Negativo"), form_3s, form_2p),
+      form_3s = ifelse(mood %in% c("Imperativo Afirmativo","Imperativo Negativo"), temp_form_2p, form_3s),
+      form_1p = ifelse(is.na(form_1p), paste0(form_3s, "mos"), form_1p),
+      form_1s = ifelse(is.na(form_1s), " - ", form_1s)
+    ) %>%
+    select(-temp_form_2p) %>% 
+    mutate(tense = factor(tense, levels = verb_order)) %>% 
+    arrange(tense) %>% 
+    group_by(mood) %>% 
+    gt() %>%
+    tab_header(
+      title = paste("Conjugation of",infinitive),
+      subtitle = md(glue::glue(sprintf("English: *{english_infinitive}*\n
+                                     Gerundio: *{gerund}*\n
+                                     Pasado Participio: *{past_participle}*")))) %>%
+    cols_label(
+      tense = "Tense",
+      # verb_english = "English",
+      form_1s = "Yo",
+      form_2s = "Tú",
+      form_3s = "Él/Ella/Usted",
+      form_1p = "Nosotros",
+      form_2p = "Vosotros",
+      form_3p = "Ellos/Ellas/Ustedes"
+    ) %>% 
+    cols_align(
+      align = c("right"),
+      columns = everything()
+    ) %>% 
+    cols_align(
+      align = c("left"),
+      columns = tense
+    ) %>% 
+    my_gt_theme()
+
+  return(verb_table)
+}
+
+```
+
+# ser (to be)
+
+Ser is one of the most important irregular verbs for beginning students. It is used in a vast number of idiomatic expressions and everyday situations. Be careful when you need to choose between ser and estar. You should study the special rules for the use of estar. They’re listed with that verb. 
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("ser")
+```
+
+## Example Phrases
+
+ - **¿Qué hora es?**
+   - What time is it?
+ - **Es la una.**
+   - It’s one o’clock.
+ - **Son las dos**
+   - It’s two o’clock.
+ - **Será un regalo.**
+   - It will be a gift.
+ - **Para ser tan viejo, él es muy ágil.**
+   - In spite of being so old, he is very nimble.
+ - **Soy aficionado al béisbol.**
+   - I’m a baseball fan.
+ - **Mi profesora de español es amable conmigo.**
+   - My Spanish teacher is kind to me.
+ - **Te escucho. Soy de todo oídos.**
+   - I’m listening to you. I’m all ears.
+ - **Este libro es de María.**
+   - This book is Mary’s.   
+
+## Proverbios
+
+ - **Dime con quién andas y te diré quién eres.**
+   - Tell me who your friends are and I will tell you who you are. (Birds of a feather flock together.)
+
+## Dichos
+
+ - **Debe de ser...**
+   - It is probably...
+ - **Debe ser...**
+   - It ought to be...
+ - **Es de lamentar.**
+   - It’s too bad.
+ - **Es de mi agrado.**
+   - It’s to my liking.
+ - **Es hora de...**
+   - It is time to...
+ - **Es (una) lástima.**
+   - It’s a pity. It’s too bad.
+ - **Es que...**
+   - The fact is...
+ - **para ser...**
+   - in spite of being...
+ - **sea lo que sea**
+   - whatever it may be
+ - **ser aburrido**
+   - to be boring
+ - **ser aficionado a**
+   - to be a fan of
+ - **ser amable con**
+   - to be kind to
+ - **ser capaz**
+   - to be able
+ - **ser de**
+   - to belong to
+ - **ser de rigor**
+   - to be indispensable
+ - **ser de ver**
+   - to be worth seeing
+ - **ser digno de**
+   - to deserve, to be worth
+ - **ser listo/lista**
+   - to be clever
+ - **ser todo oídos**
+   - to be all ears
+ - **si no fuera por...**
+   - if it were not for...
+ - **Si yo fuera usted...**
+   - If I were you...
+
+# estar (to be)
+
+Estar is one of the most important verbs for a beginning student to learn. In addition to the countless expressions that use estar, there is a distinction that you must make between estar and ser, which also means to be. 
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("estar")
+```
+
+## Example Phrases
+
+ - **Dígame, por favor, dónde está la sala de espera.**
+   - Tell me, please, where the waiting room is located.
+ - **¿Cuándo estará todo listo?**
+   - When will it all be ready?
+ - **Está lloviendo ahora.**
+   - It’s raining now.
+ - **Estoy a punto de salir./Estoy para salir.**
+   - I am about to go out.
+
+## Dichos
+
+ - **está bien**
+   - all right, okay
+ - **estar a punto de + inf.**
+   - to be about + inf.
+ - **estar a sus anchas**
+   - to be comfortable
+ - **estar aburrido (aburrida)**
+   - to be bored
+ - **estar al día**
+   - to be up to date
+ - **estar bien**
+   - to be well
+ - **estar conforme con**
+   - to be in agreement with
+ - **estar de acuerdo**
+   - to agree
+ - **estar de acuerdo con**
+   - to be in agreement with
+ - **estar de boga**
+   - to be in fashion
+ - **estar de buenas**
+   - to be lucky
+ - **estar de más**
+   - to be unnecessary
+ - **estar de pie**
+   - to be standing
+ - **estar de vuelta**
+   - to be back
+ - **estar listo (lista)**
+   - to be ready
+ - **estar mal**
+   - to be ill
+ - **estar para + inf.**
+   - to be about to
+ - **estar por**
+   - to be in favor of
+ - **no estar para bromas**
+   - not to be in the mood for jokes
+ - **estar vivo(a)**
+   - to be alive
+ - **el estado**
+   - state, condition
+
+## When to use estar vs ser
+
+**Health:**
+
+ - ¿Cómo está Ud.? How are you?
+ - Estoy bien. I am well.
+ - Estoy enfermo (enferma). I am sick.
+
+**Location: persons, places, things**
+
+ - Estoy en la sala de clase. I am in the classroom.
+ - La escuela está lejos. The school is far.
+ - Barcelona está en España. Barcelona is (located) in Spain.
+ - Los libros están en la mesa. The books are on the table.
+
+**State or condition: persons**
+
+ - Estoy contento (contenta). I am happy.
+ - Los alumnos están cansados. (Las alumnas están cansadas.) The students are tired.
+ - María está triste hoy. Mary is sad today.
+ - Estoy listo (lista). I am ready.
+ - Estoy pálido (pálida). I am pale.
+ - Estoy ocupado (ocupada). I am busy.
+ - Estoy seguro (segura). I am sure.
+ - Este hombre está vivo. This man is alive.
+ - Ese hombre está muerto. That man is dead.
+ - Este hombre está borracho. This man is drunk.
+ 
+**To form the progressive present of a verb:**
+
+*use the present tense of estar + the present participle of the main verb*
+
+ - Estoy estudiando en mi cuarto y no puedo salir esta noche.
+   - I am studying in my room and I cannot go out tonight.
+
+**To form the progressive past of a verb:**
+
+*use the imperfect tense of estar + the present participle of the main verb:*
+ 
+ - Mi hermano estaba leyendo cuando (yo) entré en el cuarto.
+   - My brother was reading when I entered (came into) the room.
+
+# tener (to have)
+
+Tener is one of the most important irregular verbs for beginning students. It is used in a great number of idiomatic expressions and everyday situations. Pay special attention to the stem changes! 
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("tener")
+```
+
+## Example Phrases
+
+ - **Tengo un dolor de muelas.**
+   - I have a toothache.
+ - **¿Tiene algo más barato?**
+   - Do you have something cheaper?
+ - **Aquí tiene usted nuestros pasaportes.**
+   - Here are our passports.
+ - **¿Tengo que trasbordar?**
+   - Do I have to transfer? (bus, train, etc.)
+ - **¡Tengo mucha hambre!**
+   - I’m very hungry!
+ - **Tenemos que salir.**
+   - We have to go out.
+ - **Aquí tiene el dinero.**
+   - Here is the money.
+ - **¿Cuántos años tienes?**
+   - How old are you?
+ - **Tengo diez y seis (or dieciséis) años.**
+   - I am sixteen years old.
+ - **—¿Qué tienes? ¿Qué tiene Ud.?**
+   - —What’s the matter? What’s the matter with you?
+ - **—No tengo nada.**
+   - —There’s nothing wrong. There’s nothing the matter with me.
+ - **Tengo ganas de tomar un helado.**
+   - I feel like having an ice cream.
+ - **Tengo mucho gusto en conocerle.**
+   - I am very glad to meet you.
+ - **Tenga la bondad de cerrar la puerta.**
+   - Please close the door.
+ - **El accidente tuvo lugar anoche.**
+   - The accident took place last night.
+ - **Tengo que estudiar.**
+   - I have to study.
+ - **Usted tiene razón.**
+   - You are right.
+
+## Proverbios
+
+ - **Anda despacio que tengo prisa.**
+   - Make haste slowly. (Easy does it.)
+ - **Aquellos son ricos, que tienen amigos.**
+   - Those who have friends are rich.
+ - **El que más tiene más quiere.**
+   - The more one has, the more one wants.
+
+## Dichos
+
+ - **tener algo que hacer**
+   - to have something to do
+ - **tener algo en la punta de la lengua**
+   - to have something on the tip of one’s tongue
+ - **tener apetito**
+   - to have an appetite
+ - **tener cuidado**
+   - to be careful
+ - **tener prisa**
+   - to be in a hurry
+ - **tener hambre**
+   - to be hungry
+ - **tener sed**
+   - to be thirsty
+ - **tener frío**
+   - to be (feel) cold (persons)
+ - **tener calor**
+   - to be (feel) warm (persons)
+ - **tener dolor de cabeza**
+   - to have a headache
+ - **tener dolor de estómago**
+   - to have a stomachache
+ - **tener en cuenta**
+   - to take into account
+ - **tener éxito**
+   - to be successful Syn.: suceder to succeed (Def. and Imp.; see note on p. 664)
+ - **tener ganas de + inf.**
+   - to feel like + pres. part.
+ - **tener gusto en + inf.**
+   - to be glad + inf.
+ - **tener la bondad de**
+   - please, please be good enough to...
+ - **tener la culpa de algo**
+   - to take the blame for something, to be to blame for something
+ - **tener lugar**
+   - to take place
+ - **tener más paciencia que Job**
+   - to have the patience of Job
+ - **tener miedo de**
+   - to be afraid of
+ - **tener mucha sed**
+   - to be (feel) very thirsty (persons)
+ - **tener mucho que hacer**
+   - to have a lot to do
+ - **tener por**
+   - to consider as
+ - **tener que + inf.**
+   - to have + inf.
+ - **tener que ver con**
+   - to have to do with
+ - **tener razón**
+   - to be right
+ - **tener sueño**
+   - to be (feel) sleepy
+ - **tener suerte**
+   - to be lucky
+ - **tener vergüenza de**
+   - to be ashamed of
+ - **tener visita**
+   - to have company
+ - **tenerse en pie**
+   - to stand
+ - **retener**
+   - to retain
+
+# hacer (to do, to make)
+
+Hacer is an essential irregular verb for beginning students of Spanish. It is used in many everyday situations and idiomatic expressions. Hacer is especially important for weather expressions
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("hacer")
+```
+
+
+## Example Phrases
+
+- **Hace un mes que partió el señor Molina.**
+  - Mr. Molina left one month ago.
+
+- **¿Puede ayudarme a hacer una llamada?**
+  - Can you help me make a telephone call?
+
+- **El señor González siempre hace de jefe.**
+  - Mr. González always acts as boss.
+
+- **A Juan le hace falta un lápiz.**
+  - John needs a pencil.
+
+- **Elena se hizo dentista.**
+  - Helen became a dentist.
+
+- **¡Vámonos! Se hace tarde.**
+  - Let’s leave! It’s getting late.
+  
+## Proverbios
+
+- **De decir a hacer hay mucho que ver.**
+  - There is a great difference between saying and doing. (Easier said than done.)
+
+- **El ejercicio hace al maestro.**
+  - Practice makes perfect.
+
+- **No dejes para mañana lo que puedes hacer hoy.**
+  - Don’t put off until tomorrow what you can do today.
+
+## Dichos
+
+- **hace poco**
+  - a little while ago
+
+- **hace un año**
+  - a year ago
+
+- **hace una hora**
+  - an hour ago
+
+- **hacer cara a**
+  - to face
+
+- **hacer caso de**
+  - to pay attention to
+
+- **hacer clic**
+  - to click (on an Internet link)
+
+- **hacer daño a algo**
+  - to harm something
+
+- **hacer daño a alguien**
+  - to harm someone
+
+- **hacer de**
+  - to act as
+
+- **hacer el baúl**
+  - to pack one’s trunk
+
+- **hacer el favor de + inf.**
+  - please (Example: **Haga Ud. el favor de entrar** - Please come in.)
+
+- **hacer el papel de**
+  - to play the role of
+
+- **hacer la maleta**
+  - to pack one’s suitcase
+
+- **hacer pedazos**
+  - to smash, to break, to tear into pieces
+
+- **hacer un viaje**
+  - to take a trip
+
+- **hacer una broma**
+  - to play a joke
+
+- **hacer una pregunta**
+  - to ask a question
+
+- **hacer una visita**
+  - to pay a visit, a call
+
+- **hacerle falta**
+  - to need
+
+- **hacerse**
+  - to become
+
+- **hacerse daño**
+  - to hurt oneself, to harm oneself
+
+- **hacerse tarde**
+  - to be getting late
+
+- **hacer mención de**
+  - to make mention of
+
+- **hacer punto**
+  - to knit
+
+- **hacer uso de**
+  - to make use of
+
+- **hacer caer**
+  - to knock over
+
+- **una hacienda**
+  - ranch, estate
+  
+
+## Formulas with hacer
+
+**¿Cuánto tiempo hace que + present tense...?**
+
+1. Use this formula when you want to ask *How long + the present perfect tense* in English:  
+   - ¿Cuánto tiempo hace que Ud. estudia español?  
+   - How long have you been studying Spanish?  
+2. When this formula is used, you generally expect the person to tell you how long a time it has been, e.g., one year, two months, a few minutes.  
+3. This is used when the action began at some time in the past and continues up to the present moment. That is why you must use the present tense of the verb—the action of studying, waiting, etc., is still going on at the present.
+
+**¿Hace + length of time + que + present tense**
+
+1. This formula is the usual answer to the question *¿Cuánto tiempo hace que + present tense...?*  
+2. Since the question is asked in terms of how long, the usual answer is in terms of time: a year, two years, a few days, months, minutes, etc.:  
+   - Hace tres años que estudio español.  
+   - I have been studying Spanish for three years.  
+3. The same formula is used if you want to ask how many weeks, how many months, how many minutes, etc.:  
+   - ¿Cuántos años hace que Ud. estudia español?  
+   - How many years have you been studying Spanish?  
+
+**¿Desde cuándo + present tense...?**  
+- ¿Desde cuándo estudia Ud. español?  
+- How long have you been studying Spanish?
+
+**Present tense + desde hace + length of time**  
+- Estudio español desde hace tres años.  
+- I have been studying Spanish for three years.
+  
+## Weather Expressions
+
+- **hace buen tiempo**
+  - the weather is good
+
+- **hace calor**
+  - it’s warm (hot)
+
+- **hace fresco hoy**
+  - it’s cool today
+
+- **hace frío**
+  - it’s cold
+
+- **hace mal tiempo**
+  - the weather is bad
+
+- **hace sol**
+  - it’s sunny
+
+- **hace viento**
+  - it’s windy
+  
+
+# decir (to say, to tell)
+
+Decir is an extremely useful irregular verb. You can use decir in many everyday situations and idiomatic expressions.
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("decir")
+```
+
+## Example Phrases
+
+ - **Dígame, por favor, dónde está la sala de espera.**
+   - Tell me, please, where the waiting room is located.
+ - **¿Qué quiere decir esta palabra?**
+   - What does this word mean?
+ - **¡Te he dicho mil veces de ponerte el cinturón de seguridad!**
+   - I’ve told you a thousand times to put on your seat belt!
+
+## Proverbios
+
+ - **Dime con quién andas y te diré quién eres.**
+   - Tell me who your friends are and I will tell you who you are.
+ - **Al decir las verdades se pierdan las amistades.**
+   - Friendships are lost when the truth is told.
+ - **De decir a hacer hay mucho que ver.**
+   - There is a great difference between saying and doing.
+
+## Dichos
+
+ - **Dicho y hecho.**
+   - No sooner said than done.
+ - **querer decir**
+   - to mean
+ - **un decir**
+   - a familiar saying
+ - **Diga or Dígame**
+   - Hello (on the telephone)
+ - **decirle al oído**
+   - to whisper in one’s ear
+ - **no decir palabra**
+   - not to say a word
+ - **Es decir...**
+   - That is to say...
+ - **un dicho**
+   - a saying, expression
+ - **dictar**
+   - to dictate
+ - **el dictado**
+   - dictation
+ - **el dictador**
+   - dictator
+ - **decir mentiras**
+   - to tell lies
+ - **decir adiós**
+   - to say good-bye
+ - **bendecir**
+   - to bless
+ - **maldecir**
+   - to curse, to swear
+
+
+# ir/irse (to go)
+
+Ir and irse are a very important pair of verbs for a beginning student. In the following examples, note the difference in meaning between ir and the creflexive form irse.
+
+**Use ir when you simply mean to go:**
+ 
+ - Voy al cine
+   - I am going to the movies.
+ 
+**Use irse when you mean to leave in the sense of to go away:**
+
+ - Mis padres se fueron al campo para visitar a mis abuelos
+   - My parents left for (went away to) the country to visit my grandparents.
+
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("ir")
+create_conjugation_table("irse")
+```
+
+## Example Phrases
+
+ - **Dígame, por favor, dónde está la sala de espera.**
+   - Tell me, please, where the waiting room is located.
+ - **¿Qué quiere decir esta palabra?**
+   - What does this word mean?
+ - **¡Te he dicho mil veces de ponerte el cinturón de seguridad!**
+   - I’ve told you a thousand times to put on your seat belt!
+
+## Proverbios
+
+ - **Dime con quién andas y te diré quién eres.**
+   - Tell me who your friends are and I will tell you who you are.
+ - **Al decir las verdades se pierdan las amistades.**
+   - Friendships are lost when the truth is told.
+ - **De decir a hacer hay mucho que ver.**
+   - There is a great difference between saying and doing.
+
+## Dichos
+
+ - **Dicho y hecho.**
+   - No sooner said than done.
+ - **querer decir**
+   - to mean
+ - **un decir**
+   - a familiar saying
+ - **Diga or Dígame**
+   - Hello (on the telephone)
+ - **decirle al oído**
+   - to whisper in one’s ear
+ - **no decir palabra**
+   - not to say a word
+ - **Es decir...**
+   - That is to say...
+ - **un dicho**
+   - a saying, expression
+ - **dictar**
+   - to dictate
+ - **el dictado**
+   - dictation
+ - **el dictador**
+   - dictator
+ - **decir mentiras**
+   - to tell lies
+ - **decir adiós**
+   - to say good-bye
+ - **bendecir**
+   - to bless
+ - **maldecir**
+   - to curse, to swear
+
+
+# ver (to see)
+
+Ver is a very useful irregular verb for beginning students. It is used in a vast number of idiomatic expressions and everyday situations. Pay special attention to the stem changes!
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("ver")
+```
+
+# poder (can, to be able to)
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("poder")
+```
+
+# querer (to want)
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("querer")
+```
+
+# venir (to come)
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("venir")
+```
+

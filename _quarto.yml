@@ -1,0 +1,27 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Spanish"
+  author: "Aj Averett"
+  date: "7/31/2023"
+  chapters:
+    - index.qmd
+    - i_l1.qmd
+    - i_l2.qmd
+    - i_l3.qmd
+    - i_l4.qmd
+    - i_l5.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+

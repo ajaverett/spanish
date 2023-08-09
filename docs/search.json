@@ -1,0 +1,583 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Spanish",
+    "section": "",
+    "text": "Verb Directory"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "i_l1.html",
+    "href": "i_l1.html",
+    "title": "Level 1 verbs",
+    "section": "",
+    "text": "ser (to be)\nSer is one of the most important irregular verbs for beginning students. It is used in a vast number of idiomatic expressions and everyday situations. Be careful when you need to choose between ser and estar. You should study the special rules for the use of estar. They’re listed with that verb.\nEstar is one of the most important verbs for a beginning student to learn. In addition to the countless expressions that use estar, there is a distinction that you must make between estar and ser, which also means to be.\nTener is one of the most important irregular verbs for beginning students. It is used in a great number of idiomatic expressions and everyday situations. Pay special attention to the stem changes!\nHacer is an essential irregular verb for beginning students of Spanish. It is used in many everyday situations and idiomatic expressions. Hacer is especially important for weather expressions\nDecir is an extremely useful irregular verb. You can use decir in many everyday situations and idiomatic expressions.\nIr and irse are a very important pair of verbs for a beginning student. In the following examples, note the difference in meaning between ir and the creflexive form irse.\nUse ir when you simply mean to go:\nUse irse when you mean to leave in the sense of to go away:\nVer is a very useful irregular verb for beginning students. It is used in a vast number of idiomatic expressions and everyday situations. Pay special attention to the stem changes!"
+  },
+  {
+    "objectID": "i_l2.html",
+    "href": "i_l2.html",
+    "title": "2  Level 2 verbs",
+    "section": "",
+    "text": "Frequently Used:\nhablar (to speak) dar (to give) comer (to eat) estar (to be) vivir (to live) saber (to know) deber (must, to owe) leer (to read) escribir (to write) gustar (to like)"
+  },
+  {
+    "objectID": "i_l3.html",
+    "href": "i_l3.html",
+    "title": "3  Level 3 verbs",
+    "section": "",
+    "text": "Less Frequently Used:\nmirar/mirarse (to look) volver (to return) entrar (to enter) contar (to tell) estudiar (to study) quedar/quedarse (to stay, to meet) creer (to believe) sentir/sentirse (to feel) perder (to lose)"
+  },
+  {
+    "objectID": "i_l4.html",
+    "href": "i_l4.html",
+    "title": "Level 4 verbs",
+    "section": "",
+    "text": "Less Frequently Used:\nmirar/mirarse (to look) volver (to return) entrar (to enter) contar (to tell) estudiar (to study) quedar/quedarse (to stay, to meet) creer (to believe) sentir/sentirse (to feel) perder (to lose)"
+  },
+  {
+    "objectID": "i_l5.html",
+    "href": "i_l5.html",
+    "title": "5  Level 1 verbs",
+    "section": "",
+    "text": "Least Used:\ncomenzar (to begin) construir (to build) conducir (to drive) pagar (to pay) traer (to bring) caer/caerse (to fall) aprender (to learn) haber (to have) poner/ponerse (to put) salir (to leave)"
+  },
+  {
+    "objectID": "i_l1.html#ser-to-be",
+    "href": "i_l1.html#ser-to-be",
+    "title": "1  Level 1 verbs",
+    "section": "1.1 ser (to be)",
+    "text": "1.1 ser (to be)\nSer is one of the most important irregular verbs for beginning students. It is used in a vast number of idiomatic expressions and everyday situations. Be careful when you need to choose between ser and estar. You should study the special rules for the use of estar. They’re listed with that verb.\n\n1.1.1 Conjugation Table\n\ncreate_conjugation_table(\"ser\")\n\n\n\n\n\n  \n    \n      Conjugation of ser\n    \n    \n      English: To Be\nGerundio: siendo\nPasado Participio: sido\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nsoy\neres\nes\nsomos\nsois\nson\n    Imperfecto\nera\neras\nera\néramos\nerais\neran\n    Pretérito\nfui\nfuiste\nfue\nfuimos\nfuisteis\nfueron\n    Futuro\nseré\nserás\nserá\nseremos\nseréis\nserán\n    Condicional\nsería\nserías\nsería\nseríamos\nseríais\nserían\n    Presente perfecto\nhe sido\nhas sido\nha sido\nhemos sido\nhabéis sido\nhan sido\n    Pluscuamperfecto\nhabía sido\nhabías sido\nhabía sido\nhabíamos sido\nhabíais sido\nhabían sido\n    Pretérito anterior\nhube sido\nhubiste sido\nhubo sido\nhubimos sido\nhubisteis sido\nhubieron sido\n    Futuro perfecto\nhabré sido\nhabrás sido\nhabrá sido\nhabremos sido\nhabréis sido\nhabrán sido\n    Condicional perfecto\nhabría sido\nhabrías sido\nhabría sido\nhabríamos sido\nhabríais sido\nhabrían sido\n    \n      Subjuntivo\n    \n    Presente\nsea\nseas\nsea\nseamos\nseáis\nsean\n    Imperfecto\nfuera\nfueras\nfuera\nfuéramos\nfuerais\nfueran\n    Futuro\nfuere\nfueres\nfuere\nfuéremos\nfuereis\nfueren\n    Presente perfecto\nhaya sido\nhayas sido\nhaya sido\nhayamos sido\nhayáis sido\nhayan sido\n    Pluscuamperfecto\nhubiera sido\nhubieras sido\nhubiera sido\nhubiéramos sido\nhubierais sido\nhubieran sido\n    Futuro perfecto\nhubiere sido\nhubieres sido\nhubiere sido\nhubiéremos sido\nhubiereis sido\nhubieren sido\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nsé\nsea\nseamos\nsed\nsean\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno seas\nno sea\nno seamos\nno seais\nno sean\n  \n  \n  \n\n\n\n\n\n\n1.1.2 Example Phrases\n\n¿Qué hora es?\n\nWhat time is it?\n\nEs la una.\n\nIt’s one o’clock.\n\nSon las dos\n\nIt’s two o’clock.\n\nSerá un regalo.\n\nIt will be a gift.\n\nPara ser tan viejo, él es muy ágil.\n\nIn spite of being so old, he is very nimble.\n\nSoy aficionado al béisbol.\n\nI’m a baseball fan.\n\nMi profesora de español es amable conmigo.\n\nMy Spanish teacher is kind to me.\n\nTe escucho. Soy de todo oídos.\n\nI’m listening to you. I’m all ears.\n\nEste libro es de María.\n\nThis book is Mary’s.\n\n\n\n\n1.1.3 Proverbios\n\nDime con quién andas y te diré quién eres.\n\nTell me who your friends are and I will tell you who you are. (Birds of a feather flock together.)"
+  },
+  {
+    "objectID": "i_l1.html#estar-to-be",
+    "href": "i_l1.html#estar-to-be",
+    "title": "1  Level 1 verbs",
+    "section": "1.2 estar (to be)",
+    "text": "1.2 estar (to be)\n\n1.2.1 Conjugation Table\n\ncreate_conjugation_table(\"estar\")\n\n\n\n\n\n  \n    \n      Conjugation of estar\n    \n    \n      English: To Be\nGerundio: estando\nPasado Participio: estado\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nestoy\nestás\nestá\nestamos\nestáis\nestán\n    Imperfecto\nestaba\nestabas\nestaba\nestábamos\nestabais\nestaban\n    Pretérito\nestuve\nestuviste\nestuvo\nestuvimos\nestuvisteis\nestuvieron\n    Futuro\nestaré\nestarás\nestará\nestaremos\nestaréis\nestarán\n    Condicional\nestaría\nestarías\nestaría\nestaríamos\nestaríais\nestarían\n    Presente perfecto\nhe estado\nhas estado\nha estado\nhemos estado\nhabéis estado\nhan estado\n    Pluscuamperfecto\nhabía estado\nhabías estado\nhabía estado\nhabíamos estado\nhabíais estado\nhabían estado\n    Pretérito anterior\nhube estado\nhubiste estado\nhubo estado\nhubimos estado\nhubisteis estado\nhubieron estado\n    Futuro perfecto\nhabré estado\nhabrás estado\nhabrá estado\nhabremos estado\nhabréis estado\nhabrán estado\n    Condicional perfecto\nhabría estado\nhabrías estado\nhabría estado\nhabríamos estado\nhabríais estado\nhabrían estado\n    \n      Subjuntivo\n    \n    Presente\nesté\nestés\nesté\nestemos\nestéis\nestén\n    Imperfecto\nestuviera\nestuvieras\nestuviera\nestuviéramos\nestuvierais\nestuvieran\n    Futuro\nestuviere\nestuvieres\nestuviere\nestuviéremos\nestuviereis\nestuvieren\n    Presente perfecto\nhaya estado\nhayas estado\nhaya estado\nhayamos estado\nhayáis estado\nhayan estado\n    Pluscuamperfecto\nhubiera estado\nhubieras estado\nhubiera estado\nhubiéramos estado\nhubierais estado\nhubieran estado\n    Futuro perfecto\nhubiere estado\nhubieres estado\nhubiere estado\nhubiéremos estado\nhubiereis estado\nhubieren estado\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nestá\nesté\nestémos\nestad\nestén\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno estés\nno esté\nno estémos\nno estéis\nno estén"
+  },
+  {
+    "objectID": "i_l1.html#tener-to-have",
+    "href": "i_l1.html#tener-to-have",
+    "title": "1  Level 1 verbs",
+    "section": "1.3 tener (to have)",
+    "text": "1.3 tener (to have)\n\n1.3.1 Conjugation Table\n\ncreate_conjugation_table(\"tener\")\n\n\n\n\n\n  \n    \n      Conjugation of tener\n    \n    \n      English: To Have\nGerundio: teniendo\nPasado Participio: tenido\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\ntengo\ntienes\ntiene\ntenemos\ntenéis\ntienen\n    Imperfecto\ntenía\ntenías\ntenía\nteníamos\nteníais\ntenían\n    Pretérito\ntuve\ntuviste\ntuvo\ntuvimos\ntuvisteis\ntuvieron\n    Futuro\ntendré\ntendrás\ntendrá\ntendremos\ntendréis\ntendrán\n    Condicional\ntendría\ntendrías\ntendría\ntendríamos\ntendríais\ntendrían\n    Presente perfecto\nhe tenido\nhas tenido\nha tenido\nhemos tenido\nhabéis tenido\nhan tenido\n    Pluscuamperfecto\nhabía tenido\nhabías tenido\nhabía tenido\nhabíamos tenido\nhabíais tenido\nhabían tenido\n    Pretérito anterior\nhube tenido\nhubiste tenido\nhubo tenido\nhubimos tenido\nhubisteis tenido\nhubieron tenido\n    Futuro perfecto\nhabré tenido\nhabrás tenido\nhabrá tenido\nhabremos tenido\nhabréis tenido\nhabrán tenido\n    Condicional perfecto\nhabría tenido\nhabrías tenido\nhabría tenido\nhabríamos tenido\nhabríais tenido\nhabrían tenido\n    \n      Subjuntivo\n    \n    Presente\ntenga\ntengas\ntenga\ntengamos\ntengáis\ntengan\n    Imperfecto\ntuviera\ntuvieras\ntuviera\ntuviéramos\ntuvierais\ntuvieran\n    Futuro\ntuviere\ntuvieres\ntuviere\ntuviéremos\ntuviereis\ntuvieren\n    Presente perfecto\nhaya tenido\nhayas tenido\nhaya tenido\nhayamos tenido\nhayáis tenido\nhayan tenido\n    Pluscuamperfecto\nhubiera tenido\nhubieras tenido\nhubiera tenido\nhubiéramos tenido\nhubierais tenido\nhubieran tenido\n    Futuro perfecto\nhubiere tenido\nhubieres tenido\nhubiere tenido\nhubiéremos tenido\nhubiereis tenido\nhubieren tenido\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nten\ntenga\ntengamos\ntened\ntengan\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno tengas\nno tenga\nno tengamos\nno tengáis\nno tengan"
+  },
+  {
+    "objectID": "i_l1.html#hacer-to-do-to-make",
+    "href": "i_l1.html#hacer-to-do-to-make",
+    "title": "1  Level 1 verbs",
+    "section": "1.4 hacer (to do, to make)",
+    "text": "1.4 hacer (to do, to make)\n\n1.4.1 Conjugation Table\n\ncreate_conjugation_table(\"hacer\")\n\n\n\n\n\n  \n    \n      Conjugation of hacer\n    \n    \n      English: To Do, Make\nGerundio: haciendo\nPasado Participio: hecho\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nhago\nhaces\nhace\nhacemos\nhacéis\nhacen\n    Imperfecto\nhacía\nhacías\nhacía\nhacíamos\nhacíais\nhacían\n    Pretérito\nhice\nhiciste\nhizo\nhicimos\nhicisteis\nhicieron\n    Futuro\nharé\nharás\nhará\nharemos\nharéis\nharán\n    Condicional\nharía\nharías\nharía\nharíamos\nharíais\nharían\n    Presente perfecto\nhe hecho\nhas hecho\nha hecho\nhemos hecho\nhabéis hecho\nhan hecho\n    Pluscuamperfecto\nhabía hecho\nhabías hecho\nhabía hecho\nhabíamos hecho\nhabíais hecho\nhabían hecho\n    Pretérito anterior\nhube hecho\nhubiste hecho\nhubo hecho\nhubimos hecho\nhubisteis hecho\nhubieron hecho\n    Futuro perfecto\nhabré hecho\nhabrás hecho\nhabrá hecho\nhabremos hecho\nhabréis hecho\nhabrán hecho\n    Condicional perfecto\nhabría hecho\nhabrías hecho\nhabría hecho\nhabríamos hecho\nhabríais hecho\nhabrían hecho\n    \n      Subjuntivo\n    \n    Presente\nhaga\nhagas\nhaga\nhagamos\nhagáis\nhagan\n    Imperfecto\nhiciera\nhicieras\nhiciera\nhiciéramos\nhicierais\nhicieran\n    Futuro\nhiciere\nhicieres\nhiciere\nhiciéremos\nhiciereis\nhicieren\n    Presente perfecto\nhaya hecho\nhayas hecho\nhaya hecho\nhayamos hecho\nhayáis hecho\nhayan hecho\n    Pluscuamperfecto\nhubiera hecho\nhubieras hecho\nhubiera hecho\nhubiéramos hecho\nhubierais hecho\nhubieran hecho\n    Futuro perfecto\nhubiere hecho\nhubieres hecho\nhubiere hecho\nhubiéremos hecho\nhubiereis hecho\nhubieren hecho\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nhaz\nhaga\nhagamos\nhaced\nhagan\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno hagas\nno haga\nno hagamos\nno hagáis\nno hagan"
+  },
+  {
+    "objectID": "i_l1.html#decir-to-say-to-tell",
+    "href": "i_l1.html#decir-to-say-to-tell",
+    "title": "1  Level 1 verbs",
+    "section": "1.5 decir (to say, to tell)",
+    "text": "1.5 decir (to say, to tell)\n\n1.5.1 Conjugation Table\n\ncreate_conjugation_table(\"decir\")\n\n\n\n\n\n  \n    \n      Conjugation of decir\n    \n    \n      English: To Say, Tell\nGerundio: diciendo\nPasado Participio: dicho\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\ndigo\ndices\ndice\ndecimos\ndecís\ndicen\n    Imperfecto\ndecía\ndecías\ndecía\ndecíamos\ndecíais\ndecían\n    Pretérito\ndije\ndijiste\ndijo\ndijimos\ndijisteis\ndijeron\n    Futuro\ndiré\ndirás\ndirá\ndiremos\ndiréis\ndirán\n    Condicional\ndiría\ndirías\ndiría\ndiríamos\ndiríais\ndirían\n    Presente perfecto\nhe dicho\nhas dicho\nha dicho\nhemos dicho\nhabéis dicho\nhan dicho\n    Pluscuamperfecto\nhabía dicho\nhabías dicho\nhabía dicho\nhabíamos dicho\nhabíais dicho\nhabían dicho\n    Pretérito anterior\nhube dicho\nhubiste dicho\nhubo dicho\nhubimos dicho\nhubisteis dicho\nhubieron dicho\n    Futuro perfecto\nhabré dicho\nhabrás dicho\nhabrá dicho\nhabremos dicho\nhabréis dicho\nhabrán dicho\n    Condicional perfecto\nhabría dicho\nhabrías dicho\nhabría dicho\nhabríamos dicho\nhabríais dicho\nhabrían dicho\n    \n      Subjuntivo\n    \n    Presente\ndiga\ndigas\ndiga\ndigamos\ndigáis\ndigan\n    Imperfecto\ndijera\ndijeras\ndijera\ndijéramos\ndijerais\ndijeran\n    Futuro\ndijere\ndijeres\ndijere\ndijéremos\ndijereis\ndijeren\n    Presente perfecto\nhaya dicho\nhayas dicho\nhaya dicho\nhayamos dicho\nhayáis dicho\nhayan dicho\n    Pluscuamperfecto\nhubiera dicho\nhubieras dicho\nhubiera dicho\nhubiéramos dicho\nhubierais dicho\nhubieran dicho\n    Futuro perfecto\nhubiere dicho\nhubieres dicho\nhubiere dicho\nhubiéremos dicho\nhubiereis dicho\nhubieren dicho\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \ndi\ndiga\ndigamos\ndecid\ndigan\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno digas\nno diga\nno digamos\nno digáis\nno digan"
+  },
+  {
+    "objectID": "i_l1.html#irirse-to-go",
+    "href": "i_l1.html#irirse-to-go",
+    "title": "1  Level 1 verbs",
+    "section": "1.6 ir/irse (to go)",
+    "text": "1.6 ir/irse (to go)\n\n1.6.1 Conjugation Table\n\ncreate_conjugation_table(\"ir\")\n\n\n\n\n\n  \n    \n      Conjugation of ir\n    \n    \n      English: To Go\nGerundio: yendo\nPasado Participio: ido\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nvoy\nvas\nva\nvamos\nvais\nvan\n    Imperfecto\niba\nibas\niba\níbamos\nibais\niban\n    Pretérito\nfui\nfuiste\nfue\nfuimos\nfuisteis\nfueron\n    Futuro\niré\nirás\nirá\niremos\niréis\nirán\n    Condicional\niría\nirías\niría\niríamos\niríais\nirían\n    Presente perfecto\nhe ido\nhas ido\nha ido\nhemos ido\nhabéis ido\nhan ido\n    Pluscuamperfecto\nhabía ido\nhabías ido\nhabía ido\nhabíamos ido\nhabíais ido\nhabían ido\n    Pretérito anterior\nhube ido\nhubiste ido\nhubo ido\nhubimos ido\nhubisteis ido\nhubieron ido\n    Futuro perfecto\nhabré ido\nhabrás ido\nhabrá ido\nhabremos ido\nhabréis ido\nhabrán ido\n    Condicional perfecto\nhabría ido\nhabrías ido\nhabría ido\nhabríamos ido\nhabríais ido\nhabrían ido\n    \n      Subjuntivo\n    \n    Presente\nvaya\nvayas\nvaya\nvayamos\nvayáis\nvayan\n    Imperfecto\nfuera\nfueras\nfuera\nfuéramos\nfuerais\nfueran\n    Futuro\nfuere\nfueres\nfuere\nfuéremos\nfuereis\nfueren\n    Presente perfecto\nhaya ido\nhayas ido\nhaya ido\nhayamos ido\nhayáis ido\nhayan ido\n    Pluscuamperfecto\nhubiera ido\nhubieras ido\nhubiera ido\nhubiéramos ido\nhubierais ido\nhubieran ido\n    Futuro perfecto\nhubiere ido\nhubieres ido\nhubiere ido\nhubiéremos ido\nhubiereis ido\nhubieren ido\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nve\nvaya\nvayamos\nid\nvayan\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno vayas\nno vaya\nno vayamos\nno vayáis\nno vayan\n  \n  \n  \n\n\n\ncreate_conjugation_table(\"irse\")\n\n\n\n\n\n  \n    \n      Conjugation of irse\n    \n    \n      English: To Go Away, Leave, Depart\nGerundio: yéndose\nPasado Participio: ido\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nme voy\nte vas\nse va\nnos vamos\nos vais\nse van\n    Imperfecto\nme iba\nte ibas\nse iba\nnos íbamos\nos ibais\nse iban\n    Pretérito\nme fui\nte fuiste\nse fue\nnos fuimos\nos fuisteis\nse fueron\n    Futuro\nme iré\nte irás\nse irá\nnos iremos\nos iréis\nse irán\n    Condicional\nme iría\nte irías\nse iría\nnos iríamos\nos iríais\nse irían\n    Presente perfecto\nme he ido\nte has ido\nse ha ido\nnos hemos ido\nos habéis ido\nse han ido\n    Pluscuamperfecto\nme había ido\nte habías ido\nse había ido\nnos habíamos ido\nos habíais ido\nse habían ido\n    Pretérito anterior\nme hube ido\nte hubiste ido\nse hubo ido\nnos hubimos ido\nos hubisteis ido\nse hubieron ido\n    Futuro perfecto\nme habré ido\nte habrás ido\nse habrá ido\nnos habremos ido\nos habréis ido\nse habrán ido\n    Condicional perfecto\nme habría ido\nte habrías ido\nse habría ido\nnos habríamos ido\nos habríais ido\nse habrían ido\n    \n      Subjuntivo\n    \n    Presente\nme vaya\nte vayas\nse vaya\nnos vayamos\nos vayáis\nse vayan\n    Imperfecto\nme fuera\nte fueras\nse fuera\nnos fuéramos\nos fuerais\nse fueran\n    Futuro\nme fuere\nte fueres\nse fuere\nnos fuéremos\nos fuereis\nse fueren\n    Presente perfecto\nme haya ido\nte hayas ido\nse haya ido\nnos hayamos ido\nos hayáis ido\nse hayan ido\n    Pluscuamperfecto\nme hubiera ido\nte hubieras ido\nse hubiera ido\nnos hubiéramos ido\nos hubierais ido\nse hubieran ido\n    Futuro perfecto\nme hubiere ido\nte hubieres ido\nse hubiere ido\nnos hubiéremos ido\nos hubiereis ido\nse hubieren ido\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nvete\nváyase\nváyasemos\nidos\nváyanse\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno te vayas\nno se vaya\nno se vayamos\nno os vayáis\nno se vayan"
+  },
+  {
+    "objectID": "i_l1.html#ver-to-see",
+    "href": "i_l1.html#ver-to-see",
+    "title": "1  Level 1 verbs",
+    "section": "1.7 ver (to see)",
+    "text": "1.7 ver (to see)\n\n1.7.1 Conjugation Table\n\ncreate_conjugation_table(\"ver\")\n\n\n\n\n\n  \n    \n      Conjugation of ver\n    \n    \n      English: To See\nGerundio: viendo\nPasado Participio: visto\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nveo\nves\nve\nvemos\nveis\nven\n    Imperfecto\nveía\nveías\nveía\nveíamos\nveíais\nveían\n    Pretérito\nvi\nviste\nvio\nvimos\nvisteis\nvieron\n    Futuro\nveré\nverás\nverá\nveremos\nveréis\nverán\n    Condicional\nvería\nverías\nvería\nveríamos\nveríais\nverían\n    Presente perfecto\nhe visto\nhas visto\nha visto\nhemos visto\nhabéis visto\nhan visto\n    Pluscuamperfecto\nhabía visto\nhabías visto\nhabía visto\nhabíamos visto\nhabíais visto\nhabían visto\n    Pretérito anterior\nhube visto\nhubiste visto\nhubo visto\nhubimos visto\nhubisteis visto\nhubieron visto\n    Futuro perfecto\nhabré visto\nhabrás visto\nhabrá visto\nhabremos visto\nhabréis visto\nhabrán visto\n    Condicional perfecto\nhabría visto\nhabrías visto\nhabría visto\nhabríamos visto\nhabríais visto\nhabrían visto\n    \n      Subjuntivo\n    \n    Presente\nvea\nveas\nvea\nveamos\nveáis\nvean\n    Imperfecto\nviera\nvieras\nviera\nviéramos\nvierais\nvieran\n    Futuro\nviere\nvieres\nviere\nviéremos\nviereis\nvieren\n    Presente perfecto\nhaya visto\nhayas visto\nhaya visto\nhayamos visto\nhayáis visto\nhayan visto\n    Pluscuamperfecto\nhubiera visto\nhubieras visto\nhubiera visto\nhubiéramos visto\nhubierais visto\nhubieran visto\n    Futuro perfecto\nhubiere visto\nhubieres visto\nhubiere visto\nhubiéremos visto\nhubiereis visto\nhubieren visto\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nve\nvea\nveamos\nved\nvean\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno veas\nno vea\nno veamos\nno veáis\nno vean"
+  },
+  {
+    "objectID": "i_l1.html#poder-can-to-be-able-to",
+    "href": "i_l1.html#poder-can-to-be-able-to",
+    "title": "1  Level 1 verbs",
+    "section": "1.8 poder (can, to be able to)",
+    "text": "1.8 poder (can, to be able to)\n\n1.8.1 Conjugation Table\n\ncreate_conjugation_table(\"poder\")\n\n\n\n\n\n  \n    \n      Conjugation of poder\n    \n    \n      English: To Be Able, Can\nGerundio: pudiendo\nPasado Participio: podido\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\npuedo\npuedes\npuede\npodemos\npodéis\npueden\n    Imperfecto\npodía\npodías\npodía\npodíamos\npodíais\npodían\n    Pretérito\npude\npudiste\npudo\npudimos\npudisteis\npudieron\n    Futuro\npodré\npodrás\npodrá\npodremos\npodréis\npodrán\n    Condicional\npodría\npodrías\npodría\npodríamos\npodríais\npodrían\n    Presente perfecto\nhe podido\nhas podido\nha podido\nhemos podido\nhabéis podido\nhan podido\n    Pluscuamperfecto\nhabía podido\nhabías podido\nhabía podido\nhabíamos podido\nhabíais podido\nhabían podido\n    Pretérito anterior\nhube podido\nhubiste podido\nhubo podido\nhubimos podido\nhubisteis podido\nhubieron podido\n    Futuro perfecto\nhabré podido\nhabrás podido\nhabrá podido\nhabremos podido\nhabréis podido\nhabrán podido\n    Condicional perfecto\nhabría podido\nhabrías podido\nhabría podido\nhabríamos podido\nhabríais podido\nhabrían podido\n    \n      Subjuntivo\n    \n    Presente\npueda\npuedas\npueda\npodamos\npodáis\npuedan\n    Imperfecto\npudiera\npudieras\npudiera\npudiéramos\npudierais\npudieran\n    Futuro\npudiere\npudieres\npudiere\npudiéremos\npudiereis\npudieren\n    Presente perfecto\nhaya podido\nhayas podido\nhaya podido\nhayamos podido\nhayáis podido\nhayan podido\n    Pluscuamperfecto\nhubiera podido\nhubieras podido\nhubiera podido\nhubiéramos podido\nhubierais podido\nhubieran podido\n    Futuro perfecto\nhubiere podido\nhubieres podido\nhubiere podido\nhubiéremos podido\nhubiereis podido\nhubieren podido\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \npuede\npueda\npuedamos\npoded\npuedan\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno puedas\nno pueda\nno puedamos\nno podáis\nno puedan"
+  },
+  {
+    "objectID": "i_l1.html#querer-to-want",
+    "href": "i_l1.html#querer-to-want",
+    "title": "1  Level 1 verbs",
+    "section": "1.9 querer (to want)",
+    "text": "1.9 querer (to want)\n\n1.9.1 Conjugation Table\n\ncreate_conjugation_table(\"querer\")\n\n\n\n\n\n  \n    \n      Conjugation of querer\n    \n    \n      English: To Want, Love\nGerundio: queriendo\nPasado Participio: querido\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nquiero\nquieres\nquiere\nqueremos\nqueréis\nquieren\n    Imperfecto\nquería\nquerías\nquería\nqueríamos\nqueríais\nquerían\n    Pretérito\nquise\nquisiste\nquiso\nquisimos\nquisisteis\nquisieron\n    Futuro\nquerré\nquerrás\nquerrá\nquerremos\nquerréis\nquerrán\n    Condicional\nquerría\nquerrías\nquerría\nquerríamos\nquerríais\nquerrían\n    Presente perfecto\nhe querido\nhas querido\nha querido\nhemos querido\nhabéis querido\nhan querido\n    Pluscuamperfecto\nhabía querido\nhabías querido\nhabía querido\nhabíamos querido\nhabíais querido\nhabían querido\n    Pretérito anterior\nhube querido\nhubiste querido\nhubo querido\nhubimos querido\nhubisteis querido\nhubieron querido\n    Futuro perfecto\nhabré querido\nhabrás querido\nhabrá querido\nhabremos querido\nhabréis querido\nhabrán querido\n    Condicional perfecto\nhabría querido\nhabrías querido\nhabría querido\nhabríamos querido\nhabríais querido\nhabrían querido\n    \n      Subjuntivo\n    \n    Presente\nquiera\nquieras\nquiera\nqueramos\nqueráis\nquieran\n    Imperfecto\nquisiera\nquisieras\nquisiera\nquisiéramos\nquisierais\nquisieran\n    Futuro\nquisiere\nquisieres\nquisiere\nquisiéremos\nquisiereis\nquisieren\n    Presente perfecto\nhaya querido\nhayas querido\nhaya querido\nhayamos querido\nhayáis querido\nhayan querido\n    Pluscuamperfecto\nhubiera querido\nhubieras querido\nhubiera querido\nhubiéramos querido\nhubierais querido\nhubieran querido\n    Futuro perfecto\nhubiere querido\nhubieres querido\nhubiere querido\nhubiéremos querido\nhubiereis querido\nhubieren querido\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nquiere\nquiera\nquieramos\nquered\nquieran\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno quieras\nno quiera\nno quieramos\nno queráis\nno quieran"
+  },
+  {
+    "objectID": "i_l1.html#venir-to-come",
+    "href": "i_l1.html#venir-to-come",
+    "title": "1  Level 1 verbs",
+    "section": "1.10 venir (to come)",
+    "text": "1.10 venir (to come)\n\n1.10.1 Conjugation Table\n\ncreate_conjugation_table(\"venir\")\n\n\n\n\n\n  \n    \n      Conjugation of venir\n    \n    \n      English: To Come\nGerundio: viniendo\nPasado Participio: venido\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nvengo\nvienes\nviene\nvenimos\nvenís\nvienen\n    Imperfecto\nvenía\nvenías\nvenía\nveníamos\nveníais\nvenían\n    Pretérito\nvine\nviniste\nvino\nvinimos\nvinisteis\nvinieron\n    Futuro\nvendré\nvendrás\nvendrá\nvendremos\nvendréis\nvendrán\n    Condicional\nvendría\nvendrías\nvendría\nvendríamos\nvendríais\nvendrían\n    Presente perfecto\nhe venido\nhas venido\nha venido\nhemos venido\nhabéis venido\nhan venido\n    Pluscuamperfecto\nhabía venido\nhabías venido\nhabía venido\nhabíamos venido\nhabíais venido\nhabían venido\n    Pretérito anterior\nhube venido\nhubiste venido\nhubo venido\nhubimos venido\nhubisteis venido\nhubieron venido\n    Futuro perfecto\nhabré venido\nhabrás venido\nhabrá venido\nhabremos venido\nhabréis venido\nhabrán venido\n    Condicional perfecto\nhabría venido\nhabrías venido\nhabría venido\nhabríamos venido\nhabríais venido\nhabrían venido\n    \n      Subjuntivo\n    \n    Presente\nvenga\nvengas\nvenga\nvengamos\nvengáis\nvengan\n    Imperfecto\nviniera\nvinieras\nviniera\nviniéramos\nvinierais\nvinieran\n    Futuro\nviniere\nvinieres\nviniere\nviniéremos\nviniereis\nvinieren\n    Presente perfecto\nhaya venido\nhayas venido\nhaya venido\nhayamos venido\nhayáis venido\nhayan venido\n    Pluscuamperfecto\nhubiera venido\nhubieras venido\nhubiera venido\nhubiéramos venido\nhubierais venido\nhubieran venido\n    Futuro perfecto\nhubiere venido\nhubieres venido\nhubiere venido\nhubiéremos venido\nhubiereis venido\nhubieren venido\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nven\nvenga\nvengamos\nvenid\nvengan\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno vengas\nno venga\nno vengamos\nno vengáis\nno vengan"
+  },
+  {
+    "objectID": "i_l1.html#conjugation-table",
+    "href": "i_l1.html#conjugation-table",
+    "title": "Level 1 verbs",
+    "section": "Conjugation Table",
+    "text": "Conjugation Table\n\ncreate_conjugation_table(\"ser\")\n\n\n\n\n\n  \n    \n      Conjugation of ser\n    \n    \n      English: To Be\nGerundio: siendo\nPasado Participio: sido\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nsoy\neres\nes\nsomos\nsois\nson\n    Imperfecto\nera\neras\nera\néramos\nerais\neran\n    Pretérito\nfui\nfuiste\nfue\nfuimos\nfuisteis\nfueron\n    Futuro\nseré\nserás\nserá\nseremos\nseréis\nserán\n    Condicional\nsería\nserías\nsería\nseríamos\nseríais\nserían\n    Presente perfecto\nhe sido\nhas sido\nha sido\nhemos sido\nhabéis sido\nhan sido\n    Pluscuamperfecto\nhabía sido\nhabías sido\nhabía sido\nhabíamos sido\nhabíais sido\nhabían sido\n    Pretérito anterior\nhube sido\nhubiste sido\nhubo sido\nhubimos sido\nhubisteis sido\nhubieron sido\n    Futuro perfecto\nhabré sido\nhabrás sido\nhabrá sido\nhabremos sido\nhabréis sido\nhabrán sido\n    Condicional perfecto\nhabría sido\nhabrías sido\nhabría sido\nhabríamos sido\nhabríais sido\nhabrían sido\n    \n      Subjuntivo\n    \n    Presente\nsea\nseas\nsea\nseamos\nseáis\nsean\n    Imperfecto\nfuera\nfueras\nfuera\nfuéramos\nfuerais\nfueran\n    Futuro\nfuere\nfueres\nfuere\nfuéremos\nfuereis\nfueren\n    Presente perfecto\nhaya sido\nhayas sido\nhaya sido\nhayamos sido\nhayáis sido\nhayan sido\n    Pluscuamperfecto\nhubiera sido\nhubieras sido\nhubiera sido\nhubiéramos sido\nhubierais sido\nhubieran sido\n    Futuro perfecto\nhubiere sido\nhubieres sido\nhubiere sido\nhubiéremos sido\nhubiereis sido\nhubieren sido\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nsé\nsea\nseamos\nsed\nsean\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno seas\nno sea\nno seamos\nno seais\nno sean"
+  },
+  {
+    "objectID": "i_l1.html#example-phrases",
+    "href": "i_l1.html#example-phrases",
+    "title": "Level 1 verbs",
+    "section": "Example Phrases",
+    "text": "Example Phrases\n\n¿Qué hora es?\n\nWhat time is it?\n\nEs la una.\n\nIt’s one o’clock.\n\nSon las dos\n\nIt’s two o’clock.\n\nSerá un regalo.\n\nIt will be a gift.\n\nPara ser tan viejo, él es muy ágil.\n\nIn spite of being so old, he is very nimble.\n\nSoy aficionado al béisbol.\n\nI’m a baseball fan.\n\nMi profesora de español es amable conmigo.\n\nMy Spanish teacher is kind to me.\n\nTe escucho. Soy de todo oídos.\n\nI’m listening to you. I’m all ears.\n\nEste libro es de María.\n\nThis book is Mary’s."
+  },
+  {
+    "objectID": "i_l1.html#proverbios",
+    "href": "i_l1.html#proverbios",
+    "title": "Level 1 verbs",
+    "section": "Proverbios",
+    "text": "Proverbios\n\nDime con quién andas y te diré quién eres.\n\nTell me who your friends are and I will tell you who you are. (Birds of a feather flock together.)"
+  },
+  {
+    "objectID": "i_l1.html#conjugation-table-1",
+    "href": "i_l1.html#conjugation-table-1",
+    "title": "Level 1 verbs",
+    "section": "Conjugation Table",
+    "text": "Conjugation Table\n\ncreate_conjugation_table(\"estar\")\n\n\n\n\n\n  \n    \n      Conjugation of estar\n    \n    \n      English: To Be\nGerundio: estando\nPasado Participio: estado\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nestoy\nestás\nestá\nestamos\nestáis\nestán\n    Imperfecto\nestaba\nestabas\nestaba\nestábamos\nestabais\nestaban\n    Pretérito\nestuve\nestuviste\nestuvo\nestuvimos\nestuvisteis\nestuvieron\n    Futuro\nestaré\nestarás\nestará\nestaremos\nestaréis\nestarán\n    Condicional\nestaría\nestarías\nestaría\nestaríamos\nestaríais\nestarían\n    Presente perfecto\nhe estado\nhas estado\nha estado\nhemos estado\nhabéis estado\nhan estado\n    Pluscuamperfecto\nhabía estado\nhabías estado\nhabía estado\nhabíamos estado\nhabíais estado\nhabían estado\n    Pretérito anterior\nhube estado\nhubiste estado\nhubo estado\nhubimos estado\nhubisteis estado\nhubieron estado\n    Futuro perfecto\nhabré estado\nhabrás estado\nhabrá estado\nhabremos estado\nhabréis estado\nhabrán estado\n    Condicional perfecto\nhabría estado\nhabrías estado\nhabría estado\nhabríamos estado\nhabríais estado\nhabrían estado\n    \n      Subjuntivo\n    \n    Presente\nesté\nestés\nesté\nestemos\nestéis\nestén\n    Imperfecto\nestuviera\nestuvieras\nestuviera\nestuviéramos\nestuvierais\nestuvieran\n    Futuro\nestuviere\nestuvieres\nestuviere\nestuviéremos\nestuviereis\nestuvieren\n    Presente perfecto\nhaya estado\nhayas estado\nhaya estado\nhayamos estado\nhayáis estado\nhayan estado\n    Pluscuamperfecto\nhubiera estado\nhubieras estado\nhubiera estado\nhubiéramos estado\nhubierais estado\nhubieran estado\n    Futuro perfecto\nhubiere estado\nhubieres estado\nhubiere estado\nhubiéremos estado\nhubiereis estado\nhubieren estado\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nestá\nesté\nestémos\nestad\nestén\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno estés\nno esté\nno estémos\nno estéis\nno estén"
+  },
+  {
+    "objectID": "i_l1.html#conjugation-table-2",
+    "href": "i_l1.html#conjugation-table-2",
+    "title": "Level 1 verbs",
+    "section": "Conjugation Table",
+    "text": "Conjugation Table\n\ncreate_conjugation_table(\"tener\")\n\n\n\n\n\n  \n    \n      Conjugation of tener\n    \n    \n      English: To Have\nGerundio: teniendo\nPasado Participio: tenido\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\ntengo\ntienes\ntiene\ntenemos\ntenéis\ntienen\n    Imperfecto\ntenía\ntenías\ntenía\nteníamos\nteníais\ntenían\n    Pretérito\ntuve\ntuviste\ntuvo\ntuvimos\ntuvisteis\ntuvieron\n    Futuro\ntendré\ntendrás\ntendrá\ntendremos\ntendréis\ntendrán\n    Condicional\ntendría\ntendrías\ntendría\ntendríamos\ntendríais\ntendrían\n    Presente perfecto\nhe tenido\nhas tenido\nha tenido\nhemos tenido\nhabéis tenido\nhan tenido\n    Pluscuamperfecto\nhabía tenido\nhabías tenido\nhabía tenido\nhabíamos tenido\nhabíais tenido\nhabían tenido\n    Pretérito anterior\nhube tenido\nhubiste tenido\nhubo tenido\nhubimos tenido\nhubisteis tenido\nhubieron tenido\n    Futuro perfecto\nhabré tenido\nhabrás tenido\nhabrá tenido\nhabremos tenido\nhabréis tenido\nhabrán tenido\n    Condicional perfecto\nhabría tenido\nhabrías tenido\nhabría tenido\nhabríamos tenido\nhabríais tenido\nhabrían tenido\n    \n      Subjuntivo\n    \n    Presente\ntenga\ntengas\ntenga\ntengamos\ntengáis\ntengan\n    Imperfecto\ntuviera\ntuvieras\ntuviera\ntuviéramos\ntuvierais\ntuvieran\n    Futuro\ntuviere\ntuvieres\ntuviere\ntuviéremos\ntuviereis\ntuvieren\n    Presente perfecto\nhaya tenido\nhayas tenido\nhaya tenido\nhayamos tenido\nhayáis tenido\nhayan tenido\n    Pluscuamperfecto\nhubiera tenido\nhubieras tenido\nhubiera tenido\nhubiéramos tenido\nhubierais tenido\nhubieran tenido\n    Futuro perfecto\nhubiere tenido\nhubieres tenido\nhubiere tenido\nhubiéremos tenido\nhubiereis tenido\nhubieren tenido\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nten\ntenga\ntengamos\ntened\ntengan\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno tengas\nno tenga\nno tengamos\nno tengáis\nno tengan"
+  },
+  {
+    "objectID": "i_l1.html#conjugation-table-3",
+    "href": "i_l1.html#conjugation-table-3",
+    "title": "Level 1 verbs",
+    "section": "Conjugation Table",
+    "text": "Conjugation Table\n\ncreate_conjugation_table(\"hacer\")\n\n\n\n\n\n  \n    \n      Conjugation of hacer\n    \n    \n      English: To Do, Make\nGerundio: haciendo\nPasado Participio: hecho\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nhago\nhaces\nhace\nhacemos\nhacéis\nhacen\n    Imperfecto\nhacía\nhacías\nhacía\nhacíamos\nhacíais\nhacían\n    Pretérito\nhice\nhiciste\nhizo\nhicimos\nhicisteis\nhicieron\n    Futuro\nharé\nharás\nhará\nharemos\nharéis\nharán\n    Condicional\nharía\nharías\nharía\nharíamos\nharíais\nharían\n    Presente perfecto\nhe hecho\nhas hecho\nha hecho\nhemos hecho\nhabéis hecho\nhan hecho\n    Pluscuamperfecto\nhabía hecho\nhabías hecho\nhabía hecho\nhabíamos hecho\nhabíais hecho\nhabían hecho\n    Pretérito anterior\nhube hecho\nhubiste hecho\nhubo hecho\nhubimos hecho\nhubisteis hecho\nhubieron hecho\n    Futuro perfecto\nhabré hecho\nhabrás hecho\nhabrá hecho\nhabremos hecho\nhabréis hecho\nhabrán hecho\n    Condicional perfecto\nhabría hecho\nhabrías hecho\nhabría hecho\nhabríamos hecho\nhabríais hecho\nhabrían hecho\n    \n      Subjuntivo\n    \n    Presente\nhaga\nhagas\nhaga\nhagamos\nhagáis\nhagan\n    Imperfecto\nhiciera\nhicieras\nhiciera\nhiciéramos\nhicierais\nhicieran\n    Futuro\nhiciere\nhicieres\nhiciere\nhiciéremos\nhiciereis\nhicieren\n    Presente perfecto\nhaya hecho\nhayas hecho\nhaya hecho\nhayamos hecho\nhayáis hecho\nhayan hecho\n    Pluscuamperfecto\nhubiera hecho\nhubieras hecho\nhubiera hecho\nhubiéramos hecho\nhubierais hecho\nhubieran hecho\n    Futuro perfecto\nhubiere hecho\nhubieres hecho\nhubiere hecho\nhubiéremos hecho\nhubiereis hecho\nhubieren hecho\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nhaz\nhaga\nhagamos\nhaced\nhagan\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno hagas\nno haga\nno hagamos\nno hagáis\nno hagan"
+  },
+  {
+    "objectID": "i_l1.html#conjugation-table-4",
+    "href": "i_l1.html#conjugation-table-4",
+    "title": "Level 1 verbs",
+    "section": "Conjugation Table",
+    "text": "Conjugation Table\n\ncreate_conjugation_table(\"decir\")\n\n\n\n\n\n  \n    \n      Conjugation of decir\n    \n    \n      English: To Say, Tell\nGerundio: diciendo\nPasado Participio: dicho\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\ndigo\ndices\ndice\ndecimos\ndecís\ndicen\n    Imperfecto\ndecía\ndecías\ndecía\ndecíamos\ndecíais\ndecían\n    Pretérito\ndije\ndijiste\ndijo\ndijimos\ndijisteis\ndijeron\n    Futuro\ndiré\ndirás\ndirá\ndiremos\ndiréis\ndirán\n    Condicional\ndiría\ndirías\ndiría\ndiríamos\ndiríais\ndirían\n    Presente perfecto\nhe dicho\nhas dicho\nha dicho\nhemos dicho\nhabéis dicho\nhan dicho\n    Pluscuamperfecto\nhabía dicho\nhabías dicho\nhabía dicho\nhabíamos dicho\nhabíais dicho\nhabían dicho\n    Pretérito anterior\nhube dicho\nhubiste dicho\nhubo dicho\nhubimos dicho\nhubisteis dicho\nhubieron dicho\n    Futuro perfecto\nhabré dicho\nhabrás dicho\nhabrá dicho\nhabremos dicho\nhabréis dicho\nhabrán dicho\n    Condicional perfecto\nhabría dicho\nhabrías dicho\nhabría dicho\nhabríamos dicho\nhabríais dicho\nhabrían dicho\n    \n      Subjuntivo\n    \n    Presente\ndiga\ndigas\ndiga\ndigamos\ndigáis\ndigan\n    Imperfecto\ndijera\ndijeras\ndijera\ndijéramos\ndijerais\ndijeran\n    Futuro\ndijere\ndijeres\ndijere\ndijéremos\ndijereis\ndijeren\n    Presente perfecto\nhaya dicho\nhayas dicho\nhaya dicho\nhayamos dicho\nhayáis dicho\nhayan dicho\n    Pluscuamperfecto\nhubiera dicho\nhubieras dicho\nhubiera dicho\nhubiéramos dicho\nhubierais dicho\nhubieran dicho\n    Futuro perfecto\nhubiere dicho\nhubieres dicho\nhubiere dicho\nhubiéremos dicho\nhubiereis dicho\nhubieren dicho\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \ndi\ndiga\ndigamos\ndecid\ndigan\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno digas\nno diga\nno digamos\nno digáis\nno digan"
+  },
+  {
+    "objectID": "i_l1.html#conjugation-table-5",
+    "href": "i_l1.html#conjugation-table-5",
+    "title": "Level 1 verbs",
+    "section": "Conjugation Table",
+    "text": "Conjugation Table\n\ncreate_conjugation_table(\"ir\")\n\n\n\n\n\n  \n    \n      Conjugation of ir\n    \n    \n      English: To Go\nGerundio: yendo\nPasado Participio: ido\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nvoy\nvas\nva\nvamos\nvais\nvan\n    Imperfecto\niba\nibas\niba\níbamos\nibais\niban\n    Pretérito\nfui\nfuiste\nfue\nfuimos\nfuisteis\nfueron\n    Futuro\niré\nirás\nirá\niremos\niréis\nirán\n    Condicional\niría\nirías\niría\niríamos\niríais\nirían\n    Presente perfecto\nhe ido\nhas ido\nha ido\nhemos ido\nhabéis ido\nhan ido\n    Pluscuamperfecto\nhabía ido\nhabías ido\nhabía ido\nhabíamos ido\nhabíais ido\nhabían ido\n    Pretérito anterior\nhube ido\nhubiste ido\nhubo ido\nhubimos ido\nhubisteis ido\nhubieron ido\n    Futuro perfecto\nhabré ido\nhabrás ido\nhabrá ido\nhabremos ido\nhabréis ido\nhabrán ido\n    Condicional perfecto\nhabría ido\nhabrías ido\nhabría ido\nhabríamos ido\nhabríais ido\nhabrían ido\n    \n      Subjuntivo\n    \n    Presente\nvaya\nvayas\nvaya\nvayamos\nvayáis\nvayan\n    Imperfecto\nfuera\nfueras\nfuera\nfuéramos\nfuerais\nfueran\n    Futuro\nfuere\nfueres\nfuere\nfuéremos\nfuereis\nfueren\n    Presente perfecto\nhaya ido\nhayas ido\nhaya ido\nhayamos ido\nhayáis ido\nhayan ido\n    Pluscuamperfecto\nhubiera ido\nhubieras ido\nhubiera ido\nhubiéramos ido\nhubierais ido\nhubieran ido\n    Futuro perfecto\nhubiere ido\nhubieres ido\nhubiere ido\nhubiéremos ido\nhubiereis ido\nhubieren ido\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nve\nvaya\nvayamos\nid\nvayan\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno vayas\nno vaya\nno vayamos\nno vayáis\nno vayan\n  \n  \n  \n\n\n\ncreate_conjugation_table(\"irse\")\n\n\n\n\n\n  \n    \n      Conjugation of irse\n    \n    \n      English: To Go Away, Leave, Depart\nGerundio: yéndose\nPasado Participio: ido\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nme voy\nte vas\nse va\nnos vamos\nos vais\nse van\n    Imperfecto\nme iba\nte ibas\nse iba\nnos íbamos\nos ibais\nse iban\n    Pretérito\nme fui\nte fuiste\nse fue\nnos fuimos\nos fuisteis\nse fueron\n    Futuro\nme iré\nte irás\nse irá\nnos iremos\nos iréis\nse irán\n    Condicional\nme iría\nte irías\nse iría\nnos iríamos\nos iríais\nse irían\n    Presente perfecto\nme he ido\nte has ido\nse ha ido\nnos hemos ido\nos habéis ido\nse han ido\n    Pluscuamperfecto\nme había ido\nte habías ido\nse había ido\nnos habíamos ido\nos habíais ido\nse habían ido\n    Pretérito anterior\nme hube ido\nte hubiste ido\nse hubo ido\nnos hubimos ido\nos hubisteis ido\nse hubieron ido\n    Futuro perfecto\nme habré ido\nte habrás ido\nse habrá ido\nnos habremos ido\nos habréis ido\nse habrán ido\n    Condicional perfecto\nme habría ido\nte habrías ido\nse habría ido\nnos habríamos ido\nos habríais ido\nse habrían ido\n    \n      Subjuntivo\n    \n    Presente\nme vaya\nte vayas\nse vaya\nnos vayamos\nos vayáis\nse vayan\n    Imperfecto\nme fuera\nte fueras\nse fuera\nnos fuéramos\nos fuerais\nse fueran\n    Futuro\nme fuere\nte fueres\nse fuere\nnos fuéremos\nos fuereis\nse fueren\n    Presente perfecto\nme haya ido\nte hayas ido\nse haya ido\nnos hayamos ido\nos hayáis ido\nse hayan ido\n    Pluscuamperfecto\nme hubiera ido\nte hubieras ido\nse hubiera ido\nnos hubiéramos ido\nos hubierais ido\nse hubieran ido\n    Futuro perfecto\nme hubiere ido\nte hubieres ido\nse hubiere ido\nnos hubiéremos ido\nos hubiereis ido\nse hubieren ido\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nvete\nváyase\nváyasemos\nidos\nváyanse\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno te vayas\nno se vaya\nno se vayamos\nno os vayáis\nno se vayan"
+  },
+  {
+    "objectID": "i_l1.html#conjugation-table-6",
+    "href": "i_l1.html#conjugation-table-6",
+    "title": "Level 1 verbs",
+    "section": "Conjugation Table",
+    "text": "Conjugation Table\n\ncreate_conjugation_table(\"ver\")\n\n\n\n\n\n  \n    \n      Conjugation of ver\n    \n    \n      English: To See\nGerundio: viendo\nPasado Participio: visto\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nveo\nves\nve\nvemos\nveis\nven\n    Imperfecto\nveía\nveías\nveía\nveíamos\nveíais\nveían\n    Pretérito\nvi\nviste\nvio\nvimos\nvisteis\nvieron\n    Futuro\nveré\nverás\nverá\nveremos\nveréis\nverán\n    Condicional\nvería\nverías\nvería\nveríamos\nveríais\nverían\n    Presente perfecto\nhe visto\nhas visto\nha visto\nhemos visto\nhabéis visto\nhan visto\n    Pluscuamperfecto\nhabía visto\nhabías visto\nhabía visto\nhabíamos visto\nhabíais visto\nhabían visto\n    Pretérito anterior\nhube visto\nhubiste visto\nhubo visto\nhubimos visto\nhubisteis visto\nhubieron visto\n    Futuro perfecto\nhabré visto\nhabrás visto\nhabrá visto\nhabremos visto\nhabréis visto\nhabrán visto\n    Condicional perfecto\nhabría visto\nhabrías visto\nhabría visto\nhabríamos visto\nhabríais visto\nhabrían visto\n    \n      Subjuntivo\n    \n    Presente\nvea\nveas\nvea\nveamos\nveáis\nvean\n    Imperfecto\nviera\nvieras\nviera\nviéramos\nvierais\nvieran\n    Futuro\nviere\nvieres\nviere\nviéremos\nviereis\nvieren\n    Presente perfecto\nhaya visto\nhayas visto\nhaya visto\nhayamos visto\nhayáis visto\nhayan visto\n    Pluscuamperfecto\nhubiera visto\nhubieras visto\nhubiera visto\nhubiéramos visto\nhubierais visto\nhubieran visto\n    Futuro perfecto\nhubiere visto\nhubieres visto\nhubiere visto\nhubiéremos visto\nhubiereis visto\nhubieren visto\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nve\nvea\nveamos\nved\nvean\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno veas\nno vea\nno veamos\nno veáis\nno vean"
+  },
+  {
+    "objectID": "i_l1.html#conjugation-table-7",
+    "href": "i_l1.html#conjugation-table-7",
+    "title": "Level 1 verbs",
+    "section": "Conjugation Table",
+    "text": "Conjugation Table\n\ncreate_conjugation_table(\"poder\")\n\n\n\n\n\n  \n    \n      Conjugation of poder\n    \n    \n      English: To Be Able, Can\nGerundio: pudiendo\nPasado Participio: podido\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\npuedo\npuedes\npuede\npodemos\npodéis\npueden\n    Imperfecto\npodía\npodías\npodía\npodíamos\npodíais\npodían\n    Pretérito\npude\npudiste\npudo\npudimos\npudisteis\npudieron\n    Futuro\npodré\npodrás\npodrá\npodremos\npodréis\npodrán\n    Condicional\npodría\npodrías\npodría\npodríamos\npodríais\npodrían\n    Presente perfecto\nhe podido\nhas podido\nha podido\nhemos podido\nhabéis podido\nhan podido\n    Pluscuamperfecto\nhabía podido\nhabías podido\nhabía podido\nhabíamos podido\nhabíais podido\nhabían podido\n    Pretérito anterior\nhube podido\nhubiste podido\nhubo podido\nhubimos podido\nhubisteis podido\nhubieron podido\n    Futuro perfecto\nhabré podido\nhabrás podido\nhabrá podido\nhabremos podido\nhabréis podido\nhabrán podido\n    Condicional perfecto\nhabría podido\nhabrías podido\nhabría podido\nhabríamos podido\nhabríais podido\nhabrían podido\n    \n      Subjuntivo\n    \n    Presente\npueda\npuedas\npueda\npodamos\npodáis\npuedan\n    Imperfecto\npudiera\npudieras\npudiera\npudiéramos\npudierais\npudieran\n    Futuro\npudiere\npudieres\npudiere\npudiéremos\npudiereis\npudieren\n    Presente perfecto\nhaya podido\nhayas podido\nhaya podido\nhayamos podido\nhayáis podido\nhayan podido\n    Pluscuamperfecto\nhubiera podido\nhubieras podido\nhubiera podido\nhubiéramos podido\nhubierais podido\nhubieran podido\n    Futuro perfecto\nhubiere podido\nhubieres podido\nhubiere podido\nhubiéremos podido\nhubiereis podido\nhubieren podido\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \npuede\npueda\npuedamos\npoded\npuedan\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno puedas\nno pueda\nno puedamos\nno podáis\nno puedan"
+  },
+  {
+    "objectID": "i_l1.html#conjugation-table-8",
+    "href": "i_l1.html#conjugation-table-8",
+    "title": "Level 1 verbs",
+    "section": "Conjugation Table",
+    "text": "Conjugation Table\n\ncreate_conjugation_table(\"querer\")\n\n\n\n\n\n  \n    \n      Conjugation of querer\n    \n    \n      English: To Want, Love\nGerundio: queriendo\nPasado Participio: querido\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nquiero\nquieres\nquiere\nqueremos\nqueréis\nquieren\n    Imperfecto\nquería\nquerías\nquería\nqueríamos\nqueríais\nquerían\n    Pretérito\nquise\nquisiste\nquiso\nquisimos\nquisisteis\nquisieron\n    Futuro\nquerré\nquerrás\nquerrá\nquerremos\nquerréis\nquerrán\n    Condicional\nquerría\nquerrías\nquerría\nquerríamos\nquerríais\nquerrían\n    Presente perfecto\nhe querido\nhas querido\nha querido\nhemos querido\nhabéis querido\nhan querido\n    Pluscuamperfecto\nhabía querido\nhabías querido\nhabía querido\nhabíamos querido\nhabíais querido\nhabían querido\n    Pretérito anterior\nhube querido\nhubiste querido\nhubo querido\nhubimos querido\nhubisteis querido\nhubieron querido\n    Futuro perfecto\nhabré querido\nhabrás querido\nhabrá querido\nhabremos querido\nhabréis querido\nhabrán querido\n    Condicional perfecto\nhabría querido\nhabrías querido\nhabría querido\nhabríamos querido\nhabríais querido\nhabrían querido\n    \n      Subjuntivo\n    \n    Presente\nquiera\nquieras\nquiera\nqueramos\nqueráis\nquieran\n    Imperfecto\nquisiera\nquisieras\nquisiera\nquisiéramos\nquisierais\nquisieran\n    Futuro\nquisiere\nquisieres\nquisiere\nquisiéremos\nquisiereis\nquisieren\n    Presente perfecto\nhaya querido\nhayas querido\nhaya querido\nhayamos querido\nhayáis querido\nhayan querido\n    Pluscuamperfecto\nhubiera querido\nhubieras querido\nhubiera querido\nhubiéramos querido\nhubierais querido\nhubieran querido\n    Futuro perfecto\nhubiere querido\nhubieres querido\nhubiere querido\nhubiéremos querido\nhubiereis querido\nhubieren querido\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nquiere\nquiera\nquieramos\nquered\nquieran\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno quieras\nno quiera\nno quieramos\nno queráis\nno quieran"
+  },
+  {
+    "objectID": "i_l1.html#conjugation-table-9",
+    "href": "i_l1.html#conjugation-table-9",
+    "title": "Level 1 verbs",
+    "section": "Conjugation Table",
+    "text": "Conjugation Table\n\ncreate_conjugation_table(\"venir\")\n\n\n\n\n\n  \n    \n      Conjugation of venir\n    \n    \n      English: To Come\nGerundio: viniendo\nPasado Participio: venido\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nvengo\nvienes\nviene\nvenimos\nvenís\nvienen\n    Imperfecto\nvenía\nvenías\nvenía\nveníamos\nveníais\nvenían\n    Pretérito\nvine\nviniste\nvino\nvinimos\nvinisteis\nvinieron\n    Futuro\nvendré\nvendrás\nvendrá\nvendremos\nvendréis\nvendrán\n    Condicional\nvendría\nvendrías\nvendría\nvendríamos\nvendríais\nvendrían\n    Presente perfecto\nhe venido\nhas venido\nha venido\nhemos venido\nhabéis venido\nhan venido\n    Pluscuamperfecto\nhabía venido\nhabías venido\nhabía venido\nhabíamos venido\nhabíais venido\nhabían venido\n    Pretérito anterior\nhube venido\nhubiste venido\nhubo venido\nhubimos venido\nhubisteis venido\nhubieron venido\n    Futuro perfecto\nhabré venido\nhabrás venido\nhabrá venido\nhabremos venido\nhabréis venido\nhabrán venido\n    Condicional perfecto\nhabría venido\nhabrías venido\nhabría venido\nhabríamos venido\nhabríais venido\nhabrían venido\n    \n      Subjuntivo\n    \n    Presente\nvenga\nvengas\nvenga\nvengamos\nvengáis\nvengan\n    Imperfecto\nviniera\nvinieras\nviniera\nviniéramos\nvinierais\nvinieran\n    Futuro\nviniere\nvinieres\nviniere\nviniéremos\nviniereis\nvinieren\n    Presente perfecto\nhaya venido\nhayas venido\nhaya venido\nhayamos venido\nhayáis venido\nhayan venido\n    Pluscuamperfecto\nhubiera venido\nhubieras venido\nhubiera venido\nhubiéramos venido\nhubierais venido\nhubieran venido\n    Futuro perfecto\nhubiere venido\nhubieres venido\nhubiere venido\nhubiéremos venido\nhubiereis venido\nhubieren venido\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nven\nvenga\nvengamos\nvenid\nvengan\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno vengas\nno venga\nno vengamos\nno vengáis\nno vengan"
+  },
+  {
+    "objectID": "i_l1.html#dichos",
+    "href": "i_l1.html#dichos",
+    "title": "Level 1 verbs",
+    "section": "Dichos",
+    "text": "Dichos\n\nDebe de ser…\n\nIt is probably…\n\nDebe ser…\n\nIt ought to be…\n\nEs de lamentar.\n\nIt’s too bad.\n\nEs de mi agrado.\n\nIt’s to my liking.\n\nEs hora de…\n\nIt is time to…\n\nEs (una) lástima.\n\nIt’s a pity. It’s too bad.\n\nEs que…\n\nThe fact is…\n\npara ser…\n\nin spite of being…\n\nsea lo que sea\n\nwhatever it may be\n\nser aburrido\n\nto be boring\n\nser aficionado a\n\nto be a fan of\n\nser amable con\n\nto be kind to\n\nser capaz\n\nto be able\n\nser de\n\nto belong to\n\nser de rigor\n\nto be indispensable\n\nser de ver\n\nto be worth seeing\n\nser digno de\n\nto deserve, to be worth\n\nser listo/lista\n\nto be clever\n\nser todo oídos\n\nto be all ears\n\nsi no fuera por…\n\nif it were not for…\n\nSi yo fuera usted…\n\nIf I were you…"
+  },
+  {
+    "objectID": "i_l1.html#when-to-use-estar-vs-ser",
+    "href": "i_l1.html#when-to-use-estar-vs-ser",
+    "title": "Level 1 verbs",
+    "section": "When to use estar vs ser",
+    "text": "When to use estar vs ser\nHealth:\n\n¿Cómo está Ud.? How are you?\nEstoy bien. I am well.\nEstoy enfermo (enferma). I am sick.\n\nLocation: persons, places, things\n\nEstoy en la sala de clase. I am in the classroom.\nLa escuela está lejos. The school is far.\nBarcelona está en España. Barcelona is (located) in Spain.\nLos libros están en la mesa. The books are on the table.\n\nState or condition: persons\n\nEstoy contento (contenta). I am happy.\nLos alumnos están cansados. (Las alumnas están cansadas.) The students are tired.\nMaría está triste hoy. Mary is sad today.\nEstoy listo (lista). I am ready.\nEstoy pálido (pálida). I am pale.\nEstoy ocupado (ocupada). I am busy.\nEstoy seguro (segura). I am sure.\nEste hombre está vivo. This man is alive.\nEse hombre está muerto. That man is dead.\nEste hombre está borracho. This man is drunk.\n\nTo form the progressive present of a verb:\nuse the present tense of estar + the present participle of the main verb\n\nEstoy estudiando en mi cuarto y no puedo salir esta noche.\n\nI am studying in my room and I cannot go out tonight.\n\n\nTo form the progressive past of a verb:\nuse the imperfect tense of estar + the present participle of the main verb:\n\nMi hermano estaba leyendo cuando (yo) entré en el cuarto.\n\nMy brother was reading when I entered (came into) the room."
+  },
+  {
+    "objectID": "i_l1.html#example-phrases-1",
+    "href": "i_l1.html#example-phrases-1",
+    "title": "Level 1 verbs",
+    "section": "Example Phrases",
+    "text": "Example Phrases\n\nDígame, por favor, dónde está la sala de espera.\n\nTell me, please, where the waiting room is located.\n\n¿Cuándo estará todo listo?\n\nWhen will it all be ready?\n\nEstá lloviendo ahora.\n\nIt’s raining now.\n\nEstoy a punto de salir./Estoy para salir.\n\nI am about to go out."
+  },
+  {
+    "objectID": "i_l1.html#proverbios-1",
+    "href": "i_l1.html#proverbios-1",
+    "title": "Level 1 verbs",
+    "section": "Proverbios",
+    "text": "Proverbios\n\nAnda despacio que tengo prisa.\n\nMake haste slowly. (Easy does it.)\n\nAquellos son ricos, que tienen amigos.\n\nThose who have friends are rich.\n\nEl que más tiene más quiere.\n\nThe more one has, the more one wants."
+  },
+  {
+    "objectID": "i_l1.html#dichos-1",
+    "href": "i_l1.html#dichos-1",
+    "title": "Level 1 verbs",
+    "section": "Dichos",
+    "text": "Dichos\n\nestá bien\n\nall right, okay\n\nestar a punto de + inf.\n\nto be about + inf.\n\nestar a sus anchas\n\nto be comfortable\n\nestar aburrido (aburrida)\n\nto be bored\n\nestar al día\n\nto be up to date\n\nestar bien\n\nto be well\n\nestar conforme con\n\nto be in agreement with\n\nestar de acuerdo\n\nto agree\n\nestar de acuerdo con\n\nto be in agreement with\n\nestar de boga\n\nto be in fashion\n\nestar de buenas\n\nto be lucky\n\nestar de más\n\nto be unnecessary\n\nestar de pie\n\nto be standing\n\nestar de vuelta\n\nto be back\n\nestar listo (lista)\n\nto be ready\n\nestar mal\n\nto be ill\n\nestar para + inf.\n\nto be about to\n\nestar por\n\nto be in favor of\n\nno estar para bromas\n\nnot to be in the mood for jokes\n\nestar vivo(a)\n\nto be alive\n\nel estado\n\nstate, condition"
+  },
+  {
+    "objectID": "i_l1.html#expressions-and-formulas",
+    "href": "i_l1.html#expressions-and-formulas",
+    "title": "Level 1 verbs",
+    "section": "Expressions and Formulas",
+    "text": "Expressions and Formulas\n\n¿Cuánto tiempo hace que + present tense…?\n\nUse this formula when you want to ask “How long + the present perfect tense” in English.\n\n¿Cuánto tiempo hace que Ud. estudia español?\n\nHow long have you been studying Spanish?\n\n\n\n¿Hace + length of time + que + present tense\n\nThis formula is the usual answer to the question “¿Cuánto tiempo hace que + present tense…?”\n\nHace tres años que estudio español.\n\nI have been studying Spanish for three years.\n\n\n\n¿Desde cuándo + present tense…?\n\n¿Desde cuándo estudia Ud. español?\n\nHow long have you been studying Spanish?\n\n\nPresent tense + desde hace + length of time\n\nEstudio español desde hace tres años.\n\nI have been studying Spanish for three years.\n\n\n¿Cuánto tiempo hacía que + imperfect tense?\n\nThis formula is equivalent to the English “How long + past perfect tense”.\n\n¿Cuánto tiempo hacía que Ud. hablaba cuando entré en la sala de clase?\n\nHow long had you been talking when I entered the classroom?\n\n\n\nHacía + length of time + que + imperfect tense\n\nHacía una hora que yo hablaba cuando Ud. entró en la sala de clase.\n\nI had been talking for one hour when you entered the classroom.\n\n\n¿Desde cuándo + imperfect tense…?\n\n¿Desde cuándo hablaba Ud. cuando yo entré en la sala de clase?\n\nHow long had you been talking when I entered the classroom?\n\n\nImperfect tense + desde hacía + length of time\n\n(Yo) hablaba desde hacía una hora cuando Ud. entró en la sala de clase.\n\nI had been talking for one hour when you entered the classroom."
+  },
+  {
+    "objectID": "i_l1.html#proverbs",
+    "href": "i_l1.html#proverbs",
+    "title": "Level 1 verbs",
+    "section": "Proverbs",
+    "text": "Proverbs\n\nDe decir a hacer hay mucho que ver.\n\nThere is a great difference between saying and doing. (Easier said than done.)\n\nEl ejercicio hace al maestro.\n\nPractice makes perfect.\n\nNo dejes para mañana lo que puedes hacer hoy.\n\nDon’t put off until tomorrow what you can do today."
+  },
+  {
+    "objectID": "i_l1.html#weather-expressions",
+    "href": "i_l1.html#weather-expressions",
+    "title": "Level 1 verbs",
+    "section": "Weather Expressions",
+    "text": "Weather Expressions\n\nhace buen tiempo\n\nthe weather is good\n\nhace calor\n\nit’s warm (hot)\n\nhace fresco hoy\n\nit’s cool today\n\nhace frío\n\nit’s cold\n\nhace mal tiempo\n\nthe weather is bad\n\nhace sol\n\nit’s sunny\n\nhace viento\n\nit’s windy"
+  },
+  {
+    "objectID": "i_l1.html#sentences-using-hacer",
+    "href": "i_l1.html#sentences-using-hacer",
+    "title": "Level 1 verbs",
+    "section": "Sentences Using “Hacer”",
+    "text": "Sentences Using “Hacer”\n\nHace un mes que partió el señor Molina.\n\nMr. Molina left one month ago.\n\n¿Puede ayudarme a hacer una llamada?\n\nCan you help me make a telephone call?\n\nEl señor González siempre hace de jefe.\n\nMr. González always acts as boss.\n\nA Juan le hace falta un lápiz.\n\nJohn needs a pencil.\n\nElena se hizo dentista.\n\nHelen became a dentist.\n\n¡Vámonos! Se hace tarde.\n\nLet’s leave! It’s getting late."
+  },
+  {
+    "objectID": "i_l1.html#words-and-expressions",
+    "href": "i_l1.html#words-and-expressions",
+    "title": "Level 1 verbs",
+    "section": "Words and Expressions",
+    "text": "Words and Expressions\n\nhace poco\n\na little while ago\n\nhace un año\n\na year ago\n\nhace una hora\n\nan hour ago\n\nhacer cara a\n\nto face\n\nhacer caso de\n\nto pay attention to\n\nhacer clic\n\nto click (on an Internet link)\n\nhacer daño a algo\n\nto harm something\n\nhacer daño a alguien\n\nto harm someone\n\nhacer de\n\nto act as\n\nhacer el baúl\n\nto pack one’s trunk\n\nhacer el favor de + inf.\n\nplease (Example: Haga Ud. el favor de entrar - Please come in.)\n\nhacer el papel de\n\nto play the role of\n\nhacer la maleta\n\nto pack one’s suitcase\n\nhacer pedazos\n\nto smash, to break, to tear into pieces\n\nhacer un viaje\n\nto take a trip\n\nhacer una broma\n\nto play a joke\n\nhacer una pregunta\n\nto ask a question\n\nhacer una visita\n\nto pay a visit, a call\n\nhacerle falta\n\nto need\n\nhacerse\n\nto become\n\nhacerse daño\n\nto hurt oneself, to harm oneself\n\nhacerse tarde\n\nto be getting late\n\nhacer mención de\n\nto make mention of\n\nhacer punto\n\nto knit\n\nhacer uso de\n\nto make use of\n\nhacer caer\n\nto knock over\n\nuna hacienda\n\nranch, estate ## Conjugation Table\n\n\n\ncreate_conjugation_table(\"hacer\")\n\n\n\n\n\n  \n    \n      Conjugation of hacer\n    \n    \n      English: To Do, Make\nGerundio: haciendo\nPasado Participio: hecho\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nhago\nhaces\nhace\nhacemos\nhacéis\nhacen\n    Imperfecto\nhacía\nhacías\nhacía\nhacíamos\nhacíais\nhacían\n    Pretérito\nhice\nhiciste\nhizo\nhicimos\nhicisteis\nhicieron\n    Futuro\nharé\nharás\nhará\nharemos\nharéis\nharán\n    Condicional\nharía\nharías\nharía\nharíamos\nharíais\nharían\n    Presente perfecto\nhe hecho\nhas hecho\nha hecho\nhemos hecho\nhabéis hecho\nhan hecho\n    Pluscuamperfecto\nhabía hecho\nhabías hecho\nhabía hecho\nhabíamos hecho\nhabíais hecho\nhabían hecho\n    Pretérito anterior\nhube hecho\nhubiste hecho\nhubo hecho\nhubimos hecho\nhubisteis hecho\nhubieron hecho\n    Futuro perfecto\nhabré hecho\nhabrás hecho\nhabrá hecho\nhabremos hecho\nhabréis hecho\nhabrán hecho\n    Condicional perfecto\nhabría hecho\nhabrías hecho\nhabría hecho\nhabríamos hecho\nhabríais hecho\nhabrían hecho\n    \n      Subjuntivo\n    \n    Presente\nhaga\nhagas\nhaga\nhagamos\nhagáis\nhagan\n    Imperfecto\nhiciera\nhicieras\nhiciera\nhiciéramos\nhicierais\nhicieran\n    Futuro\nhiciere\nhicieres\nhiciere\nhiciéremos\nhiciereis\nhicieren\n    Presente perfecto\nhaya hecho\nhayas hecho\nhaya hecho\nhayamos hecho\nhayáis hecho\nhayan hecho\n    Pluscuamperfecto\nhubiera hecho\nhubieras hecho\nhubiera hecho\nhubiéramos hecho\nhubierais hecho\nhubieran hecho\n    Futuro perfecto\nhubiere hecho\nhubieres hecho\nhubiere hecho\nhubiéremos hecho\nhubiereis hecho\nhubieren hecho\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nhaz\nhaga\nhagamos\nhaced\nhagan\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno hagas\nno haga\nno hagamos\nno hagáis\nno hagan"
+  },
+  {
+    "objectID": "i_l1.html#formulas-with-hacer",
+    "href": "i_l1.html#formulas-with-hacer",
+    "title": "Level 1 verbs",
+    "section": "Formulas with hacer",
+    "text": "Formulas with hacer\n¿Cuánto tiempo hace que + present tense…?\n\nUse this formula when you want to ask How long + the present perfect tense in English:\n\n¿Cuánto tiempo hace que Ud. estudia español?\n\nHow long have you been studying Spanish?\n\n\nWhen this formula is used, you generally expect the person to tell you how long a time it has been, e.g., one year, two months, a few minutes.\n\nThis is used when the action began at some time in the past and continues up to the present moment. That is why you must use the present tense of the verb—the action of studying, waiting, etc., is still going on at the present.\n\n¿Hace + length of time + que + present tense\n\nThis formula is the usual answer to the question ¿Cuánto tiempo hace que + present tense…?\n\nSince the question is asked in terms of how long, the usual answer is in terms of time: a year, two years, a few days, months, minutes, etc.:\n\nHace tres años que estudio español.\n\nI have been studying Spanish for three years.\n\n\nThe same formula is used if you want to ask how many weeks, how many months, how many minutes, etc.:\n\n¿Cuántos años hace que Ud. estudia español?\n\nHow many years have you been studying Spanish?\n\n\n¿Desde cuándo + present tense…?\n- ¿Desde cuándo estudia Ud. español?\n- How long have you been studying Spanish?\nPresent tense + desde hace + length of time\n- Estudio español desde hace tres años.\n- I have been studying Spanish for three years."
+  },
+  {
+    "objectID": "i_l1.html#example-phrases-2",
+    "href": "i_l1.html#example-phrases-2",
+    "title": "Level 1 verbs",
+    "section": "Example Phrases",
+    "text": "Example Phrases\n\nTengo un dolor de muelas.\n\nI have a toothache.\n\n¿Tiene algo más barato?\n\nDo you have something cheaper?\n\nAquí tiene usted nuestros pasaportes.\n\nHere are our passports.\n\n¿Tengo que trasbordar?\n\nDo I have to transfer? (bus, train, etc.)\n\n¡Tengo mucha hambre!\n\nI’m very hungry!\n\nTenemos que salir.\n\nWe have to go out.\n\nAquí tiene el dinero.\n\nHere is the money.\n\n¿Cuántos años tienes?\n\nHow old are you?\n\nTengo diez y seis (or dieciséis) años.\n\nI am sixteen years old.\n\n—¿Qué tienes? ¿Qué tiene Ud.?\n\n—What’s the matter? What’s the matter with you?\n\n—No tengo nada.\n\n—There’s nothing wrong. There’s nothing the matter with me.\n\nTengo ganas de tomar un helado.\n\nI feel like having an ice cream.\n\nTengo mucho gusto en conocerle.\n\nI am very glad to meet you.\n\nTenga la bondad de cerrar la puerta.\n\nPlease close the door.\n\nEl accidente tuvo lugar anoche.\n\nThe accident took place last night.\n\nTengo que estudiar.\n\nI have to study.\n\nUsted tiene razón.\n\nYou are right."
+  },
+  {
+    "objectID": "i_l1.html#proverbios-2",
+    "href": "i_l1.html#proverbios-2",
+    "title": "Level 1 verbs",
+    "section": "Proverbios",
+    "text": "Proverbios\n\nDe decir a hacer hay mucho que ver.\n\nThere is a great difference between saying and doing. (Easier said than done.)\n\nEl ejercicio hace al maestro.\n\nPractice makes perfect.\n\nNo dejes para mañana lo que puedes hacer hoy.\n\nDon’t put off until tomorrow what you can do today."
+  },
+  {
+    "objectID": "i_l1.html#dichos-2",
+    "href": "i_l1.html#dichos-2",
+    "title": "Level 1 verbs",
+    "section": "Dichos",
+    "text": "Dichos\n\ntener algo que hacer\n\nto have something to do\n\ntener algo en la punta de la lengua\n\nto have something on the tip of one’s tongue\n\ntener apetito\n\nto have an appetite\n\ntener cuidado\n\nto be careful\n\ntener prisa\n\nto be in a hurry\n\ntener hambre\n\nto be hungry\n\ntener sed\n\nto be thirsty\n\ntener frío\n\nto be (feel) cold (persons)\n\ntener calor\n\nto be (feel) warm (persons)\n\ntener dolor de cabeza\n\nto have a headache\n\ntener dolor de estómago\n\nto have a stomachache\n\ntener en cuenta\n\nto take into account\n\ntener éxito\n\nto be successful Syn.: suceder to succeed (Def. and Imp.; see note on p. 664)\n\ntener ganas de + inf.\n\nto feel like + pres. part.\n\ntener gusto en + inf.\n\nto be glad + inf.\n\ntener la bondad de\n\nplease, please be good enough to…\n\ntener la culpa de algo\n\nto take the blame for something, to be to blame for something\n\ntener lugar\n\nto take place\n\ntener más paciencia que Job\n\nto have the patience of Job\n\ntener miedo de\n\nto be afraid of\n\ntener mucha sed\n\nto be (feel) very thirsty (persons)\n\ntener mucho que hacer\n\nto have a lot to do\n\ntener por\n\nto consider as\n\ntener que + inf.\n\nto have + inf.\n\ntener que ver con\n\nto have to do with\n\ntener razón\n\nto be right\n\ntener sueño\n\nto be (feel) sleepy\n\ntener suerte\n\nto be lucky\n\ntener vergüenza de\n\nto be ashamed of\n\ntener visita\n\nto have company\n\ntenerse en pie\n\nto stand\n\nretener\n\nto retain"
+  },
+  {
+    "objectID": "i_l1.html#example-phrases-3",
+    "href": "i_l1.html#example-phrases-3",
+    "title": "Level 1 verbs",
+    "section": "Example Phrases",
+    "text": "Example Phrases\n\nHace un mes que partió el señor Molina.\n\nMr. Molina left one month ago.\n\n¿Puede ayudarme a hacer una llamada?\n\nCan you help me make a telephone call?\n\nEl señor González siempre hace de jefe.\n\nMr. González always acts as boss.\n\nA Juan le hace falta un lápiz.\n\nJohn needs a pencil.\n\nElena se hizo dentista.\n\nHelen became a dentist.\n\n¡Vámonos! Se hace tarde.\n\nLet’s leave! It’s getting late."
+  },
+  {
+    "objectID": "i_l1.html#dichos-3",
+    "href": "i_l1.html#dichos-3",
+    "title": "Level 1 verbs",
+    "section": "Dichos",
+    "text": "Dichos\n\nhace poco\n\na little while ago\n\nhace un año\n\na year ago\n\nhace una hora\n\nan hour ago\n\nhacer cara a\n\nto face\n\nhacer caso de\n\nto pay attention to\n\nhacer clic\n\nto click (on an Internet link)\n\nhacer daño a algo\n\nto harm something\n\nhacer daño a alguien\n\nto harm someone\n\nhacer de\n\nto act as\n\nhacer el baúl\n\nto pack one’s trunk\n\nhacer el favor de + inf.\n\nplease (Example: Haga Ud. el favor de entrar - Please come in.)\n\nhacer el papel de\n\nto play the role of\n\nhacer la maleta\n\nto pack one’s suitcase\n\nhacer pedazos\n\nto smash, to break, to tear into pieces\n\nhacer un viaje\n\nto take a trip\n\nhacer una broma\n\nto play a joke\n\nhacer una pregunta\n\nto ask a question\n\nhacer una visita\n\nto pay a visit, a call\n\nhacerle falta\n\nto need\n\nhacerse\n\nto become\n\nhacerse daño\n\nto hurt oneself, to harm oneself\n\nhacerse tarde\n\nto be getting late\n\nhacer mención de\n\nto make mention of\n\nhacer punto\n\nto knit\n\nhacer uso de\n\nto make use of\n\nhacer caer\n\nto knock over\n\nuna hacienda\n\nranch, estate"
+  },
+  {
+    "objectID": "i_l1.html#example-phrases-4",
+    "href": "i_l1.html#example-phrases-4",
+    "title": "Level 1 verbs",
+    "section": "Example Phrases",
+    "text": "Example Phrases\n\nDígame, por favor, dónde está la sala de espera.\n\nTell me, please, where the waiting room is located.\n\n¿Qué quiere decir esta palabra?\n\nWhat does this word mean?\n\n¡Te he dicho mil veces de ponerte el cinturón de seguridad!\n\nI’ve told you a thousand times to put on your seat belt!"
+  },
+  {
+    "objectID": "i_l1.html#proverbios-3",
+    "href": "i_l1.html#proverbios-3",
+    "title": "Level 1 verbs",
+    "section": "Proverbios",
+    "text": "Proverbios\n\nDime con quién andas y te diré quién eres.\n\nTell me who your friends are and I will tell you who you are.\n\nAl decir las verdades se pierdan las amistades.\n\nFriendships are lost when the truth is told.\n\nDe decir a hacer hay mucho que ver.\n\nThere is a great difference between saying and doing."
+  },
+  {
+    "objectID": "i_l1.html#dichos-4",
+    "href": "i_l1.html#dichos-4",
+    "title": "Level 1 verbs",
+    "section": "Dichos",
+    "text": "Dichos\n\nDicho y hecho.\n\nNo sooner said than done.\n\nquerer decir\n\nto mean\n\nun decir\n\na familiar saying\n\nDiga or Dígame\n\nHello (on the telephone)\n\ndecirle al oído\n\nto whisper in one’s ear\n\nno decir palabra\n\nnot to say a word\n\nEs decir…\n\nThat is to say…\n\nun dicho\n\na saying, expression\n\ndictar\n\nto dictate\n\nel dictado\n\ndictation\n\nel dictador\n\ndictator\n\ndecir mentiras\n\nto tell lies\n\ndecir adiós\n\nto say good-bye\n\nbendecir\n\nto bless\n\nmaldecir\n\nto curse, to swear"
+  },
+  {
+    "objectID": "i_l5.html#comenzar-to-begin",
+    "href": "i_l5.html#comenzar-to-begin",
+    "title": "Level 5 verbs",
+    "section": "comenzar (to begin)",
+    "text": "comenzar (to begin)"
+  },
+  {
+    "objectID": "i_l5.html#construir-to-build",
+    "href": "i_l5.html#construir-to-build",
+    "title": "Level 5 verbs",
+    "section": "construir (to build)",
+    "text": "construir (to build)"
+  },
+  {
+    "objectID": "i_l5.html#conducir-to-drive",
+    "href": "i_l5.html#conducir-to-drive",
+    "title": "Level 5 verbs",
+    "section": "conducir (to drive)",
+    "text": "conducir (to drive)"
+  },
+  {
+    "objectID": "i_l5.html#pagar-to-pay",
+    "href": "i_l5.html#pagar-to-pay",
+    "title": "Level 5 verbs",
+    "section": "pagar (to pay)",
+    "text": "pagar (to pay)"
+  },
+  {
+    "objectID": "i_l5.html#traer-to-bring",
+    "href": "i_l5.html#traer-to-bring",
+    "title": "Level 5 verbs",
+    "section": "traer (to bring)",
+    "text": "traer (to bring)"
+  },
+  {
+    "objectID": "i_l5.html#caercaerse-to-fall",
+    "href": "i_l5.html#caercaerse-to-fall",
+    "title": "Level 5 verbs",
+    "section": "caer/caerse (to fall)",
+    "text": "caer/caerse (to fall)"
+  },
+  {
+    "objectID": "i_l5.html#aprender-to-learn",
+    "href": "i_l5.html#aprender-to-learn",
+    "title": "Level 5 verbs",
+    "section": "aprender (to learn)",
+    "text": "aprender (to learn)"
+  },
+  {
+    "objectID": "i_l5.html#haber-to-have",
+    "href": "i_l5.html#haber-to-have",
+    "title": "Level 5 verbs",
+    "section": "haber (to have)",
+    "text": "haber (to have)"
+  },
+  {
+    "objectID": "i_l5.html#ponerponerse-to-put",
+    "href": "i_l5.html#ponerponerse-to-put",
+    "title": "Level 5 verbs",
+    "section": "poner/ponerse (to put)",
+    "text": "poner/ponerse (to put)"
+  },
+  {
+    "objectID": "i_l5.html#salir-to-leave",
+    "href": "i_l5.html#salir-to-leave",
+    "title": "Level 5 verbs",
+    "section": "salir (to leave)",
+    "text": "salir (to leave)"
+  },
+  {
+    "objectID": "i_l3.html#llamarllamarse-to-call",
+    "href": "i_l3.html#llamarllamarse-to-call",
+    "title": "Level 3 verbs",
+    "section": "llamar/llamarse (to call)",
+    "text": "llamar/llamarse (to call)"
+  },
+  {
+    "objectID": "i_l3.html#andar-to-walk",
+    "href": "i_l3.html#andar-to-walk",
+    "title": "Level 3 verbs",
+    "section": "andar (to walk)",
+    "text": "andar (to walk)"
+  },
+  {
+    "objectID": "i_l3.html#comprar-to-buy",
+    "href": "i_l3.html#comprar-to-buy",
+    "title": "Level 3 verbs",
+    "section": "comprar (to buy)",
+    "text": "comprar (to buy)"
+  },
+  {
+    "objectID": "i_l3.html#pensar-to-think",
+    "href": "i_l3.html#pensar-to-think",
+    "title": "Level 3 verbs",
+    "section": "pensar (to think)",
+    "text": "pensar (to think)"
+  },
+  {
+    "objectID": "i_l3.html#dormir-to-sleep",
+    "href": "i_l3.html#dormir-to-sleep",
+    "title": "Level 3 verbs",
+    "section": "dormir (to sleep)",
+    "text": "dormir (to sleep)"
+  },
+  {
+    "objectID": "i_l3.html#conocer-to-know",
+    "href": "i_l3.html#conocer-to-know",
+    "title": "Level 3 verbs",
+    "section": "conocer (to know)",
+    "text": "conocer (to know)"
+  },
+  {
+    "objectID": "i_l3.html#oír-to-hear",
+    "href": "i_l3.html#oír-to-hear",
+    "title": "Level 3 verbs",
+    "section": "oír (to hear)",
+    "text": "oír (to hear)"
+  },
+  {
+    "objectID": "i_l3.html#llevar-to-carry-to-wear",
+    "href": "i_l3.html#llevar-to-carry-to-wear",
+    "title": "Level 3 verbs",
+    "section": "llevar (to carry, to wear)",
+    "text": "llevar (to carry, to wear)"
+  },
+  {
+    "objectID": "i_l3.html#acabar-to-finish",
+    "href": "i_l3.html#acabar-to-finish",
+    "title": "Level 3 verbs",
+    "section": "acabar (to finish)",
+    "text": "acabar (to finish)"
+  },
+  {
+    "objectID": "i_l3.html#tomar-to-take-to-drink",
+    "href": "i_l3.html#tomar-to-take-to-drink",
+    "title": "Level 3 verbs",
+    "section": "tomar (to take, to drink)",
+    "text": "tomar (to take, to drink)"
+  },
+  {
+    "objectID": "i_l2.html#hablar-to-speak",
+    "href": "i_l2.html#hablar-to-speak",
+    "title": "Level 2 verbs",
+    "section": "hablar (to speak)",
+    "text": "hablar (to speak)"
+  },
+  {
+    "objectID": "i_l2.html#dar-to-give",
+    "href": "i_l2.html#dar-to-give",
+    "title": "Level 2 verbs",
+    "section": "dar (to give)",
+    "text": "dar (to give)"
+  },
+  {
+    "objectID": "i_l2.html#comer-to-eat",
+    "href": "i_l2.html#comer-to-eat",
+    "title": "Level 2 verbs",
+    "section": "comer (to eat)",
+    "text": "comer (to eat)"
+  },
+  {
+    "objectID": "i_l2.html#estar-to-be",
+    "href": "i_l2.html#estar-to-be",
+    "title": "Level 2 verbs",
+    "section": "estar (to be)",
+    "text": "estar (to be)"
+  },
+  {
+    "objectID": "i_l2.html#vivir-to-live",
+    "href": "i_l2.html#vivir-to-live",
+    "title": "Level 2 verbs",
+    "section": "vivir (to live)",
+    "text": "vivir (to live)"
+  },
+  {
+    "objectID": "i_l2.html#saber-to-know",
+    "href": "i_l2.html#saber-to-know",
+    "title": "Level 2 verbs",
+    "section": "saber (to know)",
+    "text": "saber (to know)"
+  },
+  {
+    "objectID": "i_l2.html#deber-must-to-owe",
+    "href": "i_l2.html#deber-must-to-owe",
+    "title": "Level 2 verbs",
+    "section": "deber (must, to owe)",
+    "text": "deber (must, to owe)"
+  },
+  {
+    "objectID": "i_l2.html#leer-to-read",
+    "href": "i_l2.html#leer-to-read",
+    "title": "Level 2 verbs",
+    "section": "leer (to read)",
+    "text": "leer (to read)"
+  },
+  {
+    "objectID": "i_l2.html#escribir-to-write",
+    "href": "i_l2.html#escribir-to-write",
+    "title": "Level 2 verbs",
+    "section": "escribir (to write)",
+    "text": "escribir (to write)"
+  },
+  {
+    "objectID": "i_l2.html#gustar-to-like",
+    "href": "i_l2.html#gustar-to-like",
+    "title": "Level 2 verbs",
+    "section": "gustar (to like)",
+    "text": "gustar (to like)"
+  },
+  {
+    "objectID": "i_l1.html#example-phrases-5",
+    "href": "i_l1.html#example-phrases-5",
+    "title": "Level 1 verbs",
+    "section": "Example Phrases",
+    "text": "Example Phrases\n\nDígame, por favor, dónde está la sala de espera.\n\nTell me, please, where the waiting room is located.\n\n¿Qué quiere decir esta palabra?\n\nWhat does this word mean?\n\n¡Te he dicho mil veces de ponerte el cinturón de seguridad!\n\nI’ve told you a thousand times to put on your seat belt!"
+  },
+  {
+    "objectID": "i_l1.html#proverbios-4",
+    "href": "i_l1.html#proverbios-4",
+    "title": "Level 1 verbs",
+    "section": "Proverbios",
+    "text": "Proverbios\n\nDime con quién andas y te diré quién eres.\n\nTell me who your friends are and I will tell you who you are.\n\nAl decir las verdades se pierdan las amistades.\n\nFriendships are lost when the truth is told.\n\nDe decir a hacer hay mucho que ver.\n\nThere is a great difference between saying and doing."
+  },
+  {
+    "objectID": "i_l1.html#dichos-5",
+    "href": "i_l1.html#dichos-5",
+    "title": "Level 1 verbs",
+    "section": "Dichos",
+    "text": "Dichos\n\nDicho y hecho.\n\nNo sooner said than done.\n\nquerer decir\n\nto mean\n\nun decir\n\na familiar saying\n\nDiga or Dígame\n\nHello (on the telephone)\n\ndecirle al oído\n\nto whisper in one’s ear\n\nno decir palabra\n\nnot to say a word\n\nEs decir…\n\nThat is to say…\n\nun dicho\n\na saying, expression\n\ndictar\n\nto dictate\n\nel dictado\n\ndictation\n\nel dictador\n\ndictator\n\ndecir mentiras\n\nto tell lies\n\ndecir adiós\n\nto say good-bye\n\nbendecir\n\nto bless\n\nmaldecir\n\nto curse, to swear"
+  }
+]
