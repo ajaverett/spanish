@@ -3,6 +3,7 @@ output: html_document
 editor_options: 
   chunk_output_type: console
 ---
+
 # Disposition {.unnumbered}
 
 
@@ -194,7 +195,9 @@ create_conjugation_table <- function(verb_infinitive) {
 
 ```
 
+
 ::: {.panel-tabset}
+
 
 # querer (to want)
 

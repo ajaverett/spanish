@@ -1,2 +1,21 @@
 # Learning {.unnumbered}
 
+::: {.panel-tabset}
+
+# escribir
+
+# estudiar
+
+# leer
+
+# entender
+
+# aprender
+
+# decir
+
+# hablar
+
+# llamar/llamarse
+
+:::

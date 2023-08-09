@@ -1,24 +1,20 @@
 # Sensing {.unnumbered}
 
+::: {.panel-tabset}
 
 
+# mirar
 
-## comenzar (to begin)
+# ver
 
-## construir (to build)
+# oír
 
-## conducir (to drive)
+# escuchar
 
-## pagar (to pay)
+# dar
 
-## traer (to bring)
+# tomar
 
-## caer/caerse (to fall)
+# poner/ponerse
 
-## aprender (to learn)
-
-## haber (to have)
-
-## poner/ponerse (to put)
-
-## salir (to leave)
+:::

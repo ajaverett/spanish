@@ -1,5 +1,6 @@
 # Most Common Verbs {.unnumbered}
 
+
 ```{r}
 #| warning: false
 #| message: false
@@ -161,7 +162,9 @@ create_conjugation_table <- function(verb_infinitive) {
 
 ```
 
+
 ::: {.panel-tabset}
+
 
 # ser (to be)
 
@@ -798,3 +801,4 @@ create_conjugation_table("irse")
    - to curse, to swear
 
 
+:::

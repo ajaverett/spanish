@@ -161,9 +161,11 @@ create_conjugation_table <- function(verb_infinitive) {
 
 ```
 
+
 ::: {.panel-tabset}
 
-#pensar
+
+# pensar
 
 We think that pensar is a very useful verb for you to learn. It is used in a great number of idiomatic expressions and everyday situations. Pay attention to the stem change in Tenses 1 and 6 and in the imperative mood.
 
@@ -227,7 +229,7 @@ create_conjugation_table("pensar")
   - to be deep in thought
 
 
-#esperar
+# esperar
 
 ## Conjugation Table
 
@@ -256,7 +258,7 @@ create_conjugation_table("esperar")
   - waiting room
 
 
-#creer
+# creer
 
 We believe that creer is a useful verb for you to learn because it has an important stem change in Tenses 3 and 7. This verb is helpful in a great number of everyday expressions and situations.
 
@@ -312,7 +314,7 @@ create_conjugation_table("creer")
   - to consider, to think, to believe (oneself)
 
 
-#saber
+# saber
 
 Saber is a very useful irregular verb for you to know. It is used in a great number of idiomatic expressions and everyday situations. Don’t confuse saber with conocer
 
@@ -392,7 +394,7 @@ create_conjugation_table("saber")
 
 
 
-#conocer
+# conocer
 
 Conocer is a verb that you should know! Pay special attention to the spelling change from c to zc before a or o. Conocer is useful in numerous everyday expressions and situations 
 
@@ -469,10 +471,10 @@ If you can conjugate *conocer*, you can also conjugate the following verbs:
   - to recognize, to admit
 - **desconocer**
   - to be ignorant of
-  
+
 :::
 
-#parecer
+# parecer
 
 ## Conjugation Table
 
@@ -480,7 +482,7 @@ If you can conjugate *conocer*, you can also conjugate the following verbs:
 create_conjugation_table("parecer")
 ```
 
-#suponer
+# suponer
 
 ## Conjugation Table
 
@@ -488,7 +490,7 @@ create_conjugation_table("parecer")
 create_conjugation_table("suponer")
 ```
 
-#sentir/sentirse
+# sentir/sentirse
 
 ## Conjugation Table
 
@@ -496,5 +498,6 @@ create_conjugation_table("suponer")
 create_conjugation_table("sentir")
 create_conjugation_table("sentirse")
 ```
+
 
 :::
