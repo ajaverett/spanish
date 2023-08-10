@@ -1,2 +1,94 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
 # Verb Directory {.unnumbered}
 
+**COMMON VERBS**
+
+-   ser
+-   estar
+-   tener
+-   poder
+-   hacer
+-   ir/irse
+
+**DISPOSITION**
+
+-   querer
+-   deber
+-   necesitar
+-   gustarse
+
+**COGNITION**
+
+-   pensar
+-   esperar
+-   creer
+-   saber
+-   conocer
+-   parecer
+-   suponer
+-   sentir/sentirse
+
+**LEARNING**
+
+-   escribir
+-   estudiar
+-   leer
+-   entender
+-   aprender
+-   decir
+-   hablar
+-   llamar/llamarse
+
+**SENSING**
+
+-   mirar
+-   ver
+-   oír
+-   escuchar
+-   dar
+-   tomar
+-   poner/ponerse
+
+**MOVEMENT A**
+
+-   entrar
+-   llegar
+-   venir
+-   seguir
+-   caminar
+-   andar
+-   quedarse
+-   salir
+-   dejar
+
+**MOVEMENT B**
+
+-   acabar
+-   comenzar
+-   llevar
+-   traer
+-   pasar
+-   cercar/cercarse
+-   caer/caerse
+-   volver
+
+**LIFE**
+
+-   vivir
+-   comer
+-   cantar
+-   ayudar
+-   trabajar
+-   comprar
+-   pagar
+-   manejar
+-   conducir
+-   construir
+-   haber
+-   contar
+-   perder

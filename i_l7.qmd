@@ -1,0 +1,21 @@
+# Movement B {.unnumbered}
+
+::: {.panel-tabset}
+
+# acabar
+
+# comenzar
+
+# llevar
+
+# traer
+
+# pasar
+
+# cercar/cercarse
+
+# caer/caerse
+
+# volver
+
+:::

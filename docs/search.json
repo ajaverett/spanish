@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Spanish",
     "section": "",
-    "text": "Verb Directory"
+    "text": "Verb Directory\nCOMMON VERBS\n\nser\nestar\ntener\npoder\nhacer\nir/irse\n\nDISPOSITION\n\nquerer\ndeber\nnecesitar\ngustarse\n\nCOGNITION\n\npensar\nesperar\ncreer\nsaber\nconocer\nparecer\nsuponer\nsentir/sentirse\n\nLEARNING\n\nescribir\nestudiar\nleer\nentender\naprender\ndecir\nhablar\nllamar/llamarse\n\nSENSING\n\nmirar\nver\noír\nescuchar\ndar\ntomar\nponer/ponerse\n\nMOVEMENT A\n\nentrar\nllegar\nvenir\nseguir\ncaminar\nandar\nquedarse\nsalir\ndejar\n\nMOVEMENT B\n\nacabar\ncomenzar\nllevar\ntraer\npasar\ncercar/cercarse\ncaer/caerse\nvolver\n\nLIFE\n\nvivir\ncomer\ncantar\nayudar\ntrabajar\ncomprar\npagar\nmanejar\nconducir\nconstruir\nhaber\ncontar\nperder"
   },
   {
     "objectID": "intro.html",
@@ -852,5 +852,33 @@
     "title": "Cognition",
     "section": "Conjugation Table",
     "text": "Conjugation Table\n\ncreate_conjugation_table(\"sentir\")\n\n\n\n\n\n  \n    \n      Conjugation of sentir\n    \n    \n      English: To Feel, Regret\nGerundio: sintiendo\nPasado Participio: sentido\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nsiento\nsientes\nsiente\nsentimos\nsentís\nsienten\n    Imperfecto\nsentía\nsentías\nsentía\nsentíamos\nsentíais\nsentían\n    Pretérito\nsentí\nsentiste\nsintió\nsentimos\nsentisteis\nsintieron\n    Futuro\nsentiré\nsentirás\nsentirá\nsentiremos\nsentiréis\nsentirán\n    Condicional\nsentiría\nsentirías\nsentiría\nsentiríamos\nsentiríais\nsentirían\n    Presente perfecto\nhe sentido\nhas sentido\nha sentido\nhemos sentido\nhabéis sentido\nhan sentido\n    Pluscuamperfecto\nhabía sentido\nhabías sentido\nhabía sentido\nhabíamos sentido\nhabíais sentido\nhabían sentido\n    Pretérito anterior\nhube sentido\nhubiste sentido\nhubo sentido\nhubimos sentido\nhubisteis sentido\nhubieron sentido\n    Futuro perfecto\nhabré sentido\nhabrás sentido\nhabrá sentido\nhabremos sentido\nhabréis sentido\nhabrán sentido\n    Condicional perfecto\nhabría sentido\nhabrías sentido\nhabría sentido\nhabríamos sentido\nhabríais sentido\nhabrían sentido\n    \n      Subjuntivo\n    \n    Presente\nsienta\nsientas\nsienta\nsintamos\nsintáis\nsientan\n    Imperfecto\nsintiera\nsintieras\nsintiera\nsintiéramos\nsintierais\nsintieran\n    Futuro\nsintiere\nsintieres\nsintiere\nsintiéremos\nsintiereis\nsintieren\n    Presente perfecto\nhaya sentido\nhayas sentido\nhaya sentido\nhayamos sentido\nhayáis sentido\nhayan sentido\n    Pluscuamperfecto\nhubiera sentido\nhubieras sentido\nhubiera sentido\nhubiéramos sentido\nhubierais sentido\nhubieran sentido\n    Futuro perfecto\nhubiere sentido\nhubieres sentido\nhubiere sentido\nhubiéremos sentido\nhubiereis sentido\nhubieren sentido\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nsiente\nsienta\nsientamos\nsentid\nsientan\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno sientas\nno sienta\nno sientamos\nno sintáis\nno sientan\n  \n  \n  \n\n\n\ncreate_conjugation_table(\"sentirse\")\n\n\n\n\n\n  \n    \n      Conjugation of sentirse\n    \n    \n      English: To Feel\nGerundio: sintiéndose\nPasado Participio: sentido\n    \n    \n      Tense\n      Yo\n      Tú\n      Él/Ella/Usted\n      Nosotros\n      Vosotros\n      Ellos/Ellas/Ustedes\n    \n  \n  \n    \n      Indicativo\n    \n    Presente\nme siento\nte sientes\nse siente\nnos sentimos\nos sentís\nse sienten\n    Imperfecto\nme sentía\nte sentías\nse sentía\nnos sentíamos\nos sentíais\nse sentían\n    Pretérito\nme sentí\nte sentiste\nse sintió\nnos sentimos\nos sentisteis\nse sintieron\n    Futuro\nme sentiré\nte sentirás\nse sentirá\nnos sentiremos\nos sentiréis\nse sentirán\n    Condicional\nme sentiría\nte sentirías\nse sentiría\nnos sentiríamos\nos sentiríais\nse sentirían\n    Presente perfecto\nme he sentido\nte has sentido\nse ha sentido\nnos hemos sentido\nos habéis sentido\nse han sentido\n    Pluscuamperfecto\nme había sentido\nte habías sentido\nse había sentido\nnos habíamos sentido\nos habíais sentido\nse habían sentido\n    Pretérito anterior\nme hube sentido\nte hubiste sentido\nse hubo sentido\nnos hubimos sentido\nos hubisteis sentido\nse hubieron sentido\n    Futuro perfecto\nme habré sentido\nte habrás sentido\nse habrá sentido\nnos habremos sentido\nos habréis sentido\nse habrán sentido\n    Condicional perfecto\nme habría sentido\nte habrías sentido\nse habría sentido\nnos habríamos sentido\nos habríais sentido\nse habrían sentido\n    \n      Subjuntivo\n    \n    Presente\nme sienta\nte sientas\nse sienta\nnos sintamos\nos sintáis\nse sientan\n    Imperfecto\nme sintiera\nte sintieras\nse sintiera\nnos sintiéramos\nos sintierais\nse sintieran\n    Futuro\nme sintiere\nte sintieres\nse sintiere\nnos sintiéremos\nos sintiereis\nse sintieren\n    Presente perfecto\nme haya sentido\nte hayas sentido\nse haya sentido\nnos hayamos sentido\nos hayáis sentido\nse hayan sentido\n    Pluscuamperfecto\nme hubiera sentido\nte hubieras sentido\nse hubiera sentido\nnos hubiéramos sentido\nos hubierais sentido\nse hubieran sentido\n    Futuro perfecto\nme hubiere sentido\nte hubieres sentido\nse hubiere sentido\nnos hubiéremos sentido\nos hubiereis sentido\nse hubieren sentido\n    \n      Imperativo Afirmativo\n    \n    Presente\n - \nsiéntete\nsiéntase\nsiéntasemos\nsentíos\nsiéntanse\n    \n      Imperativo Negativo\n    \n    Presente\n - \nno te sientas\nno se sienta\nno se sientamos\nno os sentáis\nno se sientan"
+  },
+  {
+    "objectID": "i_l6.html",
+    "href": "i_l6.html",
+    "title": "Movement A",
+    "section": "",
+    "text": "entrarllegarvenirseguircaminarandarquedarsesalirdejar"
+  },
+  {
+    "objectID": "i_l7.html",
+    "href": "i_l7.html",
+    "title": "Movement B",
+    "section": "",
+    "text": "acabarcomenzarllevartraerpasarcercar/cercarsecaer/caersevolver"
+  },
+  {
+    "objectID": "i_l8.html",
+    "href": "i_l8.html",
+    "title": "Life",
+    "section": "",
+    "text": "vivircomercantarayudartrabajarcomprarpagarmanejarconducirconstruirhabercontarperder"
+  },
+  {
+    "objectID": "i_lshiny.html",
+    "href": "i_lshiny.html",
+    "title": "Test",
+    "section": "",
+    "text": "(may take a second to load)"
   }
 ]

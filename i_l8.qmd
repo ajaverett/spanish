@@ -1,0 +1,33 @@
+# Life {.unnumbered}
+
+::: {.panel-tabset}
+
+
+# vivir
+
+# comer
+
+# cantar
+
+# ayudar
+
+# trabajar
+
+# comprar
+
+# pagar
+
+# manejar
+
+# conducir
+
+# construir
+
+# haber
+
+# contar
+
+# perder
+
+
+:::
