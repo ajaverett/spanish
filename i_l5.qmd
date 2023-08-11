@@ -1,11 +1,235 @@
 # Sensing {.unnumbered}
 
+
+```{r}
+#| warning: false
+#| message: false
+#| code-fold: true
+
+library(tidyverse)
+library(gt)
+
+df = read_csv("https://raw.githubusercontent.com/ghidinelli/fred-jehle-spanish-verbs/master/jehle_verb_database.csv")
+
+my_gt_theme <- function(gt_object, ...) {
+  
+  stopifnot("'gt_object' must be a 'gt_tbl', have you accidentally passed raw data?" = "gt_tbl" %in% class(gt_object))
+  
+  tab_out <- gt_object %>%
+    # Fonts
+    opt_table_font(
+      font = list(
+        google_font("Noto Sans"), 
+        google_font("Source Sans Pro"),
+        default_fonts()
+      )
+    ) %>%
+    
+    # Cell styles from both themes
+    tab_style(
+      style = cell_borders(
+        sides = "top", color = "white", weight = px(0)),
+      locations = cells_body(rows = ifelse(nrow(gt_object[["_data"]]) > 0, 1, NA))) %>%
+    tab_style(
+      style = cell_text(color = "#005689", size = px(22), weight = 700),
+      locations = list(cells_title(groups = "title"))) %>%
+    tab_style(
+      style = cell_text(color = "#545454", font = google_font("Source Sans Pro"), transform = "uppercase"),
+      locations = cells_column_labels(everything())) %>%
+    tab_style(
+      style = cell_text(font = google_font("Libre Franklin"), weight = 800),
+      locations = cells_title(groups = "title")) %>%
+    tab_style(
+      style = cell_text(font = google_font("Source Sans Pro"), weight = 400),
+      locations = cells_body()) %>%
+    
+    # Table options combining elements of both themes
+    tab_options(
+      # Table-wide settings
+      table.background.color = "white",
+      table.font.size = 16,
+      
+      # Table border settings
+      table.border.top.style = "none",
+      table.border.top.width = px(1),
+      table.border.top.color = "#40c5ff",
+      table.border.bottom.width = px(3),
+      table.border.bottom.color = "white",
+      
+      # Column label settings
+      column_labels.background.color = "#f6f6f6",
+      column_labels.font.weight = "bold",
+      column_labels.border.top.style = "none",
+      column_labels.border.bottom.style = "none",
+      column_labels.border.bottom.width = 1,
+      column_labels.border.bottom.color = "#334422",
+      
+      # Data row settings
+      row.striping.include_table_body = TRUE,
+      row.striping.background_color = "#ececec",
+      data_row.padding = px(6), # Average of both themes
+      
+      # Row group settings
+      row_group.font.weight = "800",
+      
+      # Heading settings
+      heading.align = "left",
+      heading.border.bottom.style = "none",
+      
+      # Table body border settings
+      table_body.border.top.style = "none",
+      
+      # Source notes settings
+      source_notes.font.size = 12,
+      
+    )
+  
+  return(tab_out)
+}
+
+create_conjugation_table <- function(verb_infinitive) {
+  
+  verb_order = c("Presente", 
+                 "Imperfecto", 
+                 "Pretérito", 
+                 "Futuro", 
+                 "Condicional", 
+                 "Presente perfecto",
+                 "Pluscuamperfecto",
+                 "Pretérito anterior",
+                 "Futuro perfecto",
+                 "Condicional perfecto")
+  
+  verb_df <- df %>%
+    filter(infinitive == verb_infinitive)
+  
+  infinitive = verb_df %>% pull(infinitive) %>% .[1] 
+  english_infinitive = verb_df %>% pull(infinitive_english) %>% .[1] %>% str_to_title
+  gerund = verb_df %>% pull(gerund) %>% .[1] 
+  past_participle = verb_df %>% pull(pastparticiple) %>% .[1] 
+  
+  verb_table <- verb_df %>%
+    select(-c(tense_english, 
+              infinitive, 
+              infinitive_english, 
+              verb_english,
+              # mood, 
+              mood_english,
+              gerund, 
+              gerund_english, 
+              pastparticiple, 
+              pastparticiple_english
+              )) %>%
+    mutate(
+      temp_form_2p = form_2p,
+      form_2p = ifelse(mood %in% c("Imperativo Afirmativo","Imperativo Negativo"), form_3s, form_2p),
+      form_3s = ifelse(mood %in% c("Imperativo Afirmativo","Imperativo Negativo"), temp_form_2p, form_3s),
+      form_1p = ifelse(is.na(form_1p), paste0(form_3s, "mos"), form_1p),
+      form_1s = ifelse(is.na(form_1s), " - ", form_1s)
+    ) %>%
+    select(-temp_form_2p) %>% 
+    mutate(tense = factor(tense, levels = verb_order)) %>% 
+    arrange(tense) %>% 
+    group_by(mood) %>% 
+    gt() %>%
+    tab_header(
+      title = paste("Conjugation of",infinitive),
+      subtitle = md(glue::glue(sprintf("English: *{english_infinitive}*\n
+                                     Gerundio: *{gerund}*\n
+                                     Pasado Participio: *{past_participle}*")))) %>%
+    cols_label(
+      tense = "Tense",
+      # verb_english = "English",
+      form_1s = "Yo",
+      form_2s = "Tú",
+      form_3s = "Él/Ella/Usted",
+      form_1p = "Nosotros",
+      form_2p = "Vosotros",
+      form_3p = "Ellos/Ellas/Ustedes"
+    ) %>% 
+    cols_align(
+      align = c("right"),
+      columns = everything()
+    ) %>% 
+    cols_align(
+      align = c("left"),
+      columns = tense
+    ) %>% 
+    my_gt_theme()
+
+  return(verb_table)
+}
+
+```
+
+
 ::: {.panel-tabset}
 
 
 # mirar
 
-# ver
+# ver (to see)
+
+Ver is a very useful irregular verb for beginning students. It is used in a vast number of idiomatic expressions and everyday situations. Pay special attention to the stem changes!
+  
+## Conjugation Table
+  
+```{r}
+create_conjugation_table("ver")
+```
+
+## Example Phrases
+
+- **Hay que verlo para creerlo.**
+  - You have to see it to believe it.
+- **Está por ver.**
+  - It remains to be seen.
+- **¿Vio Ud. el pájaro en el árbol?**
+  - Did you see the bird in the tree?
+  
+  ## Proverbios
+  
+  - **Ver es creer.**
+  - Seeing is believing.
+- **De decir a hacer hay mucho que ver.**
+  - There is a great difference (much to see) between saying and doing.
+- **Hasta que no lo veas, no lo creas.**
+  - Don’t believe it until you see it.
+
+## Dichos
+
+- **la vista**
+  - sight, seeing, view, vision
+- **visto, vista**
+  - in view of
+- **a vista de pájaro**
+  - a bird’s eye view
+- **vivir para ver**
+  - to live and learn
+- **a mi ver**
+  - in my opinion
+- **¡Ya se ve!**
+  - Of course! Certainly!
+  - **¡A ver! / ¡Vamos a ver!**
+  - Let’s see!
+  - **no tener nada que ver con**
+  - to have nothing to do with
+- **la visión**
+  - vision
+- **visible**
+  - visible
+- **la visibilidad**
+  - visibility
+- **un vistazo**
+  - a glance
+- **echar un vistazo a**
+  - to take a look at
+- **verse las caras**
+  - to deal with it (have it out) face to face
+
+
+
+
 
 # oír
 

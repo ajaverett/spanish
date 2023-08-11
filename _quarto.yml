@@ -16,14 +16,15 @@ book:
     - i_l6.qmd
     - i_l7.qmd
     - i_l8.qmd
-    - i_lshiny.qmd
-    - references.qmd
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: paper
+      dark: darkly
+
   pdf:
     documentclass: scrreprt
 

@@ -1,6 +1,5 @@
 # Most Common Verbs {.unnumbered}
 
-
 ```{r}
 #| warning: false
 #| message: false

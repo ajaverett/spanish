@@ -6,7 +6,17 @@ editor:
 
 # Verb Directory {.unnumbered}
 
-**COMMON VERBS**
+---
+
+::: {.panel-tabset}
+
+# Verbs
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+**[COMMON VERBS](i_l1.html)**
 
 -   ser
 -   estar
@@ -15,14 +25,32 @@ editor:
 -   hacer
 -   ir/irse
 
-**DISPOSITION**
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="40%"}
+
+**[DISPOSITION VERBS](i_l2.html)**
 
 -   querer
 -   deber
 -   necesitar
 -   gustarse
 
-**COGNITION**
+:::
+
+::::
+
+---
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+**[COGNITION](i_l3.html)**
 
 -   pensar
 -   esperar
@@ -33,7 +61,16 @@ editor:
 -   suponer
 -   sentir/sentirse
 
-**LEARNING**
+
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="40%"}
+
+**[LEARNING](i_l4.html)**
 
 -   escribir
 -   estudiar
@@ -44,7 +81,20 @@ editor:
 -   hablar
 -   llamar/llamarse
 
-**SENSING**
+
+:::
+
+::::
+
+---
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+
+**[SENSING](i_l5.html)**
+
 
 -   mirar
 -   ver
@@ -54,7 +104,17 @@ editor:
 -   tomar
 -   poner/ponerse
 
-**MOVEMENT A**
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="40%"}
+
+
+**[MOVEMENT A](i_l6.html)**
+
 
 -   entrar
 -   llegar
@@ -66,7 +126,17 @@ editor:
 -   salir
 -   dejar
 
-**MOVEMENT B**
+:::
+
+::::
+
+---
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+**[MOVEMENT B](i_l7.html)**
 
 -   acabar
 -   comenzar
@@ -77,7 +147,16 @@ editor:
 -   caer/caerse
 -   volver
 
-**LIFE**
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="40%"}
+
+
+**[LIFE](i_l8.html)**
 
 -   vivir
 -   comer
@@ -92,3 +171,16 @@ editor:
 -   haber
 -   contar
 -   perder
+
+:::
+
+::::
+
+# Test
+
+```{=html}
+<iframe width="780" height="500" src="https://ajaverett.shinyapps.io/spanish_quiz/" ></iframe>
+```
+  
+
+:::

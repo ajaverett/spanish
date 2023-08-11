@@ -1,5 +1,6 @@
 # Cognition {.unnumbered}
 
+
 ```{r}
 #| warning: false
 #| message: false
@@ -482,6 +483,31 @@ If you can conjugate *conocer*, you can also conjugate the following verbs:
 create_conjugation_table("parecer")
 ```
 
+## Example Phrases
+
+- **a lo que parece**
+  - according to what it seems
+- **al parecer**
+  - seemingly, apparently
+- **pareciente**
+  - similar
+- **parecidamente**
+  - similarly
+- **María parece contenta.**
+  - Maria seems happy.
+- **Me parece . . .**
+  - It seems to me . . .
+- **por el bien parecer**
+  - for the sake of appearances
+- **parecer cansado (cansada)**
+  - to look (seem) tired
+- **Se parecen como dos gotas de agua.**
+  - They resemble each other like two drops of water (like two peas in a pod).
+- **parecido, parecida**
+  - similar
+- **el parecido**
+  - resemblance
+
 # suponer
 
 ## Conjugation Table
@@ -490,7 +516,18 @@ create_conjugation_table("parecer")
 create_conjugation_table("suponer")
 ```
 
+- **un suponer, una suposición**
+  - supposition
+- **poner**
+  - to put
+- **proponer**
+  - to propose
+- **por supuesto**
+  - of course
+
 # sentir/sentirse
+
+Sentir and sentirse are an essential pair of -ir verbs for you to learn. They are used in a great number of idiomatic expressions and everyday situations. Pay attention to the stem change in certain tenses, as well as in the imperative and present participle (Gerundio).
 
 ## Conjugation Table
 
@@ -498,6 +535,49 @@ create_conjugation_table("suponer")
 create_conjugation_table("sentir")
 create_conjugation_table("sentirse")
 ```
+
+
+## Example Phrases
+
+- **La semana pasada sentimos un fuerte terremoto.**
+  - Last week we felt a powerful earthquake.
+- **El chico sintió la muerte de su perro.**
+  - The boy felt very sorry about the death of his dog.
+- **Lo siento mucho.**
+  - I regret it very much. I’m very sorry.
+- **¿Cómo se siente Ud.?**
+  - How do you feel?
+- **Me siento mal.**
+  - I feel sick.
+
+## Dichos
+
+- **el sentimiento**
+  - feeling, sentiment
+- **sentimentalmente**
+  - sentimentally
+- **el sentir**
+  - feeling, judgment
+- **el sentido**
+  - sense, meaning, feeling
+- **los sentidos**
+  - the senses
+- **una persona sentimental**
+  - sentimentalist
+- **el sentimentalismo**
+  - sentimentalism
+- **sentir admiración por alguien**
+  - to feel admiration for someone
+- **sentir en el alma**
+  - to feel/regret deeply
+- **sentido, sentida**
+  - sincere, sensitive
+- **resentirse**
+  - to feel the effects
+- **resentirse de algo**
+  - to resent something
+- **sentirse mal**
+  - to feel bad
 
 
 :::
