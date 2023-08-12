@@ -817,6 +817,98 @@ create_conjugation_table("irse")
 
 Haber is an essential verb for beginning students of Spanish. You need to be able to conjugate haber in order to form the compound tenses. In other words, if you can conjugate haber in the simple tenses, you can form any other verb in the compound tenses! The verb haber is used as an auxiliary (helping) verb as follows:
 
+### Compound tenses Example (in the 1st person sing.)
+
+- **Present Perfect (or Perfect) Indicative** 
+  - `he hablado` (I have spoken)
+  
+- **Pluperfect (or Past Perfect) Indicative** 
+  - `había hablado` (I had spoken)
+  
+- **Preterit Perfect (or Past Anterior)** 
+  - `hube hablado` (I had spoken)
+  
+- **Future Perfect (or Future Anterior)** 
+  - `habré hablado` (I will have spoken)
+  
+- **Conditional Perfect** 
+  - `habría hablado` (I would have spoken)
+  
+- **Present Perfect (or Past) Subjunctive** 
+  - `haya hablado` (I may have spoken)
+  
+- **Pluperfect (or Past Perfect) Subjunctive** 
+  - `hubiera hablado` or `hubiese hablado` (I might have spoken)
+
+> For an explanation of the formation of these tenses, see pages 31, 32, and page 92.
+
+The verb `haber` is also used to form:
+- **the perfect (or past) infinitive:** `haber hablado` (to have spoken). As you can see, this is formed by using the infinitive form of `haber` + the past participle of the main verb.
+
+- **the perfect participle:** `habiendo hablado` (having spoken). This is formed by using the present participle of `haber` + the past participle of the main verb.
+
+The verb `haber + de + inf.` is equivalent to the English use of “to be supposed to...” or “to be to...”: 
+> María ha de traer un pastel, yo he de traer el helado, y mis amigos han de traer las bebidas/Mary is supposed to bring a cake, I am supposed to bring the ice cream, and my friends are supposed to bring the drinks.
+
+
+::: {.callout-note}
+
+Note on hay and hay que + inf.
+
+The word `hay` is not a verb. You might look at it as an impersonal irregular form of `haber`. Actually, the word is composed of `ha + the archaic y`, meaning there. It is generally seen as an adverbial expression because it points out that something or someone “is there.” Its English equivalent is There is... or There are... 
+> For example: `Hay muchos libros en la mesa/There are many books on the table`; `Hay veinte alumnos en esta clase/There are twenty students in this class`.
+
+`Hay que + inf.` is an impersonal expression that denotes an obligation and it is commonly translated into English as: One must... or It is necessary to... 
+> Examples: `Hay que estudiar para aprender/It is necessary to study in order to learn`; `Hay que comer para vivir/One must eat in order to live`.
+
+:::
+
+```{r}
+#| message: false
+#| warning: false
+#| code-fold: true
+
+read_csv("haber.csv") %>% 
+  select(tense,mood, "YO","TÚ","ÉL/ELLA/USTED","NOSOTROS","VOSOTROS","ELLOS/ELLAS/USTEDES") %>% 
+  mutate(tense = tense %>% str_to_title) %>% 
+  group_by(mood) %>%  
+  gt() %>% 
+  tab_header(
+      title = paste("Conjugation of haber"),
+      subtitle = md(glue::glue(sprintf("English: *have\n
+                                     Gerundio: *habiendo*\n
+                                     Pasado Participio: *habido*")))) %>%
+    cols_align(
+      align = c("right"),
+      columns = everything()) %>% 
+    cols_align(
+      align = c("left"),
+      columns = tense) %>% 
+    my_gt_theme()
+
+```
+
+
+## Example Phrases
+
+  - **No hay rosa sin espina.**
+    - Every rose has its thorn. (There is no rose without a thorn.)
+  - **Donde hay humo, hay fuego.**
+    - Where there’s smoke, there’s fire.
+
+## Dichos
+
+  - **ha habido...**
+    - there has been..., there have been...
+  - **había...**
+    - there was..., there were...
+  - **habrá...**
+    - there will be...
+  - **habría...**
+    - there would be...
+  - **hubo...**
+    - there was..., there were...
+
 
 
 :::
