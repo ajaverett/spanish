@@ -840,7 +840,6 @@ Haber is an essential verb for beginning students of Spanish. You need to be abl
 - **Pluperfect (or Past Perfect) Subjunctive** 
   - `hubiera hablado` or `hubiese hablado` (I might have spoken)
 
-> For an explanation of the formation of these tenses, see pages 31, 32, and page 92.
 
 The verb `haber` is also used to form:
 - **the perfect (or past) infinitive:** `haber hablado` (to have spoken). As you can see, this is formed by using the infinitive form of `haber` + the past participle of the main verb.
@@ -879,7 +878,7 @@ read_csv("haber.csv") %>%
   gt() %>% 
   tab_header(
       title = paste("Conjugation of haber"),
-      subtitle = md(glue::glue(sprintf("English: *have\n
+      subtitle = md(glue::glue(sprintf("English: *have*\n
                                      Gerundio: *habiendo*\n
                                      Pasado Participio: *habido*")))) %>%
     cols_align(
