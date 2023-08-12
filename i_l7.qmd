@@ -167,18 +167,456 @@ create_conjugation_table <- function(verb_infinitive) {
 
 # acabar
 
+## to finish, to end, to complete
+
+Acabar is an important verb to learn because it is a regular -ar verb and because there are many everyday expressions related to it.
+
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("acabar")
+```
+
+### The Spanish Idiomatic Expression
+
+**acabar de + inf.** in Spanish is translated to English as **to have just + past participle**.
+
+#### Present Indicative:
+
+When you use _acabar_ in the present tense, it indicates that the action of the main verb (+ inf.) has just occurred now in the present. In English, we express this using _have just_ + the past participle of the main verb.
+
+**Examples:**
+
+- **María acaba de llegar.**  
+  - _Mary has just arrived._
+- **Acabo de comer.**  
+  - _I have just eaten._
+- **Acabamos de terminar la lección.**  
+  - _We have just finished the lesson._
+
+#### Imperfect Indicative:
+
+When using _acabar_ in the imperfect indicative, it denotes that the action of the main verb (+ inf.) had occurred at some past time when another action transpired. In English, this is articulated using _had just_ + the past participle of the main verb.
+
+**Examples:**
+
+ - **María acababa de llegar.**  
+   - _Mary had just arrived._
+ - **Yo acababa de comer.**
+   - _I had just eaten._
+ - **Acabábamos de terminar la lección.**  
+   - We had just finished the lesson.
+
+## Proverbio
+
+ - Bien está lo que bien acaba.
+   - All’s well that ends well.
+
+
+## Dichos
+
+ - **el acabamiento**
+   - completion
+ - **acabar con**
+   - to put an end to
+ - **acabar en**
+   - to end in
+ - **acabar por**
+   - to end by, to ... finally
+ - **acabado, acabada**
+   - finished
+
+
+
+::: {.callout-note}
+
+> **Note**: When _acabar_ is used in the imperfect indicative + inf. (of the main verb being expressed), the verb in the other clause is typically in the preterit.  
+**Example:**  
+Acabábamos de entrar cuando el teléfono sonó.  
+_We had just entered the house when the telephone rang._
+
+:::
+
+
 # comenzar
+
+## to begin, to start, to commence
+
+Comenzar is a useful verb for beginning Spanish students because it has an important stem change and a spelling change from z to c before the letter e. It is also used in numerous everyday expressions and situations.
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("comenzar")
+```
+
+## Example Phrases
+
+  - **–¿Qué tiempo hace?**
+    - —What is the weather like?
+  - **–Comienza a llover.**
+    - —It’s starting to rain.
+  - **–Quiero comenzar al comienzo.**
+    - —I’d like to begin at the beginning.
+  - **–¡Comienza!**
+    - —Begin!
+
+## Proverb
+
+  - **Lo que mal comienza, mal acaba.**
+    - What starts badly ends badly.
+
+## Dichos
+
+  - **el comienzo**
+    - the beginning
+  - **Note:** la ceremonia de graduación (school)
+    - commencement
+  - **al comienzo**
+    - at the beginning, at first
+  - **comenzar a + inf.**
+    - to begin + inf.
+  - **comenzar por + inf.**
+    - to begin by + pres. part.
+  - **comenzar por el principio**
+    - to begin at the beginning
+  - **recomenzar**
+    - to begin again
+
 
 # llevar
 
+## to carry (away), to take (away), to wear
+
+Llevar is an essential regular -ar verb for beginning students of Spanish. It is used in many idiomatic expressions and everyday situations.
+
+**Llevar** generally translates to "to take" in English, especially in the context of carrying or transporting items from one place to another.
+
+- **Example**:  
+  José llevó la silla de la cocina al comedor.  
+  _Joseph took the chair from the kitchen to the dining room._
+
+Moreover, **llevar** is used when indicating taking someone to a place.
+
+- **Example**:  
+  Pedro llevó a María al baile anoche.  
+  _Peter took Mary to the dance last night._
+
+Additionally, **llevar** can mean "to wear".
+
+- **Example**:  
+  María, ¿por qué llevas la falda nueva?  
+  _Mary, why are you wearing your new skirt?_
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("llevar")
+```
+
+## Example Phrases
+
+  - **Lo llevo conmigo.**
+    - I’ll take it with me.
+  - **Aquel hombre lleva una vida de perros.**
+    - That man leads a dog’s life.
+
+## Dichos
+
+  - **llevar a cabo**
+    - to carry through, to accomplish
+  - **llevar una caída**
+    - to have a fall
+  - **llevar una vida de perros**
+    - to lead a dog’s life
+  - **llevar conmigo**
+    - to take with me
+  - **un llevador, una llevadora**
+    - carrier
+  - **llevarse**
+    - to take away, carry off
+  - **llevarse algo de alguien**
+    - to take something from someone
+  - **llevarse bien con alguien**
+    - to get along well with someone
+
 # traer
+
+## to bring, to carry, to wear
+
+Traer is a very useful irregular verb for beginning students. It is used in a great number of idiomatic expressions and everyday situations. Pay special attention to the stem changes!
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("traer")
+```
+
+## Example Phrases
+
+  - **Tráigame una silla, por favor.**
+    - Bring me a chair, please.
+  - **¿Qué te trae por aquí?**
+    - What brings you here?
+  - **¿Quién trajo el pastel?**
+    - Who brought the cake?
+  - **Yo lo traje.**
+    - I brought it.
+
+## Dichos
+
+  - **el traje**
+    - costume, dress, suit
+  - **el traje de baño**
+    - bathing suit
+  - **el traje de novia**
+    - wedding dress
+  - **el traje hecho**
+    - ready-made suit
+  - **el traje a la medida**
+    - tailor-made suit
+  - **¡trae! ¡traiga!**
+    - Give it here! Give it to me!
+  - **traer y llevar**
+    - to spread rumors
+  - **contraer**
+    - to contract
+  - **traer entre manos**
+    - to have in mind
+  - **traer a la mente**
+    - to bring to mind
+  - **trajear**
+    - to clothe
+  - **traer buena suerte**
+    - to bring good luck
+  - **traer mala suerte**
+    - to bring bad luck
+  - **traer cola**
+    - to bring trouble
+  - **traerse bien/mal**
+    - to dress nicely/poorly
+
 
 # pasar
 
-# cercar/cercarse
+## to pass (by), to happen, to spend (time), to go through
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("pasar")
+```
+
+## Example Phrases
+
+  - **pasajero, pasajera**
+    - passenger, traveler
+  - **¡Que lo pase Ud. bien!**
+    - Good luck, good-bye!
+  - **¿Qué pasa?**
+    - What’s happening? What’s going on?
+  - **el pasatiempo**
+    - amusement, pastime
+  - **¿Qué te pasa?**
+    - What’s the matter with you?
+  - **¡Pase un buen día!**
+    - Have a nice day!
+  - **pasar un examen**
+    - to take an exam
+
+## Note
+
+Use **pasar** when you spend time: *Me gustaría pasar un año en Costa Rica* - I would like to spend a year in Costa Rica. (See **gastar**.)
+
+
+# acercar/acercarse
+
+## to bring near, to place near / to approach, to draw near
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("acercar")
+create_conjugation_table("acercarse")
+```
+
+## Example Phrases
+
+  - **acerca de**
+    - about, regarding, with regard to
+  - **el acercamiento**
+    - approaching, approximation
+  - **cerca de**
+    - near
+  - **de cerca**
+    - close at hand, closely
+  - **acerca de esto**
+    - hereof
+  - **la cerca**
+    - fence, hedge
+  - **el cercado**
+    - fenced-in area
+  - **mis parientes cercanos**
+    - my close relatives
+  - **cercanamente**
+    - soon, shortly
+  - **cercano, cercana**
+    - near, close
+  - **cercar**
+    - to enclose, fence in
+  - **las cercanías**
+    - neighborhood, suburbs
+
 
 # caer/caerse
 
+## to fall / to fall, to fall down, to tumble
+
+Caer and caerse are an important pair of verbs for a beginning student. Both verbs are irregular and they are very useful in many everyday situations and expressions. Pay special attention when you use caer reflexively (caerse).
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("caer")
+```
+
+## Example Phrases
+
+  - **Mi madre cayó enferma en octubre.**
+    - My mother fell ill in October.
+  - **Yo me caí por la ventana. Por suerte, estuve en la planta baja.**
+    - I fell out of the window. Luckily, I was on the first floor.
+  - **El hombre que se levanta aún es más grande que el que no ha caído. (Concepción Arenal)**
+    - The man who gets up is even greater than the one who hasn’t fallen.
+
+## Proverb
+
+  - **Caen las hojas y caerán los árboles.**
+    - All in good time. (Lit.: Leaves fall and trees will fall.)
+
+## Dichos
+
+  - **la caída**
+    - the fall
+  - **a la caída del sol**
+    - at sunset
+  - **a la caída de la tarde**
+    - at the end of the afternoon
+  - **caer enfermo (enferma)**
+    - to fall sick
+  - **dejar caer**
+    - to drop
+  - **dejar caer la voz**
+    - to drop one’s voice
+  - **caer de espaldas**
+    - to fall backwards
+  - **caer con**
+    - to come down with
+  - **caer de lo alto**
+    - to fall from above
+  - **caer de plano**
+    - to fall flat
+  - **caer en la cuenta**
+    - to catch on, to realize, to get the point
+  - **caerse a pedazos**
+    - to fall to pieces
+  - **caerse de risa**
+    - to roll (on the floor) with laughter
+  - **hacer caer**
+    - to knock over
+
+**Similar Conjugations**
+
+  - **decaer**
+    - to decay, decline
+  - **recaer**
+    - to relapse, fall back
+
 # volver
+
+## to return, to go back
+
+Volver is a very useful -er verb for beginning students. It is used in a vast number of idiomatic expressions and everyday situations. Be careful to make the stem change in tenses, as well as the imperative and past participle.
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("volver")
+```
+
+## Example Phrases
+
+  - **¿A qué hora vuelve Ud. a casa?**
+    - At what time are you going back home?
+  - **¿Cuándo podré volver?**
+    - When may I return?
+  - **Vuelve la página, por favor.**
+    - Turn the page, please.
+
+## Dichos
+
+  - **volver en sí**
+    - to regain consciousness, to come to
+  - **volver sobre sus pasos**
+    - to retrace one’s steps
+  - **volver atrás**
+    - to turn back
+  - **una vuelta**
+    - a turn, revolution, turning
+  - **dar una vuelta**
+    - to take a stroll
+  - **volverse triste**
+    - to become sad
+  - **un revólver**
+    - revolver, pistol
+  - **revolver**
+    - to revolve, shake (up), to turn around
+  - **volver con las manos vacías**
+    - to return empty-handed
+  - **volverse**
+    - to turn (oneself) around
+  - **volverse loco**
+    - to go mad
+  - **devolver un artículo**
+    - to return an article
+  - **devolver**
+    - to return, go back
+  - **envolver**
+    - to wrap, to involve, to surround
+  - **envolverse**
+    - to become involved
+
+
+# terminar
+
+## to end, to terminate, to finish
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("terminar")
+```
+
+## Example Phrases
+
+  - **la terminación**
+    - termination, ending, completion
+  - **el término**
+    - end, ending; term
+  - **en otros términos**
+    - in other terms, in other words
+  - **determinar**
+    - to determine
+  - **llevar a término**
+    - to complete
+  - **estar en buenos términos con**
+    - to be on good terms with
+  - **la terminal aérea**
+    - air terminal
+  - **el terminal**
+    - terminal (electrical or computer)
+
+
 
 :::

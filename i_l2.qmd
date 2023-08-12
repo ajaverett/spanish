@@ -199,7 +199,9 @@ create_conjugation_table <- function(verb_infinitive) {
 ::: {.panel-tabset}
 
 
-# querer (to want)
+# querer 
+
+## to want
 
 Querer is a very important irregular verb for a beginning student. It is used in a great number of idiomatic expressions and everyday situations.
 
@@ -248,7 +250,9 @@ create_conjugation_table("querer")
 - **querer más**
   - to prefer
 
-# deber (to owe, must, ought)
+# deber 
+
+## to owe, must, ought
 
 Deber is a verb that you ought to know! It is a regular -er verb that is used in a great number of everyday expressions and situations.
 
@@ -312,7 +316,9 @@ Generally speaking, use *tener que* when you want to say that you have to do som
   - debtor
   
   
-# necesitar (to need)
+# necesitar 
+
+## to need
 
 ```{r}
 create_conjugation_table("necesitar")
@@ -337,6 +343,8 @@ create_conjugation_table("necesitar")
 
 
 # gustar/gustarse
+
+## to be pleasing (to), to like
 
 ```{r}
 #| message: false

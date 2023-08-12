@@ -50,7 +50,7 @@ editor:
 
 ::: {.column width="40%"}
 
-**[COGNITION](i_l3.html)**
+**[COGNITION VERBS](i_l3.html)**
 
 -   pensar
 -   esperar
@@ -70,7 +70,7 @@ editor:
 
 ::: {.column width="40%"}
 
-**[LEARNING](i_l4.html)**
+**[LEARNING VERBS](i_l4.html)**
 
 -   escribir
 -   estudiar
@@ -93,7 +93,7 @@ editor:
 ::: {.column width="40%"}
 
 
-**[SENSING](i_l5.html)**
+**[SENSING VERBS](i_l5.html)**
 
 
 -   mirar
@@ -113,7 +113,7 @@ editor:
 ::: {.column width="40%"}
 
 
-**[MOVEMENT A](i_l6.html)**
+**[MOVEMENT A VERBS](i_l6.html)**
 
 
 -   entrar
@@ -136,7 +136,7 @@ editor:
 
 ::: {.column width="40%"}
 
-**[MOVEMENT B](i_l7.html)**
+**[MOVEMENT B VERBS](i_l7.html)**
 
 -   acabar
 -   comenzar
@@ -146,6 +146,7 @@ editor:
 -   cercar/cercarse
 -   caer/caerse
 -   volver
+-   terminar
 
 :::
 
@@ -156,7 +157,7 @@ editor:
 ::: {.column width="40%"}
 
 
-**[LIFE](i_l8.html)**
+**[LIFE VERBS](i_l8.html)**
 
 -   vivir
 -   comer
@@ -173,6 +174,41 @@ editor:
 -   perder
 
 :::
+
+
+# Other important verbs:
+
+Verbs that are absolutely essential to Spanish conversation but not included here are:
+
+| Spanish Verb   | English Meaning               |
+|:---------------|:------------------------------|
+| pedir          | to ask for/order              |
+| cambiar        | to change                     |
+| buscar         | to search/look for            |
+| dormir         | to sleep                      |
+| jugar          | to play (a game or sport)     |
+| intentar       | to try                        |
+| empezar        | to begin                      |
+| recordar       | to remember                   |
+| olvidar        | to forget                     |
+| tocar          | to touch/play (an instrument) |
+| decidir        | to decide                     |
+| mostrar        | to show                       |
+| correr         | to run                        |
+| probar         | to try/test                   |
+| desear         | to wish/desire                |
+| recibir        | to receive                    |
+| bailar         | to dance                      |
+| repetir        | to repeat                     |
+| enviar         | to send                       |
+| vender         | to sell                       |
+| resolver       | to solve                      |
+| coger          | to take (in Spain)            |
+| romper         | to break                      |
+| girar          | to turn                       |
+| morir          | to die                        |
+| nacer          | to be born                    |
+
 
 ::::
 

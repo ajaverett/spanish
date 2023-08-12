@@ -165,7 +165,9 @@ create_conjugation_table <- function(verb_infinitive) {
 ::: {.panel-tabset}
 
 
-# ser (to be)
+# ser
+
+## to be
 
 Ser is one of the most important irregular verbs for beginning students. It is used in a vast number of idiomatic expressions and everyday situations. Be careful when you need to choose between ser and estar. You should study the special rules for the use of estar. They’re listed with that verb. 
 
@@ -246,7 +248,9 @@ create_conjugation_table("ser")
  - **Si yo fuera usted...**
    - If I were you...
 
-# estar (to be)
+# estar 
+
+## to be
 
 Estar is one of the most important verbs for a beginning student to learn. In addition to the countless expressions that use estar, there is a distinction that you must make between estar and ser, which also means to be. 
 
@@ -354,7 +358,9 @@ create_conjugation_table("estar")
  - Mi hermano estaba leyendo cuando (yo) entré en el cuarto.
    - My brother was reading when I entered (came into) the room.
 
-# tener (to have)
+# tener 
+
+## to have
 
 Tener is one of the most important irregular verbs for beginning students. It is used in a great number of idiomatic expressions and everyday situations. Pay special attention to the stem changes! 
 
@@ -477,7 +483,9 @@ create_conjugation_table("tener")
  - **retener**
    - to retain
 
-# poder (can, to be able to)
+# poder 
+
+## can, to be able to
 
 Poder is a very useful verb for a beginning student. You can use it in a vast number of idiomatic expressions and everyday situations.
 
@@ -549,7 +557,9 @@ create_conjugation_table("poder")
 
 
 
-# hacer (to do, to make)
+# hacer 
+
+## to do, to make
 
 Hacer is an essential irregular verb for beginning students of Spanish. It is used in many everyday situations and idiomatic expressions. Hacer is especially important for weather expressions
 
@@ -726,7 +736,9 @@ create_conjugation_table("hacer")
 - **hace viento**
   - it’s windy
   
-# ir/irse (to go)
+# ir/irse 
+
+## to go
 
 Ir and irse are a very important pair of verbs for a beginning student. In the following examples, note the difference in meaning between ir and the creflexive form irse.
 
@@ -798,6 +810,13 @@ create_conjugation_table("irse")
    - to bless
  - **maldecir**
    - to curse, to swear
+
+# haber
+
+## to have (as an auxiliary, helping verb to form the compound tenses)
+
+Haber is an essential verb for beginning students of Spanish. You need to be able to conjugate haber in order to form the compound tenses. In other words, if you can conjugate haber in the simple tenses, you can form any other verb in the compound tenses! The verb haber is used as an auxiliary (helping) verb as follows:
+
 
 
 :::

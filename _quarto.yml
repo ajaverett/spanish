@@ -4,8 +4,6 @@ project:
 
 book:
   title: "Spanish"
-  author: "Aj Averett"
-  date: "7/31/2023"
   chapters:
     - index.qmd
     - i_l1.qmd

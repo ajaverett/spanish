@@ -168,6 +168,8 @@ create_conjugation_table <- function(verb_infinitive) {
 
 # pensar
 
+## to think
+
 We think that pensar is a very useful verb for you to learn. It is used in a great number of idiomatic expressions and everyday situations. Pay attention to the stem change in Tenses 1 and 6 and in the imperative mood.
 
 Pensar is used with the preposition de when you ask someone what he/she thinks of someone or something, i.e., when you ask for someone’s opinion: 
@@ -232,6 +234,8 @@ create_conjugation_table("pensar")
 
 # esperar
 
+## to expect, to hope, to wait (for)
+
 ## Conjugation Table
 
 ```{r}
@@ -260,6 +264,10 @@ create_conjugation_table("esperar")
 
 
 # creer
+
+
+## to believe 
+
 
 We believe that creer is a useful verb for you to learn because it has an important stem change in Tenses 3 and 7. This verb is helpful in a great number of everyday expressions and situations.
 
@@ -316,6 +324,8 @@ create_conjugation_table("creer")
 
 
 # saber
+
+## to know, to know how 
 
 Saber is a very useful irregular verb for you to know. It is used in a great number of idiomatic expressions and everyday situations. Don’t confuse saber with conocer
 
@@ -477,6 +487,8 @@ If you can conjugate *conocer*, you can also conjugate the following verbs:
 
 # parecer
 
+## to seem, to appear
+
 ## Conjugation Table
 
 ```{r}
@@ -510,6 +522,8 @@ create_conjugation_table("parecer")
 
 # suponer
 
+## to suppose, to assume
+
 ## Conjugation Table
 
 ```{r}
@@ -526,6 +540,8 @@ create_conjugation_table("suponer")
   - of course
 
 # sentir/sentirse
+
+## to feel sorry, to regret, to feel / to feel (well, ill), to suffer 
 
 Sentir and sentirse are an essential pair of -ir verbs for you to learn. They are used in a great number of idiomatic expressions and everyday situations. Pay attention to the stem change in certain tenses, as well as in the imperative and present participle (Gerundio).
 

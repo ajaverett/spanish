@@ -168,29 +168,554 @@ create_conjugation_table <- function(verb_infinitive) {
 
 # vivir
 
+## to live
+
+Vivir is a very useful regular -ir verb for beginning students. It is used in a vast number of idiomatic expressions and everyday situations.    
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("vivir")
+```   
+
+
+## Example Phrases
+
+  - **Vivimos en esta casa desde hace veinte años.**
+    - We have been living in this house for twenty years.
+  - **Tenemos con que vivir.**
+    - We have enough to live on.
+  - **¿Cuánto tiempo hace que Uds. viven aquí?**
+    - How long have you been living here?
+
+## Proverbio
+
+  - **Comer para vivir y no vivir para comer.**
+    - One should eat to live and not live to eat.
+
+## Dichos
+
+  - **vivo, viva**
+    - living
+  - **en vivo**
+    - live (broadcast)
+  - **sin vida**
+    - lifeless
+  - **vivir de**
+    - to live on
+  - **la vida**
+    - life
+  - **en vida**
+    - living, alive
+  - **estar en vida**
+    - to be alive
+  - **ganarse la vida**
+    - to earn one’s living
+  - **una lengua viva**
+    - a living language
+  - **vivir del aire**
+    - to live on thin air
+  - **vivir para ver**
+    - to live and learn (live to see)
+  - **vivir a oscuras**
+    - to live in ignorance
+  - **revivir**
+    - to revive
+  - **vivir bien**
+    - to live well
+  - **¿Quién vive?**
+    - Who goes there?
+  - **¡Viva la reina!**
+    - Long live the queen!
+  - **¡Viva el rey!**
+    - Long live the king!
+  - **¡La vida es así!**
+    - That’s life!
+
+
 # comer
+
+## to eat
+
+Comer is a useful verb for you to know because it is a regular -er verb and because it is used in numerous everyday expressions and situations.
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("comer")
+```
+
+## Example Phrases
+
+  - **Yo no quiero cocinar. Prefiero comer fuera de casa.**
+    - I don’t want to cook. I’d rather eat out.
+  - **–¿Dónde está Miguel?**
+    - –Está en el comedor. Está comiendo su comida.
+    - –Where is Michael?
+    - –He’s in the dining room. He’s eating his meal.
+  - **¡A comer!**
+    - Come and get it!
+  - **Los jóvenes comen todo el tiempo la comida basura.**
+    - Youths eat junk food all the time.
+
+## Proverbios
+
+  - **Dime qué comes y te diré quien eres.**
+    - Tell me what you eat and I’ll tell you who you are.
+  - **Comer para vivir y no vivir para comer.**
+    - One should eat to live and not live to eat.
+
+## Dichos
+
+  - **ganar de comer**
+    - to earn a living
+  - **la comida**
+    - meal
+  - **la comida basura**
+    - junk food
+  - **el comedor**
+    - dining room
+  - **cama y comida**
+    - bed and board
+  - **comer fuera (de casa)**
+    - to eat out; dine out
+  - **dar de comer a los niños**
+    - to feed the children
+  - **comer con gana**
+    - to eat heartily
+  - **comer con muchas ganas**
+    - to eat very heartily
+  - **comer a todo correr**
+    - to eat quickly, wolf down
+  - **comerse**
+    - to eat up
+  - **comerse la risa**
+    - to stifle/hold back a laugh
+  - **comer de todo**
+    - to eat everything
+  - **comer para vivir**
+    - to eat to live
+  - **comer como un pajarito**
+    - to eat like a little bird
 
 # cantar
 
+## to sing
+
+Cantar is a very important regular -ar verb that is used in numerous everyday expressions and situations.
+
+## Example Phrases
+
+  - **Mi hermana canta muy bien.**
+    - My sister sings very well.
+  - **De vez en cuando, canto en la ducha.**
+    - Occasionally, I sing in the shower.
+  - **Fuimos a una ópera en el Palacio de Bellas Artes. La cantante era estupenda y cantó maravillosamente.**
+    - We went to an opera at the Palace of Fine Arts. The opera singer was marvelous and she sang wonderfully.
+
+## Proverbios
+
+  - **Quien canta su mal espanta.**
+    - When you sing, you drive away your grief.
+  - **El que mal canta, bien le suena.**
+    - He who sings badly likes what he hears.
+
+## Dichos
+
+  - **una canción**
+    - song; **dos canciones** - two songs
+  - **una cantata**
+    - cantata (music)
+  - **encantar**
+    - to enchant, delight
+  - **cantador, cantadora**
+    - singer
+  - **una cantante de ópera**
+    - opera singer
+  - **cantor, cantora, cantante**
+    - singer
+  - **encantado, encantada**
+    - enchanted
+  - **un canto**
+    - song
+  - **el chantaje**
+    - blackmail
+  - **hacer chantaje**
+    - to blackmail
+  - **Éso es otro cantar. / Ésa es otra canción.**
+    - That’s another story.
+
+
 # ayudar
+
+## to help
+
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("ayudar")
+```
+
+## Example Phrases
+
+  - **la ayuda**
+    - aid, assistance, help
+  - **ayuda de cámara**
+    - valet
+  - **un ayudador, una ayudadora**
+    - helper
+  - **ayudante**
+    - assistant
+  - **el menú de ayuda**
+    - help menu
+  - **la ayuda financiera**
+    - financial aid
+  - **A quien madruga, Dios le ayuda.**
+    - The early bird catches the worm.
+  - **¡Ayúdame!**
+    - Help me!
+
 
 # trabajar
 
+## to work, to labor
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("trabajar")
+```
+
+## Example Phrases
+
+  - **el trabajo**
+    - work
+  - **trabajador, trabajadora**
+    - worker
+  - **trabajar de manos**
+    - to do manual work
+  - **el trabajo de media jornada**
+    - part-time employment
+  - **trabajar en + inf.**
+    - to strive + inf.
+  - **tener trabajo que hacer**
+    - to have work to do
+  - **trabajar a tiempo parcial**
+    - to work part-time
+  - **los trabajos forzados**
+    - hard labor
+
+
 # comprar
+
+## to buy, to purchase
+
+Comprar is a useful verb for beginning students because it is a regular -ar verb. Comprar is used in numerous everyday expressions and situations, especially when you travel.
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("comprar")
+```
+
+## Example Phrases
+
+  - **¿Dónde está la juguetería? Quisiera comprar juguetes.**
+    - Where is the toy store? I would like to buy some toys.
+  - **¡Cómprate un calvo y péinalo!**
+    - Beat it! (Literally: Buy a bald man and comb his hair.)
+  - **¿Qué piensas de mis zapatos? Yo los compré en el centro comercial.**
+    - What do you think of my shoes? I bought them at the shopping center.
+  - **Ten cuidado cuando compres algo en línea.**
+    - Be careful when you buy something online.
+
+## Proverbios
+
+  - **La amistad no se compra.**
+    - Friendship cannot be bought (has no price).
+
+## Dichos
+
+  - **la compra**
+    - purchase
+  - **hacer compras**
+    - to shop
+  - **ir de compras**
+    - to go shopping
+  - **un comprador, una compradora**
+    - shopper, buyer
+  - **comprar al contado**
+    - to buy for cash, to pay cash
+  - **comprar al fiado, comprar a crédito**
+    - to buy on credit
+  - **comprar con rebaja**
+    - to buy at a discount
+  - **las compras en línea**
+    - online shopping
+  - **comprar en línea**
+    - to shop online
 
 # pagar
 
+## to pay (for)
+
+Pagar is an essential verb to learn because it is a regular -ar verb with an important spelling change. This verb is useful in many everyday expressions, especially when traveling.
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("pagar")
+```
+
+## Example Phrases
+
+  - **¿Dónde se paga la cuenta?**
+    - Where is the bill paid? Where can one pay the bill?
+  - **¿Cuánto le debo? Voy a pagar al contado.**
+    - How much do I owe you? I’m going to pay in cash.
+  - **Por lo general, pago la cuenta con una tarjeta chip. Es más seguro.**
+    - I usually pay the bill with a chip card. It’s more secure.
+
+## Proverbios
+
+  - **Paga lo que debes y sabrás lo que tienes.**
+    - Pay what you owe and you’ll know what you have.
+  - **Él que la hace la paga.**
+    - You have to pay the consequences. (You made your bed, now sleep in it.)
+
+## Dichos
+
+  - **la paga**
+    - pay
+  - **el pago, el pagamiento**
+    - payment
+  - **pagable**
+    - payable
+  - **pagador, pagadora**
+    - payer
+  - **el pagaré**
+    - promissory note, IOU
+  - **pagar un crimen**
+    - to pay for a crime
+  - **pagar las culpas**
+    - to pay for one’s sins
+  - **pagar al contado**
+    - to pay in cash
+  - **pagar contra entrega**
+    - C.O.D. (Collect on delivery)
+  - **pagar la cuenta**
+    - to pay the bill
+  - **pagar un ojo de la cara**
+    - to pay an arm and a leg; to pay through your nose
+  - **pagar los platos rotos**
+    - to pay the cost (pay for the damage)
+
 # manejar
+
+## to manage, to handle, to drive, to operate (a vehicle)
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("manejar")
+```
+
+## Example Phrases
+
+  - **el manejo**
+    - management; driving
+  - **el manejo doméstico**
+    - housekeeping
+  - **el manejo a distancia**
+    - remote control
+  - **manejable**
+    - manageable
+  - **la manejabilidad**
+    - manageability
+  - **la mano**
+    - hand
+
 
 # conducir
 
+## to lead, to conduct, to drive
+
+Conducir is an important verb for a beginning student to know because it has tricky spelling changes. Several other verbs are conjugated in the same way as conducir. This verb is also useful in numerous everyday expressions and situations.
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("conducir")
+```
+
+
 # construir
 
-# haber
+## Conjugation Table
+
+```{r}
+create_conjugation_table("construir")
+```
+
+### Example Phrases
+
+  - **¿Sabe Ud. conducir?**
+    - Do you know how to drive?
+  - **Sí, conduzco todos los días.**
+    - Yes, I drive every day.
+  - **¿Cómo te conduces en público?**
+    - How do you behave in public?
+
+### Dichos
+
+  - **el conductor, la conductora**
+    - driver, conductor
+  - **el conducto**
+    - conduit, duct
+  - **la conducta**
+    - conduct, behavior
+  - **conducente**
+    - conducive
+  - **la conducción**
+    - driving
+  - **un permiso de conducir, un carnet de conducir**
+    - driver’s license
+  - **un permiso de conducción**
+    - driver’s license
+  - **conducir de prisa**
+    - to drive fast
+  - **dar un paseo en coche**
+    - to go for a drive
+  - **conducirse**
+    - to behave
+  
+
+::: {.callout-note}
+
+If you can conjugate "conducir", you can also conjugate:
+
+  - **abducir**
+    - to abduct
+  - **inducir**
+    - to induce, lead
+  - **introducir**
+    - to introduce
+  - **producir**
+    - to produce
+  - **traducir**
+    - to translate
+    
+:::
 
 # contar
 
+## to count, to relate, to tell
+
+Contar is a useful verb because it has an important stem change in Tenses 1 and 6, as well as in the imperative. It is helpful in a great number of everyday expressions and situations.
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("contar")
+```
+
+## Example Phrases
+
+  - **Siéntate. Te contaré una historia maravillosa.**
+    - Sit down. I’ll tell you a marvelous story.
+  - **Cuenta conmigo.**
+    - (You can) count on me.
+  - **¡Cuéntaselo a tu abuela!**
+    - I don’t believe you! or You’re pulling my leg!
+    (Literally: Tell it to your grandmother!)
+  - **¿Qué cuentas?**
+    - How’s it going?
+
+### Dichos
+
+  - **un cuento**
+    - story, tale
+  - **un cuentista, una cuentista**
+    - storyteller
+  - **estar en el cuento**
+    - to be informed
+  - **contar con**
+    - to depend on, to count on, to rely on
+  - **el contador, la contadora**
+    - bookkeeper
+  - **contado, contada**
+    - counted, told
+  - **un contable, una contable**
+    - accountant, bookkeeper
+  - **la cuenta**
+    - bill, check
+  - **tomar en cuenta**
+    - to take into account
+  - **una cuenta bancaria**
+    - bank account
+  - **recontar**
+    - to recount, retell
+  - **descontar**
+    - to discount, to deduct
+  - **dar por descontado**
+    - to take for granted
+  - **contarse**
+    - to be said
+
+
 # perder
+
+## to lose
+
+Perder is a very useful verb for a beginning student. It is used in a great number of idiomatic expressions and everyday situations. Pay attention to the stem change in Tenses 1 and 6 and in the imperative mood.
+
+## Conjugation Table
+
+```{r}
+create_conjugation_table("perder")
+```
+
+## Example Phrases
+
+  - **El señor Santiago pierde mucho dinero.**
+    - Mr. Santiago loses a lot of money.
+  - **Este chico está perdido.**
+    - This boy is lost.
+
+## Proverbs
+
+  - **El que todo lo quiere, todo lo pierde.**
+    - Whoever wants everything loses everything.
+  - **El tiempo perdido no se recobra.**
+    - One can never get back lost time.
+  - **Lo que hoy se pierde, se gana mañana.**
+    - What is lost today is won tomorrow.
+
+## Vocabulary and Expressions
+
+  - **un perdedor, una perdedora**
+    - loser
+  - **la pérdida**
+    - loss
+  - **perdidamente enamorado (enamorada)**
+    - passionately in love
+  - **perder de vista a (alguien)**
+    - to lose sight of (someone)
+  - **estar perdido (perdida)**
+    - to be lost
+  - **perder el juicio**
+    - to go mad (crazy)
+  - **perder los estribos**
+    - to lose self-control
+  - **perderse**
+    - to lose one’s way, to get lost
+  - **la perdición**
+    - loss, ruin, perdition
+  - **perder la vida**
+    - to lose one’s life
+  - **perder la memoria**
+    - to lose one’s memory
 
 
 :::

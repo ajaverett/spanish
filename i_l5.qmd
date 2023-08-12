@@ -168,7 +168,20 @@ create_conjugation_table <- function(verb_infinitive) {
 
 # mirar
 
-# ver (to see)
+## to look, to look at, to watch 
+
+Mirar and mirarse are essential verbs for beginning students of Spanish. They are used in many idiomatic expressions and everyday situations. As you study the following sentences and expressions, pay attention to the differences in use between mirar and the reflexive verb mirarse.
+
+## Conjugation Table
+  
+```{r}
+create_conjugation_table("mirar")
+```
+
+
+# ver 
+
+## to see
 
 Ver is a very useful irregular verb for beginning students. It is used in a vast number of idiomatic expressions and everyday situations. Pay special attention to the stem changes!
   
@@ -187,9 +200,9 @@ create_conjugation_table("ver")
 - **¿Vio Ud. el pájaro en el árbol?**
   - Did you see the bird in the tree?
   
-  ## Proverbios
+## Proverbios
   
-  - **Ver es creer.**
+- **Ver es creer.**
   - Seeing is believing.
 - **De decir a hacer hay mucho que ver.**
   - There is a great difference (much to see) between saying and doing.
@@ -228,17 +241,444 @@ create_conjugation_table("ver")
   - to deal with it (have it out) face to face
 
 
-
-
-
 # oír
+
+## to hear
+
+Oír is a very important irregular verb for you to learn. It is used in a great number of idiomatic expressions and everyday situations.
+
+## Conjugation Table
+  
+```{r}
+create_conjugation_table("oír")
+```
+
+## Example Phrases
+
+- **¡Déme oídos, por favor!**
+  - Lend me an ear, please!
+  
+- **Oigo la voz de un amigo.**
+  - I hear the voice of a friend.
+  
+- **¡Oye!**
+  - Hey!
+  
+- **¡Oigo!**
+  - Hello! (on the telephone)
+
+## Proverbs
+
+- **Las paredes tienen oídos. (Las paredes oyen.)**
+  - The walls have ears.
+  
+- **A palabras locas, oídos sordos.**
+  - Turn a deaf ear to crazy words.
+
+## Dichos
+
+- **la oída**
+  - hearing
+  
+- **de oídas**
+  - by hearsay
+  
+- **dar oídos**
+  - to lend an ear
+  
+- **oír decir**
+  - to hear tell, to hear say
+  
+- **oír hablar de**
+  - to hear of, to hear talk of
+  
+- **por oídos, de oídos**
+  - by hearing
+  
+- **al oído**
+  - confidentially
+  
+- **el oído**
+  - hearing (sense)
+  
+- **desoír**
+  - to ignore, to be deaf to
+
+
 
 # escuchar
 
+## to listen (to) 
+
+## Conjugation Table
+  
+```{r}
+create_conjugation_table("escuchar")
+```
+
+## Example Phrases
+
+- **Escucho una canción que acabo de descargar del Internet.**
+  - I’m listening to a song that I just downloaded from the Internet.
+
+- **Para saber hablar, hay que saber escuchar.**
+  - In order to know how to talk, one must know how to listen.
+
+- **escuchar + noun**
+  - to listen to + noun
+  
+- **escuchador, escuchadora, escuchante**
+  - listener
+  
+- **escuchar música**
+  - to listen to music
+  
+- **escuchar detrás de las puertas**
+  - to listen behind doors
+
+
 # dar
+
+## to give
+
+Dar is useful in a vast number of everyday expressions and situations.
+
+
+## Conjugation Table
+  
+```{r}
+create_conjugation_table("dar")
+```
+
+## Example Phrases
+
+- **El comedor da al jardín.**
+  - The dining room faces the garden.
+
+- **Esta mañana di con dinero en la calle.**
+  - This morning, I found money in the street.
+
+- **Anoche, di con mi amiga Elena en el cine.**
+  - Last night, I met my friend Helen at the movies.
+
+- **El tiempo da buen consejo.**
+  - Time will tell.
+
+- **Dame dineros y no consejos.**
+  - Give me money, and not advice.
+
+- **Me gusta dar de comer a los pájaros en el parque.**
+  - I like to feed the birds in the park.
+
+- **Lo doy por perdido.**
+  - I consider it lost.
+
+- **Me doy por insultado.**
+  - I consider myself insulted.
+
+## Proverbs
+
+- **A Dios rogando y con el mazo dando.**
+  - Put your faith in God and keep your powder dry. (The Lord helps those who help themselves.)
+
+## Dichos
+
+- **dar a**
+  - to face, to look out on(to)
+
+- **dar cara a**
+  - to face up to
+
+- **dar con algo**
+  - to find something, to come upon something
+
+- **dar con alguien**
+  - to meet someone, to run into someone, to come across someone, to find someone
+
+- **dar cuerda al reloj**
+  - to wind a watch
+
+- **dar de beber a**
+  - to give something to drink to
+
+- **dar de comer a**
+  - to feed, to give something to eat to
+
+- **dar el primer paso**
+  - to take the first step
+
+- **dar en**
+  - to hit against, to strike against
+
+- **dar en el blanco**
+  - to hit the target
+
+- **dar gritos**
+  - to shout
+
+- **dar la bienvenida**
+  - to welcome
+
+- **dar la hora**
+  - to strike the hour
+
+- **dar la mano (las manos) a alguien**
+  - to shake hands with someone
+
+- **dar las buenas noches a alguien**
+  - to say good evening (good night) to someone
+
+- **dar las gracias a alguien**
+  - to thank someone
+
+- **dar los buenos días a alguien**
+  - to say good morning (hello) to someone
+
+- **dar por + past part.**
+  - to consider
+
+- **dar recuerdos a**
+  - to give one’s regards (best wishes) to
+
+- **dar un abrazo**
+  - to embrace
+
+- **dar un paseo**
+  - to take a walk
+
+- **dar un paseo a caballo**
+  - to go horseback riding
+
+- **dar un paseo en automóvil**
+  - to go for a drive
+
+- **dar una vuelta**
+  - to go for a short walk
+
+- **dar voces**
+  - to shout
+
+- **darse**
+  - to give oneself up, to give in
+
+- **darse cuenta de**
+  - to realize, to be aware of, to take into account
+
+- **darse la mano**
+  - to shake hands with each other
+
+- **darse por + past part.**
+  - to consider oneself
+
+- **darse prisa**
+  - to hurry
+
+- **dar a conocer**
+  - to announce, to make known
+
+- **dar un consejo**
+  - to give a piece of advice
+
+- **dar su palabra**
+  - to give one’s word
+
+- **los datos**
+  - data, information
+
+
 
 # tomar
 
+## to take, to have (something to eat or drink)
+
+Tomar is an essential verb for beginning students of Spanish. It is useful in numerous idiomatic expressions and everyday situations.
+
+## Conjugation Table
+  
+```{r}
+create_conjugation_table("tomar")
+```
+
+## Example Phrases
+
+- **¿A qué hora toma Ud. el desayuno?**
+  - At what time do you have breakfast?
+
+- **Tomo el desayuno a las siete y media.**
+  - I have breakfast at seven thirty.
+
+- **¿Qué toma Ud. en el desayuno?**
+  - What do you have for breakfast?
+
+- **Mi amigo tomó el tren esta mañana a las siete.**
+  - My friend took the train this morning at seven o’clock.
+
+- **¡Toma!**
+  - Here!
+
+- **Tome, aquí tiene el dinero que le debo.**
+  - Here you are, here’s the money I owe you.
+
+## Dichos
+
+- **tomar el tren**
+  - to catch/take the train
+
+- **tomar el sol**
+  - to take a sunbath
+
+- **tomar asiento**
+  - to take a seat
+
+- **tomar en cuenta**
+  - to consider
+
+- **tomar parte en**
+  - to take part in
+
+- **tomar por**
+  - to take for
+
+- **tomar el pelo a uno**
+  - to pull someone’s leg (el pelo/hair)
+
+- **una tomadura de pelo**
+  - a joke
+
+- **una toma de sangre**
+  - blood sample
+
+- **tomar prestado**
+  - to borrow
+
+- **tomar una decisión**
+  - to make a decision
+
+- **tomar nota**
+  - to take note (of)
+
+- **tomar en serio**
+  - to take seriously
+
+- **tomar (una bebida)**
+  - to have a drink Syn.: beber to drink
+
+- **tomar el almuerzo**
+  - to have lunch Syn.: almorzar to have lunch
+
+
+
 # poner/ponerse
+
+## to put, to place, to turn on (TV, radio) / to put on (clothing), to become, to set (of sun)
+
+
+Poner and ponerse are very useful irregular verbs for beginning students. They are used in many idiomatic expressions and everyday situations. As you study the following sentences and expressions, pay attention to the differences in use between poner and the reflexive verb ponerse.
+
+## Conjugation Table
+  
+```{r}
+create_conjugation_table("poner")
+create_conjugation_table("ponerse")
+```
+
+
+## Example Phrases
+
+- **Magdalena puso el papel en la papelera.**
+  - Magdalene put the paper in the wastebasket.
+
+- **Cuando vi el accidente, me puse pálido.**
+  - When I saw the accident, I became pale.
+
+- **Mi madre se puso triste al oír la noticia desgraciada.**
+  - My mother became sad upon hearing the unfortunate news.
+
+## Dichos
+
+- **poner fin a**
+  - to put a stop to
+
+- **poner coto a**
+  - to put a stop to
+
+- **poner la mesa**
+  - to set the table
+
+- **poner de acuerdo**
+  - to reach an agreement
+
+- **poner el dedo en la llaga**
+  - to hit the nail right on the head
+
+- **poner en claro**
+  - to explain clearly
+
+- **poner en marcha**
+  - to set in motion
+
+- **poner en ridículo**
+  - to ridicule
+
+- **poner los puntos sobre las íes**
+  - to dot the i’s, to mind one’s p’s and q’s
+
+- **poner por escrito**
+  - to put in writing
+
+- **posponer**
+  - to postpone
+
+- **la puesta de/del sol**
+  - sunset
+
+- **al poner del sol**
+  - at sunset
+
+- **bien puesto, bien puesta**
+  - well placed
+
+- **reponer**
+  - to replace, to put back
+
+- **poner una duda en claro**
+  - to clear up a doubt
+
+- **ponerse el abrigo**
+  - to put on one’s overcoat
+
+- **ponerse de acuerdo**
+  - to reach an agreement
+
+- **ponerse cómodo**
+  - to make oneself at home
+
+- **ponerse en marcha**
+  - to start (out)
+
+- **ponerse mal**
+  - to get sick
+
+- **ponerse a + inf.**
+  - to begin, to start + inf.
+
+- **ponerse a dieta**
+  - to go on a diet
+
+- **reponerse**
+  - to calm down, to recover (one’s health)
+
+- **indisponerse**
+  - to become ill
+
+- **ponerse + adj.**
+  - to become; the adjective indicates the state or condition (physical or mental) that you have become.
+
+- **poner a prueba**
+  - to put to the test
+
+- **disponer**
+  - to arrange, to lay out
+
 
 :::

@@ -167,15 +167,310 @@ create_conjugation_table <- function(verb_infinitive) {
 
 # escribir
 
+## to write
+
+Escribir is an essential -ir verb for beginning students of Spanish. It is used in many everyday expressions and situations. Pay attention to the irregular past participle!
+
+## Conjugation table
+
+```{r}
+create_conjugation_table("escribir")
+```
+
+
+## Example Phrases
+
+- **Mi padre está escribiendo una novela.**
+  - My father is writing a novel.
+  
+- **Por favor, responda por escrito a las preguntas siguientes.**
+  - Please answer the following questions in writing.
+  
+- **Isabel Allende escribió La casa de los espíritus.**
+  - Isabel Allende wrote The House of the Spirits.
+
+## Proverb
+
+- **El mal escribano le echa la culpa a la pluma.**
+  - The bad writer blames his pen.
+
+## Dichos
+
+- **la escritura**
+  - writing
+  
+- **un escritorio**
+  - writing desk
+  
+- **un escriba**
+  - scribe
+  
+- **escribir a máquina**
+  - to typewrite
+  
+- **una máquina de escribir**
+  - typewriter
+  
+- **un escritor, una escritora**
+  - writer, author
+  
+- **el escribano**
+  - secretary, clerk
+  
+- **por escrito**
+  - in writing
+  
+- **escribir a mano**
+  - to write by hand
+  
+- **describir**
+  - to describe
+  
+- **describible**
+  - describable
+  
+- **la descripción**
+  - description
+  
+- **descriptivo, descriptiva**
+  - descriptive
+  
+- **descriptor, descriptora**
+  - descriptive
+  
+- **el examen escrito**
+  - written exam
+  
+- **escribir un blog**
+  - to blog, to write a blog
+
+
 # estudiar
+
+## to study
+
+Estudiar is an essential regular -ar verb for beginning students of Spanish. It is used in many everyday expressions and situations
+
+## Conjugation table
+
+```{r}
+create_conjugation_table("estudiar")
+```
+
+
+## Example Phrases
+
+- **Estudio mis lecciones de español todos los días.**
+  - I study my Spanish lessons every day.
+  
+- **Es necesario estudiar para aprender.**
+  - It is necessary to study in order to learn.
+  
+- **Estudiamos español porque es un idioma muy hermoso.**
+  - We are studying Spanish because it is a very beautiful language.
+  
+- **Estoy estudiando en mi cuarto y no puedo mirar la televisión.**
+  - I am studying in my room and I cannot watch television.
+
+## Dichos
+
+- **un, una estudiante**
+  - student
+  
+- **el estudio**
+  - study, studio, study room
+  
+- **estudioso, estudiosa**
+  - studious
+  
+- **un estudioso**
+  - a scholar
+  
+- **estudiado, estudiada**
+  - studied, mannered
+  
+- **los altos estudios**
+  - advanced studies
+  
+- **hacer estudios**
+  - to study
+  
+- **estudiosamente**
+  - studiously
+  
+- **estudiante de intercambio**
+  - exchange student
+
 
 # leer
 
+## to read
+
+Leer is an essential verb for beginning students of Spanish. It is used in many idiomatic expressions and everyday situations.
+
+## Conjugation table
+
+```{r}
+create_conjugation_table("leer")
+```
+
+## Example Phrases
+
+- **Estoy leyendo un libro de Borges.**
+  - I’m reading a book by Borges.
+  
+- **Me gusta leer.**
+  - I like to read.
+  
+- **Cuando lees entre líneas, corres el riesgo de cometer un error.**
+  - When you read between the lines, you run the risk of making a mistake.
+  
+- **—Alejandro, lee la página 26 en voz alta, por favor. —Pero, señora, no puedo leerla. —¿Por qué no? —Porque yo olvidé mis gafas para leer.**
+  - —Alexander, please read page 26 out loud. —But ma’am, I can’t read it. —Why not? —Because I forgot my reading glasses.
+
+## Proverb
+
+- **Después de comer, ni un sobre escrito leer.**
+  - After eating, don’t even read an envelope.
+
+## Dichos
+
+- **la lectura**
+  - reading
+  
+- **la lección**
+  - lesson
+  
+- **lector, lectora**
+  - reader
+  
+- **leer mal**
+  - to misread
+  
+- **releer**
+  - to read again, to reread
+  
+- **leer entre líneas**
+  - to read between the lines
+  
+- **un, una leccionista**
+  - private tutor
+  
+- **leer para sí**
+  - to read to oneself
+  
+- **leer en voz baja**
+  - to read quietly
+  
+- **leer pruebas de imprenta**
+  - to proofread
+  
+- **el lector de discos compactos**
+  - compact disc player
+  
+- **el libro electrónico**
+  - e-book
+
+
 # entender
+
+## to understand
+
+## Conjugation table
+
+```{r}
+create_conjugation_table("entender")
+```
+
+## Example Phrases
+
+- **dar a entender**
+  - to insinuate, to hint
+  
+- **Yo me entiendo.**
+  - I have my reasons.
+  
+- **según mi entender**
+  - according to my opinion
+  
+- **el entendimiento**
+  - comprehension, understanding
+  
+- **¿Qué entiende Ud. por eso?**
+  - What do you mean by that?
+  
+- **entenderse bien**
+  - to get along well with each other
+  
+- **desentenderse de**
+  - to have nothing to do with
+
 
 # aprender
 
-# decir (to say, to tell)
+## to learn
+
+Aprender is an important verb to learn because it is a regular -er verb and because there are many everyday expressions related to it.
+
+## Conjugation table
+
+```{r}
+create_conjugation_table("aprender")
+```
+
+## Example Phrases
+
+- **En la clase de español estamos aprendiendo a hablar, a leer, y a escribir en español.**
+  - In Spanish class we are learning to speak, to read, and to write in Spanish.
+
+- **Machacando se aprende el oficio.**
+  - Practice makes perfect.
+
+- **Mi abuela aprendió a navegar en Internet.**
+  - My grandmother learned to surf the Internet.
+
+- **Estoy aprendiendo el diseño web para ser administrador de web.**
+  - I am learning web design to become a webmaster.
+
+## Proverbs
+
+- **El que mucho duerme poco aprende.**
+  - Whoever sleeps a lot learns little.
+
+- **Cada día se aprende algo nuevo.**
+  - You learn something new every day.
+
+## Dichos
+
+- **el aprendizaje**
+  - apprenticeship
+  
+- **el aprendizaje en línea**
+  - online learning, e-learning
+  
+- **el aprendiz, la aprendiza**
+  - apprentice
+  
+- **aprender a + inf.**
+  - to learn + inf.
+  
+- **aprender de memoria**
+  - to memorize
+  
+- **aprender con**
+  - to study with
+  
+- **desaprender**
+  - to unlearn
+  
+- **aprendiz de todo (mucho), oficial de nada**
+  - Jack of all trades, master of none
+
+
+
+# decir 
+
+## to say, to tell
 
 Decir is an extremely useful irregular verb. You can use decir in many everyday situations and idiomatic expressions.
 
@@ -241,6 +536,128 @@ create_conjugation_table("decir")
 
 # hablar
 
+## to talk, to speak
+
+Hablar is an essential regular -ar verb for beginning students of Spanish. It is used in many everyday situations and idiomatic expressions.
+
+## Conjugation table
+
+```{r}
+create_conjugation_table("hablar")
+```
+
+## Example Phrases
+
+- **Aquí se habla español.**
+  - Spanish is spoken here.
+
+- **No me gusta hablar a gritos.**
+  - I don’t like to shout.
+
+- **Antes de hablar es bueno pensar.**
+  - (It’s good to) think before you speak.
+
+- **El dinero habla.**
+  - Money talks.
+
+- **Hable más despacio, por favor.**
+  - Speak more slowly, please.
+
+- **—¿Me podría poner con la Señora Del Toro, por favor? —Ella habla.**
+  - —Could you please put me through to Mrs. Del Toro? —Speaking.
+
+## Proverbio
+
+- **Para saber hablar, hay que saber escuchar.**
+  - In order to know how to talk, one must know how to listen.
+
+## Dichos
+
+- **la habladuría**
+  - gossip, idle rumor
+  
+- **hispanohablante**
+  - Spanish-speaking
+  
+- **de habla española**
+  - Spanish-speaking
+  
+- **de habla inglesa**
+  - English-speaking
+  
+- **hablador, habladora**
+  - talkative
+  
+- **hablar a gritos**
+  - to shout
+  
+- **hablar entre dientes**
+  - to mumble
+  
+- **hablar al oído**
+  - to whisper in someone’s ear
+  
+- **hablar de**
+  - to talk about
+  
+- **hablar en voz baja**
+  - to speak softly
+
 # llamar/llamarse
+
+## to call, to name / to be called, to be named
+
+Llamar and llamarse are essential verbs for beginning students of Spanish. They are used in many idiomatic expressions and everyday situations. As you study the following sentences and expressions, pay attention to the differences in use between llamar and the reflexive verb llamarse.
+
+## Conjugation table
+
+```{r}
+create_conjugation_table("llamar")
+create_conjugation_table("llamarse")
+```
+
+## Example Phrases
+
+- **—¿Cómo se llama usted? —Me llamo Juan Morales. —¿Y cómo se llaman sus hermanos? —Se llaman Teresa y Pedro.**
+  - —What is your name? (How do you call yourself?) —My name is Juan Morales. —And what are your siblings’ names? —Their names are Teresa and Peter.
+
+- **¿Puede llamar a un médico, por favor?**
+  - Can you call a doctor, please?
+
+- **Llámame.**
+  - Call me. (Give me a call.)
+
+## Dichos
+
+- **llamar al doctor**
+  - to call the doctor
+  
+- **llamar por teléfono**
+  - to telephone, to call
+  
+- **llamar la atención sobre**
+  - to call attention to
+  
+- **llamar por los nombres**
+  - to call the roll
+  
+- **llamar un taxi**
+  - to call a taxi
+  
+- **una llamada**
+  - call, knock, ring
+  
+- **hacer una llamada telefónica**
+  - to make a phone call
+  
+- **un llamador, una llamadora**
+  - caller
+  
+- **Mi nombre es...**
+  - My name is...
+  
+- **llamado, llamada**
+  - called, named, so-called
+
 
 :::

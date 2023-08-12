@@ -167,9 +167,56 @@ create_conjugation_table <- function(verb_infinitive) {
 
 # entrar
 
+## to enter, to go (in), to come (in) 
+
+## Conjugation Table
+  
+```{r}
+create_conjugation_table("entrar")
+```
+
 # llegar
 
-# venir (to come)
+## to arrive, to reach 
+
+## Conjugation Table
+  
+```{r}
+create_conjugation_table("llegar")
+```
+
+## Example Sentences
+
+- **Luis y Luisa quieren llegar a ser médicos.**
+  - Louis and Louise want to become doctors.
+
+- **Perdimos el avión por haber llegado demasiado tarde al aeropuerto.**
+  - We missed the plane because we had arrived too late at the airport.
+
+## Example Phrases
+
+- **llegar a saber**
+  - to find out
+
+- **la llegada**
+  - arrival
+
+- **llegar tarde**
+  - to arrive late
+
+- **llegar a ser**
+  - to become
+
+- **llegar a**
+  - to reach
+
+- **al llegar**
+  - on arrival, upon arriving
+
+
+# venir 
+
+## to come
 
 Venir is a very important irregular verb for beginning students. It is used in a great number of idiomatic expressions and everyday situations. Pay special attention to the stem changes!
   
@@ -229,20 +276,364 @@ create_conjugation_table("venir")
   - **venirse**
   - to come, to come back
 
-
-
-
-
 # seguir
+
+## to follow, to pursue, to continue
+
+## Conjugation Table
+  
+```{r}
+create_conjugation_table("seguir")
+```
+
+## Example Phrases
+
+- **según**
+  - according to
+
+- **al día siguiente**
+  - on the following day
+
+- **las frases siguientes**
+  - the following sentences
+
+- **seguir + pres. part.**
+  - to keep on + pres. part.
+    - e.g., **Siga leyendo.** - Keep on reading.
+
+- **seguido, seguida**
+  - continuous
+
+- **conseguir**
+  - to attain, to get, to obtain
+
+- **proseguir**
+  - to continue, proceed
+
+- **perseguir**
+  - to pursue
+
+- **seguirle los pasos a uno**
+  - to keep one’s eye on someone
+
+- **un seguidor, una seguidora**
+  - follower
+
 
 # caminar
 
+## to walk, to move along
+
+## Conjugation Table
+  
+```{r}
+create_conjugation_table("caminar")
+```
+
+## Example Phrases
+
+- **el camino**
+  - road, highway
+
+- **el camino de hierro**
+  - railroad
+
+- **en camino de**
+  - on the way to
+
+- **una caminata**
+  - a long walk
+
+- **hacer de un camino dos mandados**
+  - to kill two birds with one stone
+
+- **el camino real**
+  - highway, high road
+
+- **estar en camino**
+  - to be on one’s way
+
+- **quedarse a medio camino**
+  - to stop halfway
+
+- **por buen camino**
+  - on the right road
+
+- **al buen camino**
+  - on the right track
+
+- **un camión**
+  - truck
+
+
 # andar
 
-# quedarse
+## to walk
+
+Andar is a very useful verb for a beginning Spanish student. Pay special attention to the spelling changes
+
+## Example Phrases
+
+- **¿Cómo andan los negocios?**
+  - How’s business?
+  
+- **Anda despacio que tengo prisa.**
+  - Make haste slowly.
+  
+- **Amadís de Gaula fue un caballero andante de la Edad Media.**
+  - Amadis of Gaul was a knight-errant of the Middle Ages.
+  
+- **¡Anda a pasear!**
+  - Take a walk! (Take a hike!)
+  
+- **¡A Magdalena le gusta andar a caballo! Anda a caballo tres veces por semana.**
+  - Madeleine loves horseback riding! She rides a horse three times a week.
+
+## Proverbios
+
+- **Dime con quién andas y te diré quién eres.**
+  - Tell me who your friends are and I will tell you who you are.
+  
+- **Poco a poco se anda lejos.**
+  - One step at a time. (Little by little, one goes far away.)
+
+## Dichos
+
+- **andarse**
+  - to go away
+  
+- **las andanzas**
+  - events
+  
+- **buena andanza**
+  - good fortune
+  
+- **mala andanza**
+  - bad fortune
+  
+- **a todo andar**
+  - at full speed
+  
+- **desandar**
+  - to retrace one’s steps
+  
+- **andante**
+  - errant
+  
+- **un caballero andante**
+  - knight-errant
+  
+- **Anda con Dios.**
+  - Go with God.
+  
+- **andar con cien ojos**
+  - to be cautious (to have eyes on the back of one’s head)
+  
+- **el andar**
+  - gait (way of walking)
+  
+- **andar a gatas**
+  - to crawl, to walk/on all fours
+  
+- **andar a caballo**
+  - to ride a horse
+
+
+## Conjugation Table
+  
+```{r}
+create_conjugation_table("andar")
+```
+
+# quedar/quedarse
+
+## to be left / to remain, to stay 
+
+Quedarse is a very important reflexive verb for a beginning student. It is used in a great number of idiomatic expressions and everyday situations.
+
+## Conjugation Table
+  
+```{r}
+create_conjugation_table("quedar")
+create_conjugation_table("quedarse")
+```
+
+## Example Phrases
+
+- **¿Cómo andan los negocios?**
+  - How’s business?
+  
+- **Anda despacio que tengo prisa.**
+  - Make haste slowly.
+  
+- **Amadís de Gaula fue un caballero andante de la Edad Media.**
+  - Amadis of Gaul was a knight-errant of the Middle Ages.
+  
+- **¡Anda a pasear!**
+  - Take a walk! (Take a hike!)
+  
+- **¡A Magdalena le gusta andar a caballo! Anda a caballo tres veces por semana.**
+  - Madeleine loves horseback riding! She rides a horse three times a week.
+
+## Proverbios
+
+- **Dime con quién andas y te diré quién eres.**
+  - Tell me who your friends are and I will tell you who you are.
+  
+- **Poco a poco se anda lejos.**
+  - One step at a time. (Little by little, one goes far away.)
+
+## Dichos
+
+- **andarse**
+  - to go away
+  
+- **las andanzas**
+  - events
+  
+- **buena andanza**
+  - good fortune
+  
+- **mala andanza**
+  - bad fortune
+  
+- **a todo andar**
+  - at full speed
+  
+- **desandar**
+  - to retrace one’s steps
+  
+- **andante**
+  - errant
+  
+- **un caballero andante**
+  - knight-errant
+  
+- **Anda con Dios.**
+  - Go with God.
+  
+- **andar con cien ojos**
+  - to be cautious (to have eyes on the back of one’s head)
+  
+- **el andar**
+  - gait (way of walking)
+  
+- **andar a gatas**
+  - to crawl, to walk/on all fours
+  
+- **andar a caballo**
+  - to ride a horse
+
 
 # salir
 
+## to go out, to leave
+
+Salir is a very useful irregular verb for you to learn. It is used in a great number of idiomatic expressions and everyday situations.
+
+**Be careful not to confuse _salir_ and _dejar_.** Use _salir de_ when you mean to leave in the sense of to go out of (a place):
+> El alumno salió de la sala de clase.  
+> The pupil left the classroom.
+
+
+## Conjugation Table
+  
+```{r}
+create_conjugation_table("salir")
+```
+
+
+
+## Example Phrases
+
+- **¿A qué hora sale el tren para San José?**
+  - At what time does the train leave for San José?
+
+- **—¿Dónde está su madre?**
+  - —Where is your mother?
+- **—Mi madre salió.**
+  - —My mother went out.
+
+## Dichos
+
+- **la salida**
+  - exit, departure
+  
+- **la salida de emergencia**
+  - emergency exit
+  
+- **la salida de incendios**
+  - fire exit
+  
+- **sin salida**
+  - no exit, dead-end street
+  
+- **salir de compras**
+  - to go out shopping
+  
+- **salir mal**
+  - to go wrong, to do badly
+  
+- **saliente**
+  - salient, prominent
+  
+- **salir al encuentro de**
+  - to go to meet
+  
+- **salir de**
+  - to leave from, to get out of
+  
+- **salga lo que salga**
+  - come what may
+  
+- **salir disparado**
+  - to take off like a shot, like an arrow
+  
+- **salir rana**
+  - to be a disappointment (una rana: a frog)
+
+
 # dejar
+
+## to let, to permit, to allow, to leave
+
+## Conjugation Table
+  
+```{r}
+create_conjugation_table("dejar")
+```
+
+## Example Phrases
+
+- **dejar caer**
+  - to drop (to let fall)
+
+- **el dejo**
+  - abandonment
+
+- **dejado, dejada**
+  - dejected
+
+- **El alumno dejó sus libros en la sala de clase.**
+  - The pupil left his books in the classroom.
+
+- **dejar de + inf.**
+  - to stop, to fail to
+
+- **Los alumnos dejaron de hablar cuando la profesora entró en la sala de clase.**
+  - The students stopped talking when the teacher came into the classroom.
+
+- **¡No deje Ud. de llamarme!**
+  - Don’t fail to call me!
+
+- **dejarse**
+  - to abandon (neglect) oneself
+
+- **dejar atrás**
+  - to leave behind
+
+- **¡Déjelo!**
+  - Let it! (Leave it!)
+
 
 :::
