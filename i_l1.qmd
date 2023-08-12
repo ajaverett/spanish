@@ -847,8 +847,10 @@ The verb `haber` is also used to form:
 
 - **the perfect participle:** `habiendo hablado` (having spoken). This is formed by using the present participle of `haber` + the past participle of the main verb.
 
-The verb `haber + de + inf.` is equivalent to the English use of “to be supposed to...” or “to be to...”: 
-> María ha de traer un pastel, yo he de traer el helado, y mis amigos han de traer las bebidas/Mary is supposed to bring a cake, I am supposed to bring the ice cream, and my friends are supposed to bring the drinks.
+The verb `haber + de + inf.` is equivalent to the English use of “to be supposed to...” or “to be to...”
+
+ - María ha de traer un pastel, yo he de traer el helado, y mis amigos han de traer las bebidas
+   - Mary is supposed to bring a cake, I am supposed to bring the ice cream, and my friends are supposed to bring the drinks.
 
 
 ::: {.callout-note}
@@ -856,10 +858,12 @@ The verb `haber + de + inf.` is equivalent to the English use of “to be suppos
 Note on hay and hay que + inf.
 
 The word `hay` is not a verb. You might look at it as an impersonal irregular form of `haber`. Actually, the word is composed of `ha + the archaic y`, meaning there. It is generally seen as an adverbial expression because it points out that something or someone “is there.” Its English equivalent is There is... or There are... 
-> For example: `Hay muchos libros en la mesa/There are many books on the table`; `Hay veinte alumnos en esta clase/There are twenty students in this class`.
+
+ - For example: `Hay muchos libros en la mesa/There are many books on the table`; `Hay veinte alumnos en esta clase/There are twenty students in this class`.
 
 `Hay que + inf.` is an impersonal expression that denotes an obligation and it is commonly translated into English as: One must... or It is necessary to... 
-> Examples: `Hay que estudiar para aprender/It is necessary to study in order to learn`; `Hay que comer para vivir/One must eat in order to live`.
+
+ - Examples: `Hay que estudiar para aprender/It is necessary to study in order to learn`; `Hay que comer para vivir/One must eat in order to live`.
 
 :::
 
