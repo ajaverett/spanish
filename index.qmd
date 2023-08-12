@@ -61,7 +61,6 @@ editor:
 -   suponer
 -   sentir/sentirse
 
-
 :::
 
 ::: {.column width="10%"}
@@ -217,8 +216,8 @@ Verbs that are absolutely essential to Spanish conversation but not included her
 **Spanish Verb Conjugation Game**
 
 ```{=html}
-<iframe width="780" height="500" src="https://ajaverett.shinyapps.io/spanish_quiz/" ></iframe>
+<iframe width="650" height="500" src="https://ajaverett.shinyapps.io/spanish_quiz/" ></iframe>
 ```
-  
+
 
 :::
